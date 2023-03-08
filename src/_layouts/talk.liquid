@@ -1,0 +1,74 @@
+---
+layout: default
+---
+{% render "sidekick", page: page, site: site %}
+
+<section id="info" class="section section--lightdarkblue">
+  <div class="section__container">
+    <div class="section__inner-container">
+      <div class="section__columns">
+        <div class="section__small-column">
+          <h1 id="heading-info" class="section__heading section__heading--pink">
+            {{ resource.data.start_time | date: "%A %H:%M" }}
+          </h1>
+          {% if resource.relations.sponsor %}
+            <p class="section__info section__travel">
+              Speaker travel arrangements covered by
+              <a href="{{resource.relations.sponsor.data.url}}">{{resource.relations.sponsor.data.name}}</a>
+            </p>
+          {% endif %}
+        </div>
+        <div class="section__large-column">
+          <div class="section__content">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% if resource.relations.speaker %}
+  {% assign speaker = resource.relations.speaker %}
+  <section id="info" class="section section--darkblue">
+    <div class="section__container">
+      <div class="section__inner-container">
+        <div class="section__columns">
+          <div class="section__small-column">
+            <h1 id="heading-info" class="section__heading section__heading--teal">
+              {{ speaker.name }}
+            </h1>
+            <p class="section__info">
+              {{ speaker.tagline }}
+            </p>
+          </div>
+          <div class="section__large-column">
+            <div class="section__content">
+              {{ speaker.bio | markdownify }}
+
+              {% if speaker.url or speaker.github or speaker.twitter%}
+                <p>
+                  {% if speaker.url %}
+                    <a href="{{speaker.url}}" class="section__cta section__cta--teal">
+                      Website
+                    </a>
+                  {% endif %}
+                  {% if speaker.github %}
+                    <a href="{{speaker.github}}" class="section__cta section__cta--teal">
+                      GitHub
+                    </a>
+                  {% endif %}
+                  {% if speaker.twitter %}
+                    <a href="{{speaker.twitter}}" class="section__cta section__cta--teal">
+                      Twitter
+                    </a>
+                  {% endif %}
+                </p>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endif %}

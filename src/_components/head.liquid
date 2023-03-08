@@ -1,0 +1,42 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+{% capture page_title %}{% if page.title == blank %}{{ metadata.title | strip_html | strip_newlines }}{% else %}{{ page.title | strip_html | strip_newlines }}{% endif %}{% endcapture %}
+<title>{{ page_title | escape }}</title>
+
+<link rel="canonical" href="{{page.absolute_url}}">
+
+{% capture page_description %}{% if page.description == blank %}{{ metadata.description }}{% else %}{{ page.description }}{% endif %}{% endcapture %}
+<meta name="description" content="{{ page_description }}" />
+
+<link rel="dns-prefetch" href="https://buttondown.email">
+
+<link rel="stylesheet" href="{% webpack_path css %}" />
+<script src="{% webpack_path js %}" defer></script>
+
+<link rel="icon" type="image/svg+xml" href="{% webpack_path images/safari-pinned-tab.svg %}" />
+<link rel="icon" type="image/png" href="{% webpack_path images/favicon.png %}" />
+<link rel="mask-icon" href="{% webpack_path images/safari-pinned-tab.svg %}" color="#f767b3">
+<link rel="apple-touch-icon" href="{% webpack_path images/apple-touch-icon.png %}">
+<meta name="theme-color" content="#000024"/>
+
+{% for href in metadata.prefetch -%}
+{% if href != page.url %}<link rel="prefetch" href="{{href}}" as="document" />{% endif %}
+{% endfor -%}
+
+{% capture social_image %}{% if page.social_image == blank %}{% webpack_path images/social.png %}{% else %}{{ page.social_image }}{% endif %}{% endcapture %}
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@euruko" />
+<meta name="twitter:creator" content="@euruko" />
+<meta property="twitter:title" content="{{ page_title }}" />
+<meta property="twitter:description" content="{{ page_description }}" />
+<meta property="twitter:image" content="{{site.url}}{{ social_image }}" />
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page_title }}" />
+<meta property="og:description" content="{{ page_description }}">
+<meta property="og:image" content="{{site.url}}{{ social_image }}">
+<meta property="og:url" content="{{page.absolute_url}}">
+
+{% live_reload_dev_js %}

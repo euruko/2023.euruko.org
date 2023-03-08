@@ -1,0 +1,42 @@
+@use "imports/variables.scss" as *;
+@use "~sass-mq/mq.scss";
+
+.footer {
+  margin-top: auto;
+
+  &__container {
+    border-top: 1px solid black;
+    padding: 10px 60px;
+    background-color: $simply-white;
+    color: black;
+
+    @include mq.mq($until: wide) {
+      padding: 10px 40px;
+    }
+
+    @include mq.mq($until: tablet) {
+      padding: 10px 20px;
+    }
+  }
+
+  &__inner-container {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__text {
+    font-size: 14px;
+  }
+
+  &__social-media-link {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+  }
+}

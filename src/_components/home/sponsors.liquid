@@ -1,0 +1,34 @@
+<section id="sponsors" class="section section--lightdarkblue sponsors">
+  <div class="section__container">
+    <div class="section__inner-container">
+      <div class="section__columns">
+        <div class="section__small-column">
+          <h1
+            id="heading-sponsors-b"
+            class="section__heading section__heading--pink"
+          >
+            Sponsors
+          </h1>
+          <p class="section__info">
+            Euruko is brought to you by <a href="https://helsinkiruby.fi">Helsinki Ruby</a> and these fine folks.
+          </p>
+        </div>
+        <div class="section__very-large-column">
+          {% assign levels = "ruby, gold, silver, bronze, travel, community" | split: ", " %}
+
+          {% for level in levels %}
+            {% assign sponsors = collections.sponsors.resources | where: "data.level", level %}
+            {% if sponsors.size > 0 %}
+              <div class="sponsors__list sponsors__list--{{ level }}">
+                {% for sponsor in sponsors %}
+                    {{ sponsor.content }}
+                {% endfor %}
+              </div>
+            {% endif %}
+          {% endfor %}
+          <h2 class="sponsors__text-right">Want to see your logo here? Consider <a href="/sponsoring">sponsoring us.</a></h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

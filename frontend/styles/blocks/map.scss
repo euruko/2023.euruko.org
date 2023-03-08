@@ -1,0 +1,52 @@
+@use "imports/variables.scss" as *;
+@use "~sass-mq/mq.scss";
+
+.map {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+
+  &--svg {
+    width: 100%;
+  }
+
+  &__legend {
+    list-style: none;
+    padding: 0;
+    max-width: 80%;
+
+    li {
+      margin: 0 1rem 0.5rem 1rem;
+      display: inline-block;
+
+      &:last-child {
+        display: block;
+        max-width: 60%;
+
+        @include mq.mq($until: largeTablet) {
+          max-width: 80%;
+        }
+
+        @include mq.mq($until: tablet) {
+          max-width: 100%;
+        }
+      }
+    }
+
+    &--name {
+      color: $purple-4;
+    }
+
+    &--percentage {
+      color: $purple-3;
+    }
+
+    &--disclaimer {
+      padding-top: 3rem;
+      font-size: 0.8em;
+      text-align: center;
+      color: $purple-4;
+    }
+  }
+}

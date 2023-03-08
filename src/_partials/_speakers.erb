@@ -1,0 +1,42 @@
+<section id="speakers" class="section section--darkblue speakers">
+  <div class="section__container">
+    <div class="section__inner-container">
+      <h1
+        id="heading-speakers"
+        class="section__heading section__heading--orange"
+      >
+        Speakers
+      </h1>
+      <p class="section__info">
+        Say hi to our wonderful speakers!
+      </p>
+      <div class="speakers__profiles">
+        <%- categories = %w(keynote mc) %>
+
+        <%- %w(keynote mc).each do |category| %>
+          <%- speakers = collections.speakers.resources.find_all { _1.published? && _1.data.category == category } %>
+          <%- speakers.reverse! if category == "keynote" %>
+          <%- speakers.each do |speaker| %>
+            <%= render "speaker", speaker: speaker %>
+          <%- end %>
+        <%- end %>
+      </div>
+      <div class="speakers__profiles">
+        <%- categories = %w(normal lightning cfp tba) %>
+
+        <%- %w(normal lightning cfp tba).each do |category| %>
+          <%- speakers = collections.speakers.resources.find_all { _1.published? && _1.data.category == category } %>
+          <%- speakers.reverse! if category == "keynote" %>
+          <%- speakers.each do |speaker| %>
+            <%= render "speaker", speaker: speaker %>
+          <%- end %>
+        <%- end %>
+      </div>
+      <div class="speakers__cta">
+        <a href="<%= url_for("schedule.html") %>" class="section__cta section__cta--large section__cta--green">
+          See the full schedule
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

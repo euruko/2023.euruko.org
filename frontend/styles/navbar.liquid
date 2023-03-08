@@ -1,0 +1,44 @@
+<header id="header" class="header header--not-scrolled">
+  <div class="header__inner">
+    <a class="header__logo" href="/">
+      <img class="header__logo-image header__logo-image--light" src="{% webpack_path images/header/temp_logo.svg %}" alt="Euruko 2023"/>
+    </a>
+    <button id="mobile-toggle" class="header__mobile-toggle" tabindex="0" aria-label="Open menu">
+      <div class="header__mobile-toggle-inner" tabindex="-1">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </button>
+    <nav class="header__navigation">
+      <a href="/#sponsors" class="header__link">For Speakers</a>
+      <a href="/#speakers" class="header__link">For Sponsors</a>
+      <a href="/#sponsors" class="header__link">For Participants</a>
+      <div class="header__divider"></div>
+      <a href="/code" class="header__link">Code of Conduct</a>
+    </nav>
+    {% comment %}
+      <div class="header__language-select">
+      <button
+      id="lang-select"
+      class="header__language-select-button"
+      tabindex="0"
+      >
+      <div class="header__language-select-button-inner" tabindex="-1">
+      English
+      <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+      <path
+      fill="#6bc3c7"
+      d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
+      />
+      </svg>
+      </div>
+      </button>
+      <div class="header__language-select-dropdown">
+      <a href="/">English</a>
+      <a href="/suomeksi">Suomi</a>
+      </div>
+      </div>
+    {% endcomment %}
+  </div>
+</header>

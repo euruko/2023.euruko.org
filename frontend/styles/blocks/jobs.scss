@@ -1,0 +1,56 @@
+@use "imports/variables.scss" as *;
+@use "~sass-mq/mq.scss";
+
+.jobs {
+  color: $grey-1;
+  margin-top: 80px;
+  padding: 25px 25px;
+  border-radius: 50px;
+  background: #fff;
+
+  &__company-logo {
+    display: flex;
+    justify-content: center;
+
+    & img {
+      height: 80px;
+      width: auto;
+    }
+  }
+
+  &__company-jobs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+    margin-top: 40px;
+  }
+
+  &__company-job {
+    flex-basis: calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 40px;
+    padding-bottom: 30px;
+    background: $grey-5;
+    border: 1px solid #e5eaf1;
+    border-radius: 25px;
+
+    @include mq.mq($until: largeTablet) {
+      flex-basis: calc(100% - 20px);
+    }
+  }
+
+  &__job-heading {
+    margin: 0 !important;
+  }
+
+  &__job-description {
+    flex: 1 1 auto;
+  }
+
+  &__cta {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

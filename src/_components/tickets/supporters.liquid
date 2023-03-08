@@ -1,0 +1,13 @@
+<section class="supporters">
+  <ul class="supporters__listing">
+    {% assign sorted = site.data.supporters | sort: "purchased_at" %}
+    {% for supporter in sorted %}
+      <li class="supporters__supporter">
+        <span class="supporters__supporter__name">{{ supporter.name }}</span> on
+        <time class="supporters__supporter__time" datetime="{{supporter.purchased_at | date_to_xmlschema}}">
+          {{supporter.purchased_at | date: "%e.%-m."}}
+        </time>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

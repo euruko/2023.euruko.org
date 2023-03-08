@@ -1,0 +1,10 @@
+<div class="video__grid">
+  {% for video in site.data.videos %}
+    <div class="video__container">
+      <p class="video__label">
+        {{ video.name }}
+      </p>
+      <lite-youtube videoid="{{ video.id }}" videotitle="{{ video.name }}"></lite-youtube>
+    </div>
+  {% endfor %}
+</div>

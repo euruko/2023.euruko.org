@@ -1,0 +1,20 @@
+<section class="section section--darkblue">
+  <div class="section__container">
+    <div class="section__inner-container">
+      <div class="section__single-header">
+        {% capture top_title %}{% if page.title != blank %}{{ page.title | escape }}{% else %}{{ site.metadata.title | escape }}{% endif %}{% endcapture %}
+        {% if page.title_image != blank %}
+        <img
+          class="hero__image"
+          src="{% webpack_path page.title_image %}"
+          alt="{{ top_title }}"
+        />
+        {% else %}
+        <h1>
+          {{ top_title }}
+        </h1>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>

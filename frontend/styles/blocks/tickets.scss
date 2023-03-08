@@ -1,0 +1,99 @@
+@use "imports/variables.scss" as *;
+@use "~sass-mq/mq.scss";
+
+.tickets {
+  &__listing {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &__discount {
+      text-align: center;
+      font-style: italic;
+
+      &--code {
+        font-family: $monospace;
+        font-style: normal;
+        color: $pink-light;
+        font-weight: $bold;
+        white-space: nowrap;
+      }
+    }
+  }
+
+  &__category {
+    width: calc(33% - 1rem);
+    min-width: 350px;
+
+    @include mq.mq($until: largeTablet) {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    &__description {
+      min-height: 5em;
+    }
+
+    &--individual {
+      .icon {
+        filter: hue-rotate(0deg);
+      }
+    }
+
+    &--corporate {
+      .icon {
+        filter: hue-rotate(180deg);
+      }
+    }
+
+    &--supporter {
+      .icon {
+        filter: hue-rotate(240deg);
+      }
+    }
+  }
+
+  $ticket-bg: $orange-light;
+  $hole: 0.4em;
+  &__ticket {
+    width: 90%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    filter: drop-shadow(0 2px 5px rgba(black, 0.5));
+    height: 3rem;
+    line-height: 1em;
+    vertical-align: middle;
+    padding: 1rem;
+    color: black;
+    font-size: 1rem;
+    background-size: 51% 100%;
+    background-repeat: no-repeat;
+    background-image: radial-gradient(circle at 0 50%, rgba($ticket-bg, 0) $hole, $ticket-bg ($hole + 0.1em)),
+      radial-gradient(circle at 100% 50%, rgba($ticket-bg, 0) $hole, $ticket-bg ($hole + 0.1em));
+    background-position: top left, top right;
+    border-radius: 0.2rem;
+    text-decoration: none;
+    transition: all 0.15s ease-in-out;
+    transform: translate3d(0, 0, 0);
+
+    @media (prefers-reduced-motion: reduce) {
+      transition: none;
+    }
+
+    &:hover {
+      filter: drop-shadow(0px 0px 10px $pink-light);
+      transform: translate3d(4px, -1px, 0);
+      transition: all 0.15s ease-in-out;
+
+      @media (prefers-reduced-motion: reduce) {
+        filter: none;
+        transform: none;
+        text-decoration: underline;
+        transition: none;
+      }
+    }
+  }
+}

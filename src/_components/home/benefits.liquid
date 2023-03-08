@@ -1,0 +1,21 @@
+<section id="benefits" class="section section--darkblue benefits">
+  <div class="section__container">
+    <div class="section__inner-container">
+      <h1
+        id="heading-benefits"
+        class="section__heading section__heading--dark-green"
+      >
+        Euruko ticket benefits
+      </h1>
+      <p class="section__info">
+        This is what you get when you buy a ticket to Euruko 2022.
+      </p>
+      <div class="benefits__cards">
+        {% assign benefits = collections.benefits.resources %}
+        {% for benefits in benefits %}
+          {{ benefits.content }}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

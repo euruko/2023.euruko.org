@@ -1,0 +1,32 @@
+@use "imports/variables.scss" as *;
+@use "~sass-mq/mq.scss";
+@use "~lite-youtube-embed" as *;
+
+.video {
+  &__grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  &__container {
+    width: 48%;
+    margin-bottom: 1rem;
+  }
+
+  &__label {
+    font-weight: $bold;
+    margin-bottom: 0.25em !important;
+  }
+}
+
+@include mq.mq($until: tablet) {
+  .video {
+    &__container {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+}

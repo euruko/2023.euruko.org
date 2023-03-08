@@ -1,0 +1,161 @@
+@use "imports/variables.scss" as *;
+@use "~sass-mq/mq.scss";
+@use "typography.scss";
+
+// Reset
+* {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  font: inherit;
+  color: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  border-radius: 0;
+}
+
+html {
+  -webkit-text-decoration-skip: ink;
+  text-decoration-skip-ink: auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+strong,
+b {
+  font-weight: $bold;
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+small {
+  font-size: 0.66em;
+}
+
+ul,
+ol {
+  padding-left: 40px;
+}
+
+hr {
+  border-top: 1px solid $grey-1;
+}
+
+// Removes touch input lag from tappable things
+a,
+button,
+input,
+textarea,
+select,
+label,
+canvas {
+  touch-action: manipulation;
+}
+
+// Styles
+html {
+  min-height: 100vh;
+  //font-family: "Be Vietnam Pro", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif,
+  //  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Courier New";
+  font-size: 18px;
+  font-weight: $regular;
+  line-height: 1.4;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @include mq.mq($until: largeTablet) {
+    font-size: 16px;
+  }
+}
+
+body {
+  min-height: 100vh;
+  background: $dark-blue-1;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: $bold;
+  line-height: 1.2;
+  margin: 20px 0;
+}
+
+h1 {
+  font-size: 48px;
+
+  @include mq.mq($until: largeTablet) {
+    font-size: 32px;
+  }
+}
+
+h2 {
+  font-size: 32px;
+
+  @include mq.mq($until: largeTablet) {
+    font-size: 24px;
+  }
+}
+
+h3 {
+  font-size: 24px;
+
+  @include mq.mq($until: largeTablet) {
+    font-size: 20px;
+  }
+}
+
+a {
+  color: black;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+th,
+td {
+  padding: 12px;
+}
+
+table {
+  border-spacing: 0;
+  background-color: $dark-blue-2;
+}
+
+thead {
+  tr {
+    background: $dark-blue-3;
+    font-weight: $semibold;
+    padding: 12px;
+    text-align: left;
+  }
+}
+
+tbody {
+  tr {
+    &:nth-child(2n) {
+      background: $dark-blue-1;
+    }
+  }
+}

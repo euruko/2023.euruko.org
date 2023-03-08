@@ -1,0 +1,11 @@
+start.js
+sync.js
+output
+config
+.bridgetown-webpack
+.bridgetown-cache
+*.liquid
+/src/*.*
+/.yarn
+/config
+/frontend/styles/imports/typography.scss

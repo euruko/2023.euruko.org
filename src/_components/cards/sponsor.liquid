@@ -1,0 +1,23 @@
+<div class="sponsors__card">
+  {% capture default_tag %}{{sponsor.level | upcase}}{% endcapture %}
+  <a
+    alt="{{ sponsor.name }}"
+    title="{{ sponsor.name }}"
+    class="sponsors__link"
+    href="{{ sponsor.url }}"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <div class="sponsors__tag">{{ sponsor.tag | default: default_tag }}</div>
+    <img
+      src="{{ image }}"
+      alt="{{ sponsor.name }}"
+      loading="lazy"
+    />
+    {% if sponsor.show_description && content != blank %}
+      <div class="sponsors__sponsor-description">
+        {{ content }}
+      </div>
+    {% endif %}
+  </a>
+</div>

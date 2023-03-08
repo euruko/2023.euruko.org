@@ -1,0 +1,16 @@
+<section id="tickets" class="section section--darkblue tickets">
+  <div class="section__container">
+    <div class="section__inner-container">
+      <h1
+        id="heading-tickets"
+        class="section__heading section__heading--dark-green"
+      >
+        Tickets
+      </h1>
+      <p class="section__info">
+        Tickets go on sale on <time datetime="YYYY-MM-DDT12:00:00+0300">DD.MM.YYYY at 12:00</time> (Helsinki time).
+      </p>
+      {% render "tickets/listing", site: site %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,37 @@
+@use "imports/variables.scss" as *;
+@use "~sass-mq/mq.scss";
+
+.speakers {
+  &__profiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    margin: -60px -2% 0 -2%;
+    gap: 0rem 2rem;
+    padding: 1rem;
+  }
+  @include mq.mq($until: desktop) {
+    &__profiles {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+  }
+
+  &__profile {
+    padding: 60px 2% 0 2%;
+  }
+
+  &__cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  @include mq.mq($until: largeTablet) {
+    &__profiles {
+      margin: -40px -10px 0 -10px;
+    }
+
+    &__profile {
+      padding: 40px 10px 0 10px;
+    }
+  }
+}
