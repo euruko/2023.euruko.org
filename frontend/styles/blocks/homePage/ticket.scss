@@ -1,0 +1,111 @@
+@use "imports/variables.scss" as *;
+@use "~sass-mq/mq.scss";
+
+.ticket-section {
+  position: relative;
+  padding: $header-height 0;
+  width: 100%;
+  background: #000;
+
+  .content-container {
+    width: 95%;
+    height: 90%;
+    background: #d9d9d9;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    .content-info {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 189px;
+      @include mq.mq($until: wide) {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 90px;
+        gap: 35px;
+      }
+
+      @include mq.mq($until: tablet) {
+        margin-top: 120px;
+      }
+
+      &__header {
+        width: 45%;
+        margin: 0;
+        font-weight: 700;
+        font-size: 5vw;
+        line-height: 90%;
+        text-align: center;
+        letter-spacing: -0.06em;
+        text-transform: uppercase;
+        color: #000;
+
+        @include mq.mq($until: wide) {
+          min-height: 0;
+          width: 100%;
+          font-size: 47.223px;
+        }
+      }
+
+      &__descriptoin {
+        width: 36%;
+        margin: 0;
+        font-weight: 600;
+        font-size: 2vw;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #000000;
+
+        @include mq.mq($until: wide) {
+          width: 340px;
+          font-size: 20px;
+        }
+        @include mq.mq($until: tablet) {
+          width: 90%;
+        }
+      }
+    }
+  }
+
+  &__button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    background: #ff74bd;
+    box-shadow: 3.67404px 2.93923px 11.0221px rgba(0, 0, 0, 0.13);
+    border-radius: 47.4324px;
+    width: max-content;
+    padding: 34px;
+
+    @include mq.mq($until: wide) {
+      margin-top: 50px;
+    }
+
+    @include mq.mq($until: desktop) {
+      padding: 20px 26px;
+      margin: 30px auto;
+    }
+
+    & > a {
+      font-weight: 700;
+      font-size: 2.5vw;
+      line-height: 88.9%;
+      text-align: center;
+      letter-spacing: -0.06em;
+      text-transform: uppercase;
+      color: #000000;
+      text-decoration: none;
+      @include mq.mq($until: tablet) {
+        font-size: 20px;
+      }
+    }
+  }
+}

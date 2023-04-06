@@ -52,7 +52,7 @@ document.getElementById("scrollToTopBtn").onclick = function () {
 
 document.addEventListener("DOMContentLoaded", function () {
   const animationPlayed = sessionStorage.getItem("animationPlayed");
-  if (!animationPlayed) {
+  if (!animationPlayed && document.getElementById("home-content")) {
     document.querySelector("body").style.background = "#000";
     document.getElementById("home-content").style.display = "none";
     document.getElementById("animation").style.display = "block";
@@ -71,6 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("home-content").style.animation = "visible 2s";
     });
   } else {
+    document.body.style.backgroundColor = "#d9d9d9";
     document.getElementById("home-content").style.display = "flex";
     document.getElementById("animation").style.display = "none";
   }
