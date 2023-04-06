@@ -1,0 +1,247 @@
+@use "imports/variables.scss" as *;
+@use "~sass-mq/mq.scss";
+
+.animation-container {
+  position: relative;
+  margin-top: -$header-height;
+  padding-top: $header-height;
+  pointer-events: none;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  display: none;
+}
+.animation {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.animation__date {
+  top: 55%;
+  position: absolute;
+  left: 77%;
+  opacity: 0;
+  z-index: 10;
+  width: 50px;
+}
+
+.link {
+  color: white;
+  line-height: 86.9%;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+@keyframes color-change {
+  from {
+    color: white;
+  }
+  to {
+    color: black;
+  }
+}
+
+.animation__item {
+  position: absolute;
+  top: 20%;
+  left: 63%;
+  width: 254px;
+  height: 518px;
+  transform: rotate(45deg);
+  border-radius: 50%;
+  border: 2px solid #d9d9d9;
+  animation: move 3s;
+  animation-duration: 3s;
+  z-index: 10;
+}
+
+.animation__item-hidden {
+  position: absolute;
+  width: 429%;
+  height: 247%;
+  top: -121%;
+  left: 88.9%;
+  transform: rotate(-14deg);
+  border-radius: 20%;
+  background: black;
+  animation: moveHidden 3s;
+}
+
+.animation__item-hidden::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: -0.8%;
+  top: 39%;
+  transform: rotate(78deg);
+  background: black;
+  animation: moveHidden 3s;
+}
+
+.animation__item-hidden::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: -1.4%;
+  top: 56%;
+  transform: rotate(101deg);
+  background: black;
+  animation: moveHidden 3s;
+}
+
+.animation__logo {
+  position: absolute;
+  width: 62%;
+  top: 39%;
+  left: 19%;
+  opacity: 0;
+  z-index: 1;
+}
+
+.small-logo {
+  position: absolute;
+  right: 44%;
+  top: 50%;
+  width: 222.54px;
+  height: 47px;
+  opacity: 0;
+  animation: moveSmallLogo 2s;
+  animation-delay: 3.5s;
+}
+
+.logo {
+  position: absolute;
+  width: 1000px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: appear 4s forwards;
+  z-index: 3;
+  @include mq.mq($until: largeTablet) {
+    width: 90%;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    left: 50%;
+    top: 40%;
+    width: 80%;
+    transition: all 2s ease;
+  }
+  40% {
+    opacity: 1;
+    left: 50%;
+    top: 40%;
+    width: 80%;
+  }
+
+  90% {
+    opacity: 1;
+    top: 70px;
+    width: 200px;
+  }
+  95% {
+    top: 70px;
+    opacity: 1;
+    width: 200px;
+  }
+  100% {
+    top: 0px;
+    opacity: 0;
+    width: 200px;
+  }
+}
+
+@keyframes moveSmallLogo {
+  0% {
+    top: 50%;
+    transform: scale(5);
+  }
+
+  100% {
+    top: 2%;
+  }
+}
+
+.background-transition {
+  background-color: #d9d9d9;
+  transition: background-color 0.5s linear;
+}
+
+@keyframes moveLogo {
+  0% {
+    left: 227%;
+  }
+
+  100% {
+    left: 19%;
+  }
+}
+
+@keyframes moveHidden {
+  0% {
+    left: 120%;
+  }
+
+  50% {
+    left: 120%;
+  }
+
+  100% {
+    left: 88.9%;
+  }
+}
+
+@keyframes move {
+  0% {
+    left: -30%;
+    top: 17%;
+    width: 1058.51px;
+    height: 529.62px;
+    animation-timing-function: ease-in;
+  }
+  40% {
+    left: 22.5%;
+    top: 17%;
+    width: 1058.51px;
+    height: 529.62px;
+  }
+
+  80% {
+    top: 20%;
+    left: 43%;
+    width: 254px;
+    height: 518px;
+    animation-timing-function: ease-in;
+  }
+  85% {
+    left: 43%;
+    width: 254px;
+    height: 518px;
+    animation-timing-function: ease-in-out;
+  }
+  100% {
+    left: 63%;
+    width: 254px;
+    height: 518px;
+  }
+  100% {
+    left: 63%;
+    width: 254px;
+    height: 518px;
+  }
+  100% {
+    left: 63%;
+    width: 254px;
+    height: 518px;
+  }
+}

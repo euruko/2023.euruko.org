@@ -7,6 +7,7 @@ import PhotoSwipeLightbox from "photoswipe/lightbox";
 import "map.js";
 
 import "index.scss";
+import { startAnimation } from "./animation";
 
 smoothscroll.polyfill();
 
@@ -29,6 +30,51 @@ window.addEventListener(
   },
   false
 );
+
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("scrollToTopBtn").style.display = "block";
+  } else {
+    document.getElementById("scrollToTopBtn").style.display = "none";
+  }
+}
+
+document.getElementById("scrollToTopBtn").onclick = function () {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};
+
+document.addEventListener("DOMContentLoaded", function () {
+  const animationPlayed = sessionStorage.getItem("animationPlayed");
+  if (!animationPlayed) {
+    document.querySelector("body").style.background = "#000";
+    document.getElementById("home-content").style.display = "none";
+    document.getElementById("animation").style.display = "block";
+    // startAnimation();
+    sessionStorage.setItem("animationPlayed", true);
+    const logo = document.querySelector(".logo");
+    logo.style.animation = "appear 2s forwards";
+
+    logo.addEventListener("animationend", () => {
+      setTimeout(() => {
+        document.body.style.transition = "background-color 2s ease";
+        document.body.style.backgroundColor = "#d9d9d9";
+        document.getElementById("animation").style.display = "none";
+      }, 0);
+      document.getElementById("home-content").style.display = "flex";
+      document.getElementById("home-content").style.animation = "visible 2s";
+    });
+  } else {
+    document.getElementById("home-content").style.display = "flex";
+    document.getElementById("animation").style.display = "none";
+  }
+});
 
 const initPhotoGallery = () => {
   const gallery = document.getElementById("gallery");

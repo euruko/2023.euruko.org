@@ -1,0 +1,15 @@
+---
+layout: default
+title: ""
+url: /cfp
+---
+
+<%= liquid_render "cfp/cfp", site: site, page: page %>
+<%= liquid_render "cfp/waiting", site: site, page: page %>
+<%= liquid_render "cfp/interests", site: site.data.interests, page: page %>
+<%= liquid_render "cfp/rules", site: site, page: page %>
+<%# <%= liquid_render "cfp/pluses", site: site, page: page %> 
+<div style="background-color: black;  width: 100%; margin 0 auto">
+  <%= liquid_render "cfp/request", site: site, page: page %>
+  <%= liquid_render "home/contacts", site: site, page: page %>
+</div>

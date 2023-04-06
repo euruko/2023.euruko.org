@@ -1,0 +1,149 @@
+@use "imports/variables.scss" as *;
+@use "~sass-mq/mq.scss";
+
+.pluses-section {
+  position: relative;
+  margin-top: -$header-height;
+  pointer-events: none;
+
+  &__container {
+    padding: 100px 0 0px 0;
+    pointer-events: auto;
+
+    @include mq.mq($until: wide) {
+      padding: 80px 0 0px 0;
+    }
+  }
+
+  &__header {
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    z-index: 2;
+    max-width: 340px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 90%;
+    text-align: center;
+    letter-spacing: -0.06em;
+    text-transform: uppercase;
+    background-color: #d9d9d9;
+
+    @include mq.mq($until: desktop) {
+      margin-top: 20px;
+    }
+
+    @include mq.mq($until: wide) {
+      margin-top: 50px;
+    }
+
+    @include mq.mq($until: tablet) {
+      font-size: 30px;
+      width: 50%;
+      margin-top: 0px;
+      min-height: 70px;
+    }
+  }
+
+  .pluses-item-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    max-width: 80%;
+    margin-top: 130px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d9d9d9;
+
+    @include mq.mq($until: wide) {
+      margin-top: 40px;
+    }
+    @include mq.mq($until: tablet) {
+      width: 70%;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .pluses-item {
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 90%;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: #000000;
+      width: 100%;
+
+      @include mq.mq($until: wide) {
+        margin-top: 0;
+        font-size: 27px;
+      }
+    }
+    .line {
+      width: 5px;
+      height: 49px;
+    }
+  }
+
+  .line-2 {
+    display: none;
+    @include mq.mq($until: tablet) {
+      display: block;
+      width: 5px;
+      height: 49px;
+    }
+  }
+  &__description {
+    margin-top: 130px;
+    margin-bottom: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 896px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #000000;
+    z-index: 3;
+    background-color: #d9d9d9;
+
+    @include mq.mq($until: desktop) {
+      margin-top: 0;
+      margin-bottom: 0px;
+    }
+
+    @include mq.mq($until: wide) {
+      margin-top: 0px;
+      font-size: 15px;
+      width: 55%;
+      color: #838383;
+    }
+  }
+
+  .bottom-half-ellipse-bg {
+    position: absolute;
+    bottom: 55px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    @include mq.mq($until: tablet) {
+      bottom: 45px;
+    }
+  }
+  .top-half-ellipse-bg {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    @include mq.mq($until: tablet) {
+      top: 15px;
+    }
+  }
+}

@@ -1,0 +1,441 @@
+<svg width="230" height="262" viewBox="0 0 230 262" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_767_228" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="230" height="262">
+<rect width="230" height="262" fill="#FC5353"/>
+</mask>
+<g mask="url(#mask0_767_228)">
+<ellipse cx="108.319" cy="185.231" rx="50.1985" ry="111.586" transform="rotate(120 108.319 185.231)" stroke="black" stroke-width="2"/>
+<mask id="mask1_767_228" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="8" y="-23" width="225" height="279">
+<path d="M83.2199 228.705C29.8493 197.891 -2.17883 153.448 11.6831 129.439C25.5451 105.429 69.7042 -49.2277 123.075 -18.4142C291.361 18.651 218.817 217.015 204.955 241.024C191.093 265.034 136.591 259.518 83.2199 228.705Z" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask1_767_228)">
+<g filter="url(#filter0_iii_767_228)">
+<path d="M120.994 18.839L138.113 73.0958L135.207 75.1715L93.0497 36.6805C85.1593 29.4762 85.6971 16.8912 94.1732 10.3862C103.624 3.13301 117.41 7.47743 120.994 18.839Z" fill="#0A9CDC"/>
+</g>
+<g filter="url(#filter1_iii_767_228)">
+<path d="M83.295 45.7427L141.434 78.7713L137.283 78.7713L74.5607 78.1717C63.7587 78.0684 55.6772 68.2237 57.6806 57.6086C59.8877 45.9138 72.947 39.8641 83.295 45.7427Z" fill="#0A9CDC"/>
+</g>
+<g filter="url(#filter2_iii_767_228)">
+<path d="M99.5165 59.0647L128.164 75.3393L126.118 75.3393L95.2127 75.0438C89.8901 74.993 85.908 70.142 86.8951 64.9115C87.9827 59.149 94.4176 56.1681 99.5165 59.0647Z" fill="white"/>
+</g>
+<g filter="url(#filter3_iii_767_228)">
+<path d="M123.915 38.4057L133.976 69.7796L132.471 68.3945L109.928 47.25C106.046 43.6085 106.401 37.3425 110.669 34.162C115.371 30.6579 122.125 32.8216 123.915 38.4057Z" fill="white"/>
+</g>
+<g filter="url(#filter4_iii_767_228)">
+<circle cx="149.738" cy="93.0224" r="23.6635" fill="#0A9CDC"/>
+</g>
+<g filter="url(#filter5_iii_767_228)">
+<ellipse cx="113.543" cy="161.113" rx="11.1771" ry="11.4637" fill="#D9D9D9"/>
+</g>
+<g filter="url(#filter6_iii_767_228)">
+<path d="M167.137 143.917H143.923C143.923 143.917 144.891 177.995 136.868 197.64C126.452 223.142 88.7104 254.1 88.7104 254.1L143.923 259.128C143.923 259.128 156.247 230.182 164.268 203.037C170.274 182.709 167.137 143.917 167.137 143.917Z" fill="#0A9CDC"/>
+</g>
+<g filter="url(#filter7_iii_767_228)">
+<path d="M182.535 97.589H159.701C151.906 97.589 145.586 91.2695 145.586 83.474C145.586 75.6784 151.906 69.3589 159.701 69.3589H182.95C203.585 69.3589 220.313 86.1906 220.313 106.826C220.313 127.576 203.492 144.501 182.742 144.501H53.0663C45.1561 144.501 38.7437 138.088 38.7437 130.178C38.7437 122.268 45.1561 115.856 53.0663 115.856H182.535C187.579 115.856 191.668 111.766 191.668 106.722C191.668 101.678 187.579 97.589 182.535 97.589Z" fill="#0A9CDC"/>
+</g>
+<g filter="url(#filter8_iii_767_228)">
+<path d="M97.8441 193.073C111.129 177.298 122.853 156.264 122.715 144.501H143.926C144.894 152.527 145.835 173.811 138.529 194.734C131.222 215.658 97.5789 250.214 88.9991 257.548L39.499 231C47.9404 228.786 86.9526 206.007 97.8441 193.073Z" fill="#0A9CDC"/>
+</g>
+<path d="M155.688 97.0544C155.688 98.0309 155.495 98.9977 155.122 99.8998C154.748 100.802 154.2 101.622 153.51 102.312C152.819 103.002 152 103.55 151.098 103.924C150.195 104.297 149.229 104.49 148.252 104.49C147.276 104.49 146.309 104.297 145.407 103.924C144.505 103.55 143.685 103.002 142.995 102.312C142.304 101.622 141.757 100.802 141.383 99.8998C141.009 98.9977 140.817 98.0309 140.817 97.0544L148.252 97.0544H155.688Z" fill="#D9D9D9"/>
+<path d="M170.558 97.0544C170.558 98.0309 170.365 98.9977 169.992 99.8998C169.618 100.802 169.07 101.622 168.38 102.312C167.689 103.002 166.87 103.55 165.968 103.924C165.066 104.297 164.099 104.49 163.122 104.49C162.146 104.49 161.179 104.297 160.277 103.924C159.375 103.55 158.555 103.002 157.865 102.312C157.174 101.622 156.627 100.802 156.253 99.8998C155.879 98.9977 155.687 98.0309 155.687 97.0544L163.122 97.0544H170.558Z" fill="#D9D9D9"/>
+<<<<<<< HEAD
+<mask id="mask2_767_228" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="140" y="97" width="16" height="8">
+<path d="M155.688 97.0544C155.688 98.0309 155.495 98.9977 155.122 99.8998C154.748 100.802 154.2 101.622 153.51 102.312C152.819 103.002 152 103.55 151.098 103.924C150.195 104.297 149.229 104.49 148.252 104.49C147.276 104.49 146.309 104.297 145.407 103.924C144.505 103.55 143.685 103.002 142.995 102.312C142.304 101.622 141.757 100.802 141.383 99.8998C141.009 98.9977 140.817 98.0309 140.817 97.0544L148.252 97.0544H155.688Z" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask2_767_228)">
+<rect x="147.898" y="93.1602" width="5.665" height="9.91374" rx="2.8325" fill="black"/>
+</g>
+<mask id="mask3_767_228" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="155" y="97" width="16" height="8">
+<path d="M170.557 97.0544C170.557 98.0309 170.365 98.9977 169.991 99.8998C169.617 100.802 169.07 101.622 168.379 102.312C167.689 103.002 166.869 103.55 165.967 103.924C165.065 104.297 164.098 104.49 163.122 104.49C162.145 104.49 161.179 104.297 160.276 103.924C159.374 103.55 158.555 103.002 157.864 102.312C157.174 101.622 156.626 100.802 156.253 99.8998C155.879 98.9977 155.687 98.0309 155.687 97.0544L163.122 97.0544H170.557Z" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask3_767_228)">
+<rect x="162.768" y="93.1597" width="5.665" height="9.91374" rx="2.8325" fill="black"/>
+</g>
+<path d="M152.229 105.477C153.198 104.647 155.384 103.235 156.38 104.231C157.377 105.228 155.689 106.584 154.72 107.138C155.55 106.723 157.377 106.141 158.041 107.138C158.705 108.134 156.104 109.213 154.72 109.629" stroke="black"/>
+<g filter="url(#filter9_iii_767_228)">
+=======
+<mask id="mask1_664_1723" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="140" y="97" width="16" height="8">
+<path d="M155.688 97.0544C155.688 98.0309 155.495 98.9977 155.122 99.8998C154.748 100.802 154.2 101.622 153.51 102.312C152.819 103.002 152 103.55 151.098 103.924C150.195 104.297 149.229 104.49 148.252 104.49C147.276 104.49 146.309 104.297 145.407 103.924C144.505 103.55 143.685 103.002 142.995 102.312C142.304 101.622 141.757 100.802 141.383 99.8998C141.009 98.9977 140.817 98.0309 140.817 97.0544L148.252 97.0544H155.688Z" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask1_664_1723)">
+<rect x="147.898" y="93.1602" width="5.665" height="9.91374" rx="2.8325" fill="black"/>
+</g>
+<mask id="mask2_664_1723" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="155" y="97" width="16" height="8">
+<path d="M170.557 97.0544C170.557 98.0309 170.365 98.9977 169.991 99.8998C169.617 100.802 169.07 101.622 168.379 102.312C167.689 103.002 166.869 103.55 165.967 103.924C165.065 104.297 164.098 104.49 163.122 104.49C162.145 104.49 161.179 104.297 160.276 103.924C159.374 103.55 158.555 103.002 157.864 102.312C157.174 101.622 156.626 100.802 156.253 99.8998C155.879 98.9977 155.687 98.0309 155.687 97.0544L163.122 97.0544H170.557Z" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask2_664_1723)">
+<rect x="162.768" y="93.1597" width="5.665" height="9.91374" rx="2.8325" fill="black"/>
+</g>
+<path d="M152.229 105.477C153.198 104.647 155.384 103.235 156.38 104.231C157.377 105.228 155.689 106.584 154.72 107.138C155.55 106.723 157.377 106.141 158.041 107.138C158.705 108.134 156.104 109.213 154.72 109.629" stroke="black"/>
+<g filter="url(#filter9_iii_664_1723)">
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<circle cx="145.356" cy="137.04" r="17.1955" fill="#D9D9D9"/>
+</g>
+</g>
+<path d="M11.6829 129.439C-2.17901 153.448 29.8491 197.891 83.2197 228.705C136.59 259.518 191.093 265.034 204.955 241.024" stroke="black" stroke-width="2"/>
+<<<<<<< HEAD
+</g>
+<defs>
+<filter id="filter0_iii_767_228" x="86.4578" y="1.32789" width="51.655" height="73.8435" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+=======
+<defs>
+<filter id="filter0_iii_664_1723" x="86.4578" y="1.32789" width="51.655" height="73.8435" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-1.00022" dy="-5.50121"/>
+<feGaussianBlur stdDeviation="3.50077"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_767_228"/>
+=======
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_664_1723"/>
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-3.50077"/>
+<feGaussianBlur stdDeviation="5.25116"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="effect1_innerShadow_767_228" result="effect2_innerShadow_767_228"/>
+=======
+<feBlend mode="normal" in2="effect1_innerShadow_664_1723" result="effect2_innerShadow_664_1723"/>
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-2.50055"/>
+<feGaussianBlur stdDeviation="1.00022"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0125 0 0 0 0 0.0125 0 0 0 0 0.0125 0 0 0 0.46 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="effect2_innerShadow_767_228" result="effect3_innerShadow_767_228"/>
+</filter>
+<filter id="filter1_iii_767_228" x="56.3743" y="37.9641" width="85.0598" height="40.8074" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+=======
+<feBlend mode="normal" in2="effect2_innerShadow_664_1723" result="effect3_innerShadow_664_1723"/>
+</filter>
+<filter id="filter1_iii_664_1723" x="56.3743" y="37.9641" width="85.0598" height="40.8074" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-1.00022" dy="-5.50121"/>
+<feGaussianBlur stdDeviation="3.50077"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_767_228"/>
+=======
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_664_1723"/>
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-3.50077"/>
+<feGaussianBlur stdDeviation="5.25116"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="effect1_innerShadow_767_228" result="effect2_innerShadow_767_228"/>
+=======
+<feBlend mode="normal" in2="effect1_innerShadow_664_1723" result="effect2_innerShadow_664_1723"/>
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-2.50055"/>
+<feGaussianBlur stdDeviation="1.00022"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0125 0 0 0 0 0.0125 0 0 0 0 0.0125 0 0 0 0.46 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="effect2_innerShadow_767_228" result="effect3_innerShadow_767_228"/>
+</filter>
+<filter id="filter2_iii_767_228" x="85.7439" y="52.4412" width="42.4201" height="22.8982" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+=======
+<feBlend mode="normal" in2="effect2_innerShadow_664_1723" result="effect3_innerShadow_664_1723"/>
+</filter>
+<filter id="filter2_iii_664_1723" x="85.7439" y="52.4412" width="42.4201" height="22.8982" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-1.00022" dy="-5.50121"/>
+<feGaussianBlur stdDeviation="3.50077"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_767_228"/>
+=======
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_664_1723"/>
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-3.50077"/>
+<feGaussianBlur stdDeviation="5.25116"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="effect1_innerShadow_767_228" result="effect2_innerShadow_767_228"/>
+=======
+<feBlend mode="normal" in2="effect1_innerShadow_664_1723" result="effect2_innerShadow_664_1723"/>
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-2.50055"/>
+<feGaussianBlur stdDeviation="1.00022"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0125 0 0 0 0 0.0125 0 0 0 0 0.0125 0 0 0 0.46 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="effect2_innerShadow_767_228" result="effect3_innerShadow_767_228"/>
+</filter>
+<filter id="filter3_iii_767_228" x="106.228" y="26.9627" width="27.7483" height="42.8171" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+=======
+<feBlend mode="normal" in2="effect2_innerShadow_664_1723" result="effect3_innerShadow_664_1723"/>
+</filter>
+<filter id="filter3_iii_664_1723" x="106.228" y="26.9627" width="27.7483" height="42.8171" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-1.00022" dy="-5.50121"/>
+<feGaussianBlur stdDeviation="3.50077"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_767_228"/>
+=======
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_664_1723"/>
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-3.50077"/>
+<feGaussianBlur stdDeviation="5.25116"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="effect1_innerShadow_767_228" result="effect2_innerShadow_767_228"/>
+=======
+<feBlend mode="normal" in2="effect1_innerShadow_664_1723" result="effect2_innerShadow_664_1723"/>
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-2.50055"/>
+<feGaussianBlur stdDeviation="1.00022"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0125 0 0 0 0 0.0125 0 0 0 0 0.0125 0 0 0 0.46 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="effect2_innerShadow_767_228" result="effect3_innerShadow_767_228"/>
+</filter>
+<filter id="filter4_iii_767_228" x="125.074" y="63.8577" width="48.3274" height="52.8284" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+=======
+<feBlend mode="normal" in2="effect2_innerShadow_664_1723" result="effect3_innerShadow_664_1723"/>
+</filter>
+<filter id="filter4_iii_664_1723" x="125.074" y="63.8577" width="48.3274" height="52.8284" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-1.00022" dy="-5.50121"/>
+<feGaussianBlur stdDeviation="3.50077"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_767_228"/>
+=======
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_664_1723"/>
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-3.50077"/>
+<feGaussianBlur stdDeviation="5.25116"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="effect1_innerShadow_767_228" result="effect2_innerShadow_767_228"/>
+=======
+<feBlend mode="normal" in2="effect1_innerShadow_664_1723" result="effect2_innerShadow_664_1723"/>
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-2.50055"/>
+<feGaussianBlur stdDeviation="1.00022"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0125 0 0 0 0 0.0125 0 0 0 0 0.0125 0 0 0 0.46 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="effect2_innerShadow_767_228" result="effect3_innerShadow_767_228"/>
+</filter>
+<filter id="filter5_iii_767_228" x="101.366" y="144.148" width="23.3542" height="28.4285" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+=======
+<feBlend mode="normal" in2="effect2_innerShadow_664_1723" result="effect3_innerShadow_664_1723"/>
+</filter>
+<filter id="filter5_iii_664_1723" x="101.366" y="144.148" width="23.3542" height="28.4285" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-3.00066"/>
+<feGaussianBlur stdDeviation="1.00022"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.52 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_767_228"/>
+=======
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_664_1723"/>
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-7.00154"/>
+<feGaussianBlur stdDeviation="2.7506"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="effect1_innerShadow_767_228" result="effect2_innerShadow_767_228"/>
+=======
+<feBlend mode="normal" in2="effect1_innerShadow_664_1723" result="effect2_innerShadow_664_1723"/>
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-1.00022" dy="-14.0031"/>
+<feGaussianBlur stdDeviation="2.50055"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="effect2_innerShadow_767_228" result="effect3_innerShadow_767_228"/>
+</filter>
+<filter id="filter6_iii_767_228" x="87.7102" y="138.416" width="80.2458" height="120.711" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+=======
+<feBlend mode="normal" in2="effect2_innerShadow_664_1723" result="effect3_innerShadow_664_1723"/>
+</filter>
+<filter id="filter6_iii_664_1723" x="87.7102" y="138.416" width="80.2458" height="120.711" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-1.00022" dy="-5.50121"/>
+<feGaussianBlur stdDeviation="3.50077"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_767_228"/>
+=======
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_664_1723"/>
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-3.50077"/>
+<feGaussianBlur stdDeviation="5.25116"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="effect1_innerShadow_767_228" result="effect2_innerShadow_767_228"/>
+=======
+<feBlend mode="normal" in2="effect1_innerShadow_664_1723" result="effect2_innerShadow_664_1723"/>
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-2.50055"/>
+<feGaussianBlur stdDeviation="1.00022"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0125 0 0 0 0 0.0125 0 0 0 0 0.0125 0 0 0 0.46 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="effect2_innerShadow_767_228" result="effect3_innerShadow_767_228"/>
+</filter>
+<filter id="filter7_iii_767_228" x="37.7434" y="63.8577" width="182.57" height="80.6433" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+=======
+<feBlend mode="normal" in2="effect2_innerShadow_664_1723" result="effect3_innerShadow_664_1723"/>
+</filter>
+<filter id="filter7_iii_664_1723" x="37.7434" y="63.8577" width="182.57" height="80.6433" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-3.00066"/>
+<feGaussianBlur stdDeviation="1.00022"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.52 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_767_228"/>
+=======
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_664_1723"/>
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-7.00154"/>
+<feGaussianBlur stdDeviation="2.7506"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="effect1_innerShadow_767_228" result="effect2_innerShadow_767_228"/>
+=======
+<feBlend mode="normal" in2="effect1_innerShadow_664_1723" result="effect2_innerShadow_664_1723"/>
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-1.00022" dy="-14.0031"/>
+<feGaussianBlur stdDeviation="2.50055"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="effect2_innerShadow_767_228" result="effect3_innerShadow_767_228"/>
+</filter>
+<filter id="filter8_iii_767_228" x="38.4988" y="139" width="106.082" height="118.549" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+=======
+<feBlend mode="normal" in2="effect2_innerShadow_664_1723" result="effect3_innerShadow_664_1723"/>
+</filter>
+<filter id="filter8_iii_664_1723" x="38.4988" y="139" width="106.082" height="118.549" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-1.00022" dy="-5.50121"/>
+<feGaussianBlur stdDeviation="3.50077"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_767_228"/>
+=======
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_664_1723"/>
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-3.50077"/>
+<feGaussianBlur stdDeviation="5.25116"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="effect1_innerShadow_767_228" result="effect2_innerShadow_767_228"/>
+=======
+<feBlend mode="normal" in2="effect1_innerShadow_664_1723" result="effect2_innerShadow_664_1723"/>
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-2.50055"/>
+<feGaussianBlur stdDeviation="1.00022"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0125 0 0 0 0 0.0125 0 0 0 0 0.0125 0 0 0 0.46 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="effect2_innerShadow_767_228" result="effect3_innerShadow_767_228"/>
+</filter>
+<filter id="filter9_iii_767_228" x="127.16" y="114.343" width="35.3913" height="39.8923" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+=======
+<feBlend mode="normal" in2="effect2_innerShadow_664_1723" result="effect3_innerShadow_664_1723"/>
+</filter>
+<filter id="filter9_iii_664_1723" x="127.16" y="114.343" width="35.3913" height="39.8923" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-1.00022" dy="-5.50121"/>
+<feGaussianBlur stdDeviation="3.50077"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_767_228"/>
+=======
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_664_1723"/>
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-3.50077"/>
+<feGaussianBlur stdDeviation="5.25116"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="effect1_innerShadow_767_228" result="effect2_innerShadow_767_228"/>
+=======
+<feBlend mode="normal" in2="effect1_innerShadow_664_1723" result="effect2_innerShadow_664_1723"/>
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-2.50055"/>
+<feGaussianBlur stdDeviation="1.00022"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0125 0 0 0 0 0.0125 0 0 0 0 0.0125 0 0 0 0.46 0"/>
+<<<<<<< HEAD
+<feBlend mode="normal" in2="effect2_innerShadow_767_228" result="effect3_innerShadow_767_228"/>
+=======
+<feBlend mode="normal" in2="effect2_innerShadow_664_1723" result="effect3_innerShadow_664_1723"/>
+>>>>>>> 55bafa4 (feat: add home page with animation and speakers page)
+</filter>
+</defs>
+</svg>

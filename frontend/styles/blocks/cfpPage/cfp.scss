@@ -1,0 +1,141 @@
+@use "imports/variables.scss" as *;
+@use "~sass-mq/mq.scss";
+
+.cfp-section {
+  position: relative;
+  margin-top: -$header-height;
+  padding-top: $header-height;
+  pointer-events: none;
+
+  &__container {
+    padding: 100px 0 100px 0;
+    pointer-events: auto;
+
+    @include mq.mq($until: wide) {
+      padding: 80px 0;
+    }
+
+    @include mq.mq($until: tablet) {
+      padding: 40px 0;
+    }
+  }
+
+  .bottom-half-ellipse-bg {
+    position: absolute;
+    top: -100px;
+    left: 2.5%;
+    width: 95%;
+    height: auto;
+
+    @include mq.mq($until: wide) {
+      top: 30px;
+    }
+    @include mq.mq($until: largeTablet) {
+      display: none;
+    }
+  }
+
+  &__header {
+    max-width: 60%;
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 90%;
+    text-align: center;
+    letter-spacing: -0.06em;
+    text-transform: uppercase;
+    background-color: #d9d9d9;
+
+    @include mq.mq($until: wide) {
+      font-size: 70px;
+      margin-bottom: 150px;
+    }
+
+    @include mq.mq($until: tablet) {
+      font-size: 47px;
+      max-width: 90%;
+    }
+
+    .arrow-to-right {
+      position: absolute;
+      top: 32%;
+      left: -10%;
+      width: 64px;
+      height: 64px;
+
+      @include mq.mq($until: wide) {
+        width: 50px;
+        height: 50px;
+        left: -25%;
+      }
+
+      @include mq.mq($until: largeTablet) {
+        display: none;
+      }
+    }
+
+    .arrow-to-left {
+      position: absolute;
+      top: 32%;
+      right: -10%;
+      width: 64px;
+      height: 64px;
+
+      @include mq.mq($until: wide) {
+        width: 50px;
+        height: 50px;
+        right: -25%;
+      }
+
+      @include mq.mq($until: largeTablet) {
+        display: none;
+      }
+    }
+  }
+  .bottom-half-ellipse-bg-mobile {
+    display: none;
+    @include mq.mq($until: largeTablet) {
+      display: block;
+      left: 50%;
+      transform: translateX(-50%);
+      position: absolute;
+      width: 100%;
+      bottom: 50px;
+    }
+  }
+
+  .arrow-to-top {
+    display: none;
+
+    @include mq.mq($until: largeTablet) {
+      display: block;
+      width: 64px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 22px;
+      z-index: 2;
+    }
+  }
+
+  &__description {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 50%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #838383;
+
+    @include mq.mq($until: largeTablet) {
+      margin-bottom: 50px;
+      font-size: 15px;
+      max-width: 90%;
+    }
+  }
+}

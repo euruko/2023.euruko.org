@@ -1,0 +1,81 @@
+@use "imports/variables.scss" as *;
+@use "~sass-mq/mq.scss";
+
+.request-section {
+  width: 100%;
+  min-height: 900px;
+  max-height: 1600px;
+  padding-top: $header-height;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 35px;
+  @include mq.mq($until: wide) {
+    min-height: 500px;
+    gap: 10px;
+  }
+
+  &__header {
+    font-weight: 700;
+    font-size: 166.263px;
+    line-height: 88.9%;
+    text-align: center;
+    letter-spacing: -0.06em;
+    text-transform: uppercase;
+    color: #d9d9d9;
+    max-width: 100%;
+
+    @include mq.mq($until: wide) {
+      font-size: 63px;
+      max-width: 500px;
+    }
+    @include mq.mq($until: tablet) {
+      font-size: 43px;
+      max-width: 90%;
+    }
+  }
+
+  &__link {
+    background-color: #13bdac;
+    padding: 14px52px;
+    border-radius: 39px;
+    padding: 15px 53px;
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+    .text {
+      font-weight: 600;
+      font-size: 49.2522px;
+      line-height: 88.9%;
+      text-align: center;
+      letter-spacing: -0.06em;
+      text-transform: uppercase;
+      @include mq.mq($until: desktop) {
+        font-size: 40px;
+      }
+      @include mq.mq($until: tablet) {
+        font-size: 26px;
+      }
+    }
+  }
+
+  &__background {
+    position: absolute;
+    top: 428px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 729px;
+    margin-top: 4%;
+    z-index: 1;
+    @include mq.mq($until: wide) {
+      width: 433px;
+      top: 233px;
+    }
+    @include mq.mq($until: tablet) {
+      width: 330px;
+    }
+  }
+}

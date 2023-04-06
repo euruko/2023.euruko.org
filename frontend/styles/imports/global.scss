@@ -15,6 +15,12 @@
   border-radius: 0;
 }
 
+body::-webkit-scrollbar {
+  //TODO
+  width: 0rem;
+  height: 0rem;
+}
+
 html {
   -webkit-text-decoration-skip: ink;
   text-decoration-skip-ink: auto;
@@ -64,9 +70,8 @@ canvas {
 // Styles
 html {
   min-height: 100vh;
-  //font-family: "Be Vietnam Pro", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif,
-  //  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-family: "Courier New";
+  font-family: "Syne", sans-serif;
+  font-style: normal;
   font-size: 18px;
   font-weight: $regular;
   line-height: 1.4;
@@ -82,10 +87,11 @@ html {
 
 body {
   min-height: 100vh;
-  background: $dark-blue-1;
-  color: #fff;
+  background-color: #d9d9d9;
+  color: #000;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 img {
@@ -110,6 +116,7 @@ h1 {
 }
 
 h2 {
+  font-weight: 700;
   font-size: 32px;
 
   @include mq.mq($until: largeTablet) {
@@ -158,4 +165,16 @@ tbody {
       background: $dark-blue-1;
     }
   }
+}
+
+#scrollToTopBtn {
+  width: 42px;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  background-color: #d9d9d9;
+  cursor: pointer;
+  border-radius: 50%;
 }

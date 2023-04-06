@@ -5,13 +5,13 @@
 # in the templates via {{ site.metadata.myvariable }}.
 
 lang: en
-title: Euruko 2023
-tagline: Europe's biggest and oldest Ruby conference | 20th Anniversary
+title: Join Euruko and make it Ruby-doo-bee-doo!
+tagline: 21 — 23 of September, Vilnius, Lithuania.
 email: contact@euruko.org
 organisation: Euruko / Vilnius Ruby User Group
 description: >-
-  Euruko 2023 will be held offline in Vilnius
+  Europe's biggest and oldest Ruby conference | 20th Anniversary
 prefetch:
   - "/"
-  - "/code"
-  - "/sponsoring"
+  # - "/code"
+  # - "/sponsoring"

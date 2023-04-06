@@ -11,7 +11,6 @@
 /*
   Blocks
  */
-@use "blocks/about.scss";
 @use "blocks/benefits.scss";
 @use "blocks/cardbox.scss";
 @use "blocks/footer.scss";
@@ -31,3 +30,15 @@
 @use "blocks/video.scss";
 @use "blocks/photos.scss";
 @use "blocks/jobs.scss";
+@use "blocks/homePage/animation.scss";
+@use "blocks/homePage/banner.scss";
+@use "blocks/homePage/about.scss";
+@use "blocks/homePage/place.scss";
+@use "blocks/homePage/forSpeakers.scss";
+@use "blocks/homePage/contacts.scss";
+@use "blocks/cfpPage/cfp.scss";
+@use "blocks/cfpPage/waiting.scss";
+@use "blocks/cfpPage/interests.scss";
+@use "blocks/cfpPage/rules.scss";
+@use "blocks/cfpPage/pluses.scss";
+@use "blocks/cfpPage/request.scss";

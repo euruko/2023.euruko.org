@@ -2,31 +2,35 @@
 @use "~sass-mq/mq.scss";
 
 .header {
-  position: fixed;
-  z-index: 10;
+  // position: fixed;
+  z-index: 2;
   width: 100%;
   height: $header-height;
-  top: 0;
-  left: 0;
+  // top: 0;
+  // left: 0;
   padding: 0 20px;
-  background: $simply-white;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-  transition: all 0.25s ease-in-out;
+  // background: inherit;
+  // box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  // transition: all 0.25s ease-in-out;
 
   @media (prefers-reduced-motion: reduce) {
     transition: none;
   }
 
   &--not-scrolled {
-    background: $simply-white;
+    // background: inherit;
     box-shadow: none;
+    @include mq.mq($until: largeTablet) {
+      display: none;
+    }
   }
 
   @include mq.mq($until: largeTablet) {
     &--mobile-toggled {
-      height: 500px;
-      background: $simply-white;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+      // height: 500px;
+      background: inherit;
+
+      // box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     }
   }
 
@@ -35,14 +39,21 @@
     height: $header-height;
     display: flex;
     align-items: center;
+
+    @include mq.mq($until: largeTablet) {
+      display: none;
+    }
   }
 
   &__logo {
-    flex: 0 0 50px;
+    flex: 0 0 150px;
     position: relative;
-    width: 50px;
-    height: 50px;
+    width: 150px;
     text-decoration: none;
+    // opacity: 0;
+    @media (max-width: 767px) {
+      display: none;
+    }
 
     &::before,
     &::after {
@@ -62,26 +73,30 @@
       }
 
       .header--not-scrolled & {
-        background: $simply-white;
+        background: inherit;
+        transform: scale(1.1);
       }
 
       .header--mobile-toggled & {
         background: rgba(0, 0, 0, 0.1);
+        transform: scale(1.1);
       }
     }
 
     &::after {
       background: rgba(0, 0, 0, 0.2);
+      transform: scale(1.1);
 
       .header--not-scrolled & {
         background: rgba(255, 255, 255, 0.2);
+        transform: scale(1.1);
       }
 
       .header--mobile-toggled & {
         background: rgba(0, 0, 0, 0.2);
+        transform: scale(1.1);
       }
     }
-
     &:hover::before {
       transform: none;
       opacity: 1;
@@ -137,16 +152,24 @@
   &__link {
     position: relative;
     text-decoration: none;
-    margin-left: 1.25rem;
+    width: 150px;
+    text-align: center;
     padding-top: 5px;
     padding-bottom: 10px;
-    font-size: 1.25rem;
-    line-height: 1;
-    font-weight: $bold;
+    font-weight: 600;
+    font-size: 29.1146px;
+    line-height: 86.9%;
+    letter-spacing: -0.06em;
+    text-transform: uppercase;
     color: #000;
     transition: all 0.15s ease-in-out;
+    z-index: 5;
     @media (prefers-reduced-motion: reduce) {
       transition: none;
+    }
+
+    @media (max-width: 1130px) {
+      font-size: 20px;
     }
 
     .header--not-scrolled & {
@@ -250,6 +273,7 @@
   &__mobile-toggle {
     position: relative;
     margin-left: auto;
+    margin-right: 20px;
 
     &:focus {
       & > .header__mobile-toggle-inner {
@@ -275,6 +299,7 @@
   &__navigation {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     width: 100%;
   }
 
@@ -474,8 +499,9 @@
     &__navigation {
       display: none;
       position: absolute;
-      top: 70px;
-      right: 40px;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       flex-direction: column;
       align-items: flex-end;
       width: auto;
@@ -483,13 +509,19 @@
 
       .header--mobile-toggled & {
         display: flex;
+        align-items: center;
       }
     }
 
     .header__link {
-      font-size: 24px;
+      font-weight: 600;
+      font-size: 34.7605px;
+      line-height: 86.9%;
+      letter-spacing: -0.06em;
+      text-transform: uppercase;
+      color: #b3b3b3;
       margin-left: 0;
-      margin-top: 20px;
+      // margin-top: 20px;
       text-align: right;
 
       &--small {
@@ -512,12 +544,12 @@
 
 @keyframes mobilemenu {
   from {
-    transform: translateX(10px) scale(0.95);
+    // transform: translateX(10px) scale(0.95);
     opacity: 0;
   }
 
   to {
-    transform: none;
+    // transform: none;
     opacity: 1;
   }
 }

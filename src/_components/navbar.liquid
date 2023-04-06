@@ -1,9 +1,10 @@
 <header id="header" class="header header--not-scrolled">
   <div class="header__inner">
-    <a class="header__logo" href="{{ "/" | relative_url }}">
-      <img class="header__logo-image header__logo-image--light" src="{% webpack_path images/header/temp_logo.svg %}" alt="Euruko 2023"/>
-    </a>
-    <button id="mobile-toggle" class="header__mobile-toggle" tabindex="0" aria-label="Open menu">
+    <button
+      id="mobile-toggle"
+      class="header__mobile-toggle"
+      tabindex="0"
+      aria-label="Open menu">
       <div class="header__mobile-toggle-inner" tabindex="-1">
         <div></div>
         <div></div>
@@ -11,12 +12,24 @@
       </div>
     </button>
     <nav class="header__navigation">
-      <a href="{{ "/cfp" | relative_url }}" class="header__link">For Speakers</a>
-      <a href="{{ "/videos" | relative_url }}" class="header__link">Videos from 2022</a>
-      <!--<a href="{{ "/sponsoring" | relative_url }}" class="header__link">For Sponsors</a>
-      <a href="#" class="header__link">For Participants</a>-->
-      <div class="header__divider"></div>
-      <a href="{{ "/code" | relative_url }}" class="header__link">Code of Conduct</a>
+      {% if page.url == "/" %}
+        <a
+          id="nav_link"
+          href="/craft/#about"
+          class="header__link">about</a>
+
+        <a class="header__logo" href="{{ "/" | relative_url }}">
+          <img src="{% webpack_path images/animation/small_logo.svg %}" alt="Euruko 2023" />
+        </a>
+        <a
+          id="nav_link"
+          href="/craft/#speakers"
+          class="header__link">speakers</a>
+      {% else %}
+        <a class="header__logo" href="{{ "/" | relative_url }}">
+          <img src="{% webpack_path images/animation/small_logo.svg %}" alt="Euruko 2023" />
+        </a>
+      {% endif %}
     </nav>
   </div>
 </header>

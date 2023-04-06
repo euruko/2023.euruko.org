@@ -1,14 +1,30 @@
 <!doctype html>
-<html lang="{% if page.lang == blank %}{{ site.metadata.lang }}{% else %}{{ page.lang }}{% endif %}">
+<html prefix="og: http://ogp.me/ns#" lang="{% if page.lang == blank %}{{ site.metadata.lang }}{% else %}{{ page.lang }}{% endif %}">
   <head>
     {% render "head", site: site, metadata: site.metadata, page: page %}
   </head>
   <body class="{{ page.layout }} {{ page.page_class }}">
     {% render "navbar", site: site, page: page %}
-    {{ content }}
-    {% render "footer", metadata: site.metadata %}
+    <div id="content">
+      {{ content }}
+
+
+      <img src="{% webpack_path images/arrow_up_icon.svg %}" id="scrollToTopBtn">
+    </div>
+
     {% if bridgetown.environment == "production" %}
-      <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "72eb734d9e0b4751a41648994b493fa9"}'></script><!-- End Cloudflare Web Analytics -->
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-DXFH6C3TBL"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DXFH6C3TBL');
+      </script>
+
     {% endif %}
   </body>
 </html>

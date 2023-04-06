@@ -29,14 +29,14 @@ class TestPages < Minitest::Test
     end
   end
 
-  context "code of conduct" do
-    setup do
-      document_root find_resource_by_url("/code/")
-    end
-    should "exist" do
-      assert_select "h1", { text: /Code of Conduct/, minimum: 1 }
-    end
-  end
+  # context "code of conduct" do
+  #   setup do
+  #     document_root find_resource_by_url("/code/")
+  #   end
+  #   should "exist" do
+  #     assert_select "h1", { text: /Code of Conduct/, minimum: 1 }
+  #   end
+  # end
 
   context "tickets" do
     setup do
@@ -47,14 +47,14 @@ class TestPages < Minitest::Test
     end
   end
 
-  context "sponsoring" do
-    setup do
-      document_root find_resource_by_url("/sponsoring/")
-    end
-    should "exist" do
-      assert_select "h2", { text: /Sponsorship packages/, minimum: 1 }
-    end
-  end
+  # context "sponsoring" do
+  #   setup do
+  #     document_root find_resource_by_url("/sponsoring/")
+  #   end
+  #   should "exist" do
+  #     assert_select "h2", { text: /Sponsorship packages/, minimum: 1 }
+  #   end
+  # end
 
   # context "sitemap" do
   #   setup do

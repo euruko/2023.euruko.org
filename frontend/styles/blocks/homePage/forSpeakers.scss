@@ -1,0 +1,110 @@
+@use "imports/variables.scss" as *;
+@use "~sass-mq/mq.scss";
+
+.for-speakers-section {
+  padding: $header-height 0;
+  width: 100%;
+  min-height: 1000px;
+  max-height: 1800px;
+
+  @include mq.mq($until: tablet) {
+    min-height: 900px;
+  }
+
+  &__container {
+    height: 100%;
+    position: relative;
+    @include mq.mq($until: tablet) {
+      justify-content: space-between;
+    }
+  }
+  &__header {
+    position: relative;
+    font-weight: 700;
+    font-size: 203.98px;
+    line-height: 88.9%;
+    text-align: center;
+    letter-spacing: -0.06em;
+    text-transform: uppercase;
+    margin: 70px auto;
+
+    @include mq.mq($until: wide) {
+      font-size: 80px;
+    }
+
+    @include mq.mq($until: tablet) {
+      font-size: 57.223px;
+    }
+
+    .spacer {
+      margin-right: 180px;
+      @include mq.mq($until: wide) {
+        display: none;
+      }
+    }
+
+    .rabbit-image {
+      width: 230px;
+      height: 262px;
+      position: absolute;
+      top: -25%;
+      left: 52%;
+      transform: translateX(-50%);
+
+      @include mq.mq($until: wide) {
+        top: 75%;
+      }
+    }
+  }
+  &__descriptoin {
+    margin: 70px auto;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 120%;
+    max-width: 50%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+
+    @include mq.mq($until: wide) {
+      margin-top: 270px;
+      margin-bottom: 0;
+      max-width: 60%;
+      font-size: 25px;
+    }
+
+    @include mq.mq($until: tablet) {
+      font-size: 20px;
+      max-width: 80%;
+    }
+  }
+  &__button {
+    margin: 70px auto;
+    text-align: center;
+    background: #13bdac;
+    box-shadow: 3.67404px 2.93923px 11.0221px rgba(0, 0, 0, 0.13);
+    border-radius: 47.4324px;
+    width: max-content;
+    padding: 23px 38px;
+
+    & > a {
+      font-weight: 600;
+      font-size: 49.8169px;
+      line-height: 88.9%;
+      text-align: center;
+      letter-spacing: -0.06em;
+      text-transform: uppercase;
+      color: #000000;
+      text-decoration: none;
+    }
+
+    @include mq.mq($until: wide) {
+      padding: 20px 36px;
+      margin: 30px auto;
+
+      & > a {
+        font-size: 40px;
+      }
+    }
+  }
+}

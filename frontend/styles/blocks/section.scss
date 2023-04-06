@@ -8,7 +8,7 @@
   pointer-events: none;
 
   &__container {
-    padding: 150px 80px 150px 80px;
+    padding: 100px 40px 100px 40px;
     pointer-events: auto;
 
     @include mq.mq($until: wide) {
@@ -23,6 +23,10 @@
   &__inner-container {
     margin: 0 auto;
     max-width: 1200px;
+
+    @include mq.mq($until: wide) {
+      width: 80%;
+    }
   }
 
   &--blue &__container {
@@ -297,7 +301,7 @@
         color: $grey-1;
       }
     }
-    &--white{
+    &--white {
       background: $simply-white;
       border: none;
 
@@ -339,7 +343,6 @@
 }
 
 //TODO: fix for location page
-
 
 //TOD: refactore this block, those are styles for News and Updates Page
 .table {
@@ -388,11 +391,11 @@
 
 @media screen and (max-width: 480px) {
   .table {
-      flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
-  
+
   .row {
-      width: 100%;
-      height: auto;
+    width: 100%;
+    height: auto;
   }
 }
