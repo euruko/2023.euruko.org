@@ -21,8 +21,7 @@
       justify-content: center;
       gap: 60px;
       width: 100%;
-      margin: 0 auto;
-      margin-top: 189px;
+      margin: 189px auto 0;
       @include mq.mq($until: wide) {
         flex-direction: column;
         align-items: center;
@@ -52,7 +51,7 @@
         }
       }
 
-      &__descriptoin {
+      &__description {
         width: 36%;
         margin: 0;
         font-weight: 600;
@@ -74,10 +73,7 @@
   }
 
   &__button {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin: 100px auto 50px;
     text-align: center;
     background: #ff74bd;
     box-shadow: 3.67404px 2.93923px 11.0221px rgba(0, 0, 0, 0.13);

@@ -1,0 +1,113 @@
+@use "imports/variables.scss" as *;
+@use "~sass-mq/mq.scss";
+
+.committee-section {
+  position: relative;
+  padding: $header-height 0;
+  width: 100%;
+  background: #000;
+
+  .content-container {
+    width: 95%;
+    height: 90%;
+    background: #d9d9d9;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px 100px 20px 100px;
+    @include mq.mq($until: wide) {
+      gap: 20px;
+    }
+    @include mq.mq($until: largeTablet) {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 5px 40px 5px;
+    }
+
+    .icon-container {
+      .search-icon {
+        width: 30vw;
+        @include mq.mq($until: desktop) {
+          width: 350px;
+        }
+        @include mq.mq($until: largeTablet) {
+          width: 50vw;
+        }
+        @include mq.mq($until: tablet) {
+          width: 300px;
+
+        }
+      }
+
+    }
+
+    .content-info {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      width: 100%;
+      margin: 0 auto;
+      flex-direction: column;
+      @include mq.mq($until: wide) {
+        gap: 30px;
+      }
+
+      &__header {
+        margin: 0;
+        font-weight: 700;
+        font-size: 5vw;
+        line-height: 90%;
+        text-align: center;
+        letter-spacing: -0.06em;
+        text-transform: uppercase;
+        color: #000;
+
+        @include mq.mq($until: wide) {
+          min-height: 0;
+          width: 100%;
+          font-size: 47.223px;
+        }
+      }
+
+      &__description {
+        margin: 0 auto;
+        font-weight: 600;
+        font-size: 2vw;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #000000;
+
+        @include mq.mq($until: wide) {
+          font-size: 20px;
+        }
+        @include mq.mq($until: tablet) {
+          width: 90%;
+        }
+      }
+
+      &__button {
+        margin: 0 auto;
+        text-align: center;
+        border: 1.27273px solid #000000;
+        border-radius: 47.4324px;
+        width: max-content;
+        padding: 16px 20px 20px 20px;
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 88.9%;
+        letter-spacing: -0.06em;
+        color: #000000;
+        text-decoration: underline;
+
+        @include mq.mq($until: desktop) {
+          font-size: 20px;
+        }
+
+      }
+    }
+  }
+}
