@@ -1,8 +1,4 @@
-# <PROJECT_NAME>
-
-![Build](https://github.com/cybergizer-hq/cyber-front-template/actions/workflows/main.yml/badge.svg?branch=main)
-
-## <PROJECT_LINKS>
+# <EURUKO 2023>
 
 ## Installation
 
