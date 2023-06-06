@@ -1,9 +1,0 @@
-@use "imports/variables.scss" as *;
-@use "~sass-mq/mq.scss";
-
-.speakers {
-  position: relative;
-  margin-top: -$header-height;
-  padding-top: $header-height;
-  pointer-events: none;
-}
