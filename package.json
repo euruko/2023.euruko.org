@@ -4,7 +4,7 @@
   "description": "Simple TS+React+Redux(RTK) template",
   "license": "MIT",
   "author": "CyberGizer",
-  "homepage": "https://cybergizer-hq.github.io/euruko-2023/",
+  "homepage": "https://2023.euruko.org/",
   "main": "src/main.tsx",
   "scripts": {
     "audit:deadcode": "npx ts-prune >deadcode.txt",
