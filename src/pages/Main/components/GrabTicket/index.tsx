@@ -63,7 +63,7 @@ export const GrabTicket = () => {
       id="tickets"
       maxW="1540px"
       margin="auto"
-      p="0 10px"
+      p="10px"
     >
       <Flex
         border="1px solid #D9D9D9"
