@@ -27,7 +27,7 @@ export const Component = () => {
     >
       <Nav />
       <Flex
-        maxW="1540px"
+        maxW="1740px"
         p="0 10px"
         margin="auto"
         flexDirection="column"
