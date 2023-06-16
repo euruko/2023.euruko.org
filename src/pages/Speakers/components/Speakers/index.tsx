@@ -8,12 +8,14 @@ import {
   Button,
   useMediaQuery
 } from '@chakra-ui/react';
+import { useNavigate } from 'react-router-dom';
 
 import background1 from './assets/background1.svg';
 import background2 from './assets/background2.svg';
 import { ListOfInterests } from '../ListOfInterests';
 
 export const Speakers = () => {
+  const navigate = useNavigate();
   const [isLargerThan750] = useMediaQuery('(max-width: 750px)');
 
   return (
@@ -236,8 +238,10 @@ export const Speakers = () => {
           <Link
             textDecoration="underline"
             color="#2BBA7E"
-            href="https://2023.euruko.org/code"
             target="_blank"
+            onClick={() => {
+              navigate('/code');
+            }}
           >
             Code of Conduct
           </Link>

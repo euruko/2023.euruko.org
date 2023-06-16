@@ -1,9 +1,11 @@
 import { Text, Flex, Link, useMediaQuery } from '@chakra-ui/react';
+import { useNavigate } from 'react-router-dom';
 
 import 'react-slideshow-image/dist/styles.css';
 
 export const Footer = () => {
   const [isLargerThan700] = useMediaQuery('(max-width: 700px)');
+  const navigate = useNavigate();
 
   return (
     <footer id="contacts">
@@ -91,17 +93,36 @@ export const Footer = () => {
           </Link>
         </Flex>
       </Flex>
-      <Link
-        fontWeight={500}
-        fontSize="21px"
-        lineHeight="120%"
-        color="#D9D9D9"
-        href="https://2023.euruko.org/privacy/"
-        textDecoration="underline"
-        target="_blank"
+      <Flex
+        alignContent="center"
+        flexDirection="column"
+        gap="20px"
       >
-        Privacy Policy
-      </Link>
+        <Link
+          fontWeight={500}
+          fontSize="21px"
+          lineHeight="120%"
+          color="#D9D9D9"
+          onClick={() => {
+            navigate('/privacy');
+          }}
+          textDecoration="underline"
+        >
+          Privacy Policy
+        </Link>
+        <Link
+          fontWeight={500}
+          fontSize="21px"
+          lineHeight="120%"
+          color="#D9D9D9"
+          textDecoration="underline"
+          onClick={() => {
+            navigate('/code');
+          }}
+        >
+          Code of Conduct
+        </Link>
+      </Flex>
       <Text
         variant="regularText"
         fontSize="21px"

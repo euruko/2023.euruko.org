@@ -24,6 +24,16 @@ const router = createHashRouter([
     lazy: () => import('~/pages/Community')
   },
   {
+    path: '/code',
+    ErrorBoundary: RouterErrorBoundary,
+    lazy: () => import('~/pages/Code')
+  },
+  {
+    path: '/privacy',
+    ErrorBoundary: RouterErrorBoundary,
+    lazy: () => import('~/pages/PrivacyPolicy')
+  },
+  {
     path: '*',
     lazy: () => import('~/pages/NotFound')
   }
