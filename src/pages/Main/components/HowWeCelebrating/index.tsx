@@ -53,7 +53,7 @@ export const HowWeCelebrating = () => {
       >
         {slideImages.map((slideImage) => (
           <Box
-            key={slideImage}
+            key={slideImage.url}
             style={{
               display: 'flex',
               alignItems: 'center',
@@ -66,8 +66,8 @@ export const HowWeCelebrating = () => {
           >
             <Img
               loading="lazy"
-              src={slideImage}
-              alt="Euruko slide images"
+              src={slideImage.url}
+              alt={slideImage.alt}
             />
           </Box>
         ))}
@@ -104,6 +104,7 @@ export const HowWeCelebrating = () => {
             m="20px"
             variant="blackButton"
             fontSize={isLargerThan620 ? '30px' : undefined}
+            aria-label="Button for redirecting to the ticket purchasing section"
           >
             Buy your ticket
           </Button>

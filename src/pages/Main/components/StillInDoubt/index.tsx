@@ -48,7 +48,7 @@ export const StillInDoubt = () => {
         >
           {slideImages.map((slideImage) => (
             <Box
-              key={slideImage}
+              key={slideImage.url}
               style={{
                 display: 'flex',
                 alignItems: 'center',
@@ -61,9 +61,9 @@ export const StillInDoubt = () => {
               borderRadius={isLargerThan620 ? '20px' : '80px'}
             >
               <Img
-                src={slideImage}
+                src={slideImage.url}
                 loading="lazy"
-                alt="Slide gallery image"
+                alt={slideImage.alt}
               />
             </Box>
           ))}

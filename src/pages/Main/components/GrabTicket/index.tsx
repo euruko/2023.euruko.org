@@ -178,6 +178,7 @@ export const GrabTicket = () => {
               as={Link}
               href="https://pretix.eu/euruko23/tickets/"
               target="_blank"
+              aria-label="Button for accessing the ticket purchasing service"
             >
               Buy your ticket
             </Button>
@@ -221,6 +222,7 @@ export const GrabTicket = () => {
             as={Link}
             href="https://pretix.eu/euruko23/tickets/"
             target="_blank"
+            aria-label="Button for accessing the ticket purchasing service"
           >
             Get online ticket
           </Button>

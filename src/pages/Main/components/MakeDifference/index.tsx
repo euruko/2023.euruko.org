@@ -25,7 +25,7 @@ export const MakeDifference = () => {
         <Img
           src={difference}
           p="0 10px"
-          alt="Make a difference!"
+          alt="Clipart of a rabbit looking through a magnifying glass from a teleporter"
         />
         <Flex
           maxWidth="600px"
@@ -51,14 +51,14 @@ export const MakeDifference = () => {
             agenda. Contact us with a short bio and be the one who defines what
             is hot and what is not.
           </Text>
-          <Button
-            mt="60px"
-            variant="linkButton"
-          >
-            <Link href="mailto:organizers@euruko.org">
+          <Link href="mailto:organizers@euruko.org">
+            <Button
+              mt="60px"
+              variant="linkButton"
+            >
               organizers@euruko.org
-            </Link>
-          </Button>
+            </Button>
+          </Link>
         </Flex>
       </Flex>
     </Flex>

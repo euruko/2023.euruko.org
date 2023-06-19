@@ -46,6 +46,7 @@ export const ReadyToJoin = () => {
             m="20px"
             variant="whiteButton"
             fontSize={isLargerThan550 ? '28px' : undefined}
+            aria-label="Button for redirecting to the ticket purchasing section"
           >
             Buy your ticket
           </Button>

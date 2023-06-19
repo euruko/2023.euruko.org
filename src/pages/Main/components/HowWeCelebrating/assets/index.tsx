@@ -40,44 +40,89 @@ import banner39 from './Banners_Final/39.png';
 import background from './Banners_Final/background.png';
 
 export const slideImages = [
-  background,
-  banner1,
-  banner2,
-  banner3,
-  banner4,
-  banner5,
-  banner6,
-  banner7,
-  banner8,
-  banner9,
-  banner10,
-  banner11,
-  banner12,
-  banner13,
-  banner14,
-  banner15,
-  banner16,
-  banner17,
-  banner18,
-  banner19,
-  banner20,
-  banner21,
-  banner22,
-  banner23,
-  banner24,
-  banner25,
-  banner26,
-  banner27,
-  banner28,
-  banner29,
-  banner30,
-  banner31,
-  banner32,
-  banner33,
-  banner34,
-  banner35,
-  banner36,
-  banner37,
-  banner38,
-  banner39
+  { url: background, alt: 'Photo of a cocktail in a glass' },
+  {
+    url: banner1,
+    alt: 'Photograph of a hall full of people raising both hands'
+  },
+  { url: banner2, alt: 'Photo of two smiling people' },
+  { url: banner3, alt: 'Photo of people sitting at the table and laughing' },
+  { url: banner4, alt: 'Photo of people sitting on the couch and discussing' },
+  {
+    url: banner5,
+    alt: 'Photo of people sitting at the table and coding on laptops'
+  },
+  {
+    url: banner6,
+    alt: 'Photo of people sitting in the hall and listening attentively to the speaker'
+  },
+  { url: banner7, alt: 'Photo of people holding a microphone and smiling' },
+  {
+    url: banner8,
+    alt: 'Photo of a speaker smiling and pointing his index finger at the audience'
+  },
+  { url: banner9, alt: 'Photo of Matz laughing very hard' },
+  { url: banner10, alt: 'Photo of two smiling people' },
+  { url: banner11, alt: 'Group photo of Euruko participants' },
+  { url: banner12, alt: 'Photo of people sitting in the hall and laughing' },
+  {
+    url: banner13,
+    alt: 'Photo of a woman attentively looking at another conference participant'
+  },
+  {
+    url: banner14,
+    alt: 'Photo of a speaker standing in a cowboy hat and holding an can in his hand'
+  },
+  { url: banner15, alt: 'Photo of people standing in a bar and smiling' },
+  { url: banner16, alt: 'Photo of smiling people' },
+  {
+    url: banner17,
+    alt: "Photo of the conference hall during the speaker's speech"
+  },
+  {
+    url: banner18,
+    alt: 'Photo of conference participants standing in the crowd'
+  },
+  { url: banner19, alt: "Close-up photo of the speaker's face" },
+  { url: banner20, alt: 'Photo of people sitting at the table' },
+  {
+    url: banner21,
+    alt: 'Photo of people sitting at the table and coding on laptops'
+  },
+  { url: banner22, alt: 'Photo of people holding toy guns' },
+  { url: banner23, alt: 'Photo of smiling people' },
+  { url: banner24, alt: 'Photo of a conference participant taking a selfie' },
+  { url: banner25, alt: 'Photo of toy robots' },
+  { url: banner26, alt: 'Photo of people sitting at the table and laughing' },
+  { url: banner27, alt: 'Photo of a person holding a table knife' },
+  { url: banner28, alt: 'Photo of people sitting in the hall and applauding' },
+  {
+    url: banner29,
+    alt: 'Photo of a person listening attentively to a speaker'
+  },
+  { url: banner30, alt: 'Group photo of Euruko participants' },
+  { url: banner31, alt: 'Photo of people sitting on chairs' },
+  {
+    url: banner32,
+    alt: 'Photo of Matz shaking hands with a conference participant on stage'
+  },
+  { url: banner33, alt: 'Photo of people near food buffet' },
+  { url: banner34, alt: 'Photo of a smiling conference participant' },
+  { url: banner35, alt: 'Photo of conference participants in sailor hats' },
+  {
+    url: banner36,
+    alt: 'Group photo of conference participants in sailor hats'
+  },
+  {
+    url: banner37,
+    alt: 'Photo of the conference hall with Matz on the screen'
+  },
+  {
+    url: banner38,
+    alt: 'Photo of people sitting at the table and coding on laptops'
+  },
+  {
+    url: banner39,
+    alt: 'Photo of the conference hall with a speaker on the stage'
+  }
 ];

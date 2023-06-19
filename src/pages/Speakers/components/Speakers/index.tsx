@@ -282,6 +282,7 @@ export const Speakers = () => {
           onClick={() => {
             window.open('https://www.papercall.io/eurukocfp');
           }}
+          aria-label="Button for redirecting to CFP application service"
         >
           Apply
         </Button>

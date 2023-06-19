@@ -56,7 +56,7 @@ export const CallSponsors = () => {
         <Img
           src={sponsors}
           mt="-110px"
-          alt="Sponsors"
+          alt="Clipart of a rabbit staring into the distance from a teleporter"
         />
       </Flex>
       <Flex
@@ -94,6 +94,7 @@ export const CallSponsors = () => {
                 'https://drive.google.com/file/d/1O3pj_5or3s0Tao-3n4MTFMLHVw3zTt7n/view?usp=share_link'
               );
             }}
+            aria-label="Button to download Euruko sponsorship proposal 2023 in pdf"
           >
             Download proposal
           </Button>

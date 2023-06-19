@@ -172,7 +172,7 @@ export const Celebration = () => {
           transform={
             isLargerThan540 ? 'translateY(-155px)' : 'translateY(-285px)'
           }
-          alt="Vilnuis tower"
+          alt="Clipart of the top of the TV tower climbing out of the teleporter"
           zIndex={10}
         />
         <Heading

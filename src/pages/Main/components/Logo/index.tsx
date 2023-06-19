@@ -19,6 +19,8 @@ export const Logo = () => {
           loop
           autoPlay
           poster={poster}
+          aria-label="An animated Euruko logo that goes through the teleport multiple times and changes its visual style each time
+          "
         >
           <source
             src={euruko_logo_mp4}
@@ -30,6 +32,7 @@ export const Logo = () => {
 
       <Center>
         <Heading
+          as="h1"
           zIndex={1}
           maxWidth="600px"
           mb={isLargerThan750 ? '55px' : '235px'}

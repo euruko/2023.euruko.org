@@ -23,27 +23,42 @@ import banner21 from './Vilnius/21.png';
 import banner22 from './Vilnius/22.png';
 
 export const slideImages = [
-  monument,
-  banner1,
-  banner2,
-  banner3,
-  banner4,
-  banner5,
-  banner6,
-  banner7,
-  banner8,
-  banner9,
-  banner10,
-  banner11,
-  banner12,
-  banner13,
-  banner14,
-  banner15,
-  banner16,
-  banner17,
-  banner18,
-  banner19,
-  banner20,
-  banner21,
-  banner22
+  { url: monument, alt: 'Photograph of an angel statue blowing a trumpet' },
+  {
+    url: banner1,
+    alt: 'Photo of a square in Vilnius decorated with Christmas decorations'
+  },
+  { url: banner2, alt: 'Photo of the facade of old churches' },
+  { url: banner3, alt: 'Photo of air balloons in the sky' },
+  { url: banner4, alt: 'Photo of a shop with postcards' },
+  {
+    url: banner5,
+    alt: 'Photo of a park overlooking a city square with people'
+  },
+  { url: banner6, alt: 'Photo of a narrow street in Vilnius ' },
+  { url: banner7, alt: 'Photo of bridge over water in winter' },
+  {
+    url: banner8,
+    alt: 'Photo of the old church against the background of modern business centers'
+  },
+  { url: banner9, alt: 'Photo of the golden head of the bull statue' },
+  { url: banner10, alt: 'Photo of the roofs of the old town in Vilnius' },
+  { url: banner11, alt: 'Photo of the roof and towers of the old church' },
+  { url: banner12, alt: 'Photo of the glowing top of the TV tower in Vilnius' },
+  { url: banner13, alt: 'Photo of a statue with three people in golden masks' },
+  { url: banner14, alt: 'Photo of a trolleybus' },
+  { url: banner15, alt: 'Photo of an old red car' },
+  { url: banner16, alt: 'Photo of a skate park with skaters' },
+  { url: banner17, alt: 'Photo of modern business center buildings' },
+  { url: banner18, alt: 'Photo of people listening to music under the bridge' },
+  { url: banner19, alt: 'Photo of the facade of the theater with columns' },
+  {
+    url: banner20,
+    alt: 'Photo of the old castle tower on the hill in the evening'
+  },
+  {
+    url: banner21,
+    alt: 'Photo of a couple standing on a hill against the backdrop of an evening city'
+  },
+  { url: banner22, alt: 'Photo of the business center building' }
 ];

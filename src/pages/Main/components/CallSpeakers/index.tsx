@@ -61,6 +61,7 @@ export const CallSpeakers = () => {
           onClick={() => {
             navigate('/speakers');
           }}
+          aria-label="Button for navigating to the page with information for speakers"
         >
           Click for details
         </Button>

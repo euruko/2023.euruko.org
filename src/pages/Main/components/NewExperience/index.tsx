@@ -36,7 +36,7 @@ export const NewExperience = () => {
       <Flex>
         <Img
           src={speakers}
-          alt="speakers"
+          alt="Clipart of a person speaking into the microphone"
         />
         <Heading
           fontSize={isLargerThan460 ? '32px' : '40px'}
@@ -72,7 +72,7 @@ export const NewExperience = () => {
         </Flex>
         <Img
           src={community}
-          alt="community"
+          alt="Clipart of a ruby coming out of a teleporter"
         />
         <Heading
           fontSize={isLargerThan460 ? '32px' : '40px'}
@@ -92,7 +92,7 @@ export const NewExperience = () => {
       <Flex>
         <Img
           src={traveling}
-          alt="traveling"
+          alt="Clipart of a person falling into a teleporter upside down"
         />
         <Heading
           fontSize={isLargerThan460 ? '32px' : '40px'}
