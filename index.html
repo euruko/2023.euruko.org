@@ -131,9 +131,9 @@
     </style>
 
     <script type="text/javascript">
-      (function (location) {
-        if (location.search[1] === '/') {
-          var decoded = location.search
+      console.log(window.location)(function (l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search
             .slice(1)
             .split('&')
             .map(function (s) {
@@ -143,7 +143,7 @@
           window.history.replaceState(
             null,
             null,
-            location.pathname.slice(0, -1) + decoded + location.hash
+            l.pathname.slice(0, -1) + decoded + l.hash
           );
         }
       })(window.location);
