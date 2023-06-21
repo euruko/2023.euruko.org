@@ -133,17 +133,18 @@
     <script type="text/javascript">
       (function (location) {
         if (location.search[1] === '/') {
-          const decodedSearch = location.search
+          var decoded = location.search
             .slice(1)
             .split('&')
-            .map((segment) => segment.replace(/~and~/g, '&'))
+            .map(function (s) {
+              return s.replace(/~and~/g, '&');
+            })
             .join('?');
-
-          const newURL = `${location.pathname.slice(0, -1)}${decodedSearch}${
-            location.hash
-          }`;
-
-          window.history.replaceState(null, null, newURL);
+          window.history.replaceState(
+            null,
+            null,
+            location.pathname.slice(0, -1) + decoded + location.hash
+          );
         }
       })(window.location);
     </script>
