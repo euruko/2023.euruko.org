@@ -57,7 +57,13 @@ export default defineConfig(({ mode }) => {
       outDir: 'build',
       emptyOutDir: true,
       manifest: 'assets-manifest.json',
-      target
+      target,
+      rollupOptions: {
+        input: {
+          main: 'index.html',
+          404: '404.html'
+        }
+      }
     },
     server: {
       ...serverConfig
