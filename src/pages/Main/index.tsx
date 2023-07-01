@@ -1,7 +1,8 @@
 import { Box } from '@chakra-ui/react';
 
+import { AnnouncementSpeakers } from './components/AnnouncementSpeakers';
 import { CallCommunities } from './components/CallCommunities';
-import { CallSpeakers } from './components/CallSpeakers';
+// import { CallSpeakers } from './components/CallSpeakers';
 import { CallSponsors } from './components/CallSponsors';
 import { Celebration } from './components/Celebration';
 import { Footer } from './components/Footer';
@@ -12,6 +13,7 @@ import { MakeDifference } from './components/MakeDifference';
 import { Nav } from './components/Nav';
 import { NewExperience } from './components/NewExperience';
 import { ReadyToJoin } from './components/ReadyToJoin';
+import { Sponsors } from './components/Sponsors';
 import { StillInDoubt } from './components/StillInDoubt';
 // import { WelcomeHome } from './components/WelcomeHome';
 
@@ -27,8 +29,10 @@ export const Component = () => (
     <Celebration />
     <GrabTicket />
     <MakeDifference />
-    <CallSpeakers />
+    {/* <CallSpeakers /> */}
+    <AnnouncementSpeakers />
     <CallSponsors />
+    <Sponsors />
     <CallCommunities />
     <ReadyToJoin />
     <StillInDoubt />
