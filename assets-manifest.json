@@ -1,18 +1,18 @@
 {
-  "_chunk-NAA7TEES-5cf4c931.js": {
-    "file": "assets/chunk-NAA7TEES-5cf4c931.js",
+  "_chunk-NAA7TEES-2ea63c3e.js": {
+    "file": "assets/chunk-NAA7TEES-2ea63c3e.js",
     "imports": [
       "index.html"
     ]
   },
-  "_index-b0a62e09.js": {
+  "_index-92f632a1.js": {
     "assets": [
       "assets/logo-fc08516f.svg"
     ],
     "css": [
       "assets/index-8ca8fae1.css"
     ],
-    "file": "assets/index-b0a62e09.js",
+    "file": "assets/index-92f632a1.js",
     "imports": [
       "index.html"
     ]
@@ -31,15 +31,15 @@
       "src/pages/PrivacyPolicy/index.tsx",
       "src/pages/NotFound/index.tsx"
     ],
-    "file": "assets/main-32ba71ea.js",
+    "file": "assets/main-9ad82034.js",
     "isEntry": true,
     "src": "index.html"
   },
   "src/pages/Code/index.tsx": {
-    "file": "assets/index-73801a75.js",
+    "file": "assets/index-c423db87.js",
     "imports": [
       "index.html",
-      "_index-b0a62e09.js"
+      "_index-92f632a1.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Code/index.tsx"
@@ -77,11 +77,11 @@
       "assets/logo5-b6ac3a9c.svg",
       "assets/star_avatar-0abc6e45.svg"
     ],
-    "file": "assets/index-d7b945c2.js",
+    "file": "assets/index-ff293364.js",
     "imports": [
       "index.html",
-      "_index-b0a62e09.js",
-      "_chunk-NAA7TEES-5cf4c931.js"
+      "_index-92f632a1.js",
+      "_chunk-NAA7TEES-2ea63c3e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Community/index.tsx"
@@ -94,11 +94,11 @@
     "assets": [
       "assets/companyLogo-06cf7137.svg"
     ],
-    "file": "assets/index-d06ee288.js",
+    "file": "assets/index-a0fbdde0.js",
     "imports": [
       "index.html",
-      "_index-b0a62e09.js",
-      "_chunk-NAA7TEES-5cf4c931.js"
+      "_index-92f632a1.js",
+      "_chunk-NAA7TEES-2ea63c3e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/JobBoard/index.tsx"
@@ -311,6 +311,14 @@
     "file": "assets/traveling-82513435.png",
     "src": "src/pages/Main/components/NewExperience/assets/traveling.png"
   },
+  "src/pages/Main/components/Sponsors/assets/grab.svg": {
+    "file": "assets/grab-5942cf4d.svg",
+    "src": "src/pages/Main/components/Sponsors/assets/grab.svg"
+  },
+  "src/pages/Main/components/Sponsors/assets/sponsorLogos/Kisko-logo.png": {
+    "file": "assets/Kisko-logo-08731490.png",
+    "src": "src/pages/Main/components/Sponsors/assets/sponsorLogos/Kisko-logo.png"
+  },
   "src/pages/Main/components/StillInDoubt/assets/Vilnius/01.png": {
     "file": "assets/01-53888895.png",
     "src": "src/pages/Main/components/StillInDoubt/assets/Vilnius/01.png"
@@ -464,6 +472,8 @@
       "assets/community-1a0964e3.png",
       "assets/speakers-feb037e3.png",
       "assets/traveling-82513435.png",
+      "assets/Kisko-logo-08731490.png",
+      "assets/grab-5942cf4d.svg",
       "assets/monument-ec3b012b.png",
       "assets/01-53888895.png",
       "assets/02-dbc32dd3.png",
@@ -490,11 +500,11 @@
       "assets/leftArrow-8956ee4c.svg",
       "assets/rightArrow-17ecdb2c.svg"
     ],
-    "file": "assets/index-36669dfc.js",
+    "file": "assets/index-332b2066.js",
     "imports": [
       "index.html",
-      "_index-b0a62e09.js",
-      "_chunk-NAA7TEES-5cf4c931.js"
+      "_index-92f632a1.js",
+      "_chunk-NAA7TEES-2ea63c3e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Main/index.tsx"
@@ -512,20 +522,20 @@
       "assets/bgEllipse-127de39e.svg",
       "assets/ellipse-3b8105a3.svg"
     ],
-    "file": "assets/index-136030ce.js",
+    "file": "assets/index-2a7b2c8d.js",
     "imports": [
       "index.html",
-      "_index-b0a62e09.js",
-      "_chunk-NAA7TEES-5cf4c931.js"
+      "_index-92f632a1.js",
+      "_chunk-NAA7TEES-2ea63c3e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/NotFound/index.tsx"
   },
   "src/pages/PrivacyPolicy/index.tsx": {
-    "file": "assets/index-e08fccde.js",
+    "file": "assets/index-28690d96.js",
     "imports": [
       "index.html",
-      "_index-b0a62e09.js"
+      "_index-92f632a1.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/PrivacyPolicy/index.tsx"
@@ -548,11 +558,11 @@
       "assets/background2-d258e612.svg",
       "assets/arrow-fbf3a81d.svg"
     ],
-    "file": "assets/index-6053c884.js",
+    "file": "assets/index-34fd314b.js",
     "imports": [
       "index.html",
-      "_index-b0a62e09.js",
-      "_chunk-NAA7TEES-5cf4c931.js"
+      "_index-92f632a1.js",
+      "_chunk-NAA7TEES-2ea63c3e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Speakers/index.tsx"
