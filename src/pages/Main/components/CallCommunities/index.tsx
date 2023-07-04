@@ -35,6 +35,7 @@ export const CallCommunities = () => {
           color="#D9D9D9"
         >
           <Flex
+            w={isLargerThan700 ? 'full' : undefined}
             flexDirection="column"
             alignItems="center"
             gap="70px"

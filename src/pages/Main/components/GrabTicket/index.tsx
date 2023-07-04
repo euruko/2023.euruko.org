@@ -75,11 +75,11 @@ export const GrabTicket = () => {
           src={grab}
           width={isLargerThan620 ? '60px' : undefined}
           alt="Grab Tickets"
-          height="113px"
+          height={isLargerThan620 ? '50px' : '113px'}
         />
         <Heading
           variant="regularHeading"
-          fontSize={isLargerThan620 ? '60px' : '84px'}
+          fontSize={isLargerThan620 ? '50px' : '84px'}
           fontWeight={600}
           maxWidth="900px"
           color="#D9D9D9"
@@ -90,7 +90,7 @@ export const GrabTicket = () => {
           src={grab}
           width={isLargerThan620 ? '60px' : undefined}
           alt="Grab Tickets"
-          height="113px"
+          height={isLargerThan620 ? '50px' : '113px'}
         />
       </Flex>
       <Flex

@@ -9,9 +9,10 @@ import { Footer } from './components/Footer';
 import { GrabTicket } from './components/GrabTicket';
 import { HowWeCelebrating } from './components/HowWeCelebrating';
 import { Logo } from './components/Logo';
-import { MakeDifference } from './components/MakeDifference';
+// import { MakeDifference } from './components/MakeDifference';
 import { Nav } from './components/Nav';
 import { NewExperience } from './components/NewExperience';
+import { ProgramCommittee } from './components/ProgramCommittee';
 import { ReadyToJoin } from './components/ReadyToJoin';
 import { Sponsors } from './components/Sponsors';
 import { StillInDoubt } from './components/StillInDoubt';
@@ -28,7 +29,8 @@ export const Component = () => (
     <NewExperience />
     <Celebration />
     <GrabTicket />
-    <MakeDifference />
+    <ProgramCommittee />
+    {/* <MakeDifference /> */}
     {/* <CallSpeakers /> */}
     <AnnouncementSpeakers />
     <CallSponsors />

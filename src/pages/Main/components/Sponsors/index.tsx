@@ -32,7 +32,7 @@ export const Sponsors = () => {
           src={grab}
           width={isLargerThan750 ? '60px' : undefined}
           alt="Grab Tickets"
-          height="113px"
+          height={isLargerThan750 ? '50px' : '113px'}
         />
         <Heading
           variant="regularHeading"
@@ -48,7 +48,7 @@ export const Sponsors = () => {
           src={grab}
           width={isLargerThan750 ? '60px' : undefined}
           alt="Grab Tickets"
-          height="113px"
+          height={isLargerThan750 ? '50px' : '113px'}
         />
       </Flex>
       <Flex
