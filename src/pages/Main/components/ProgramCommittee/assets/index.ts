@@ -20,6 +20,7 @@ import SiarheiKisliak from './people/SiarheiKisliak.png';
 import ThijsCadier from './people/ThijsCadier.png';
 import VidmantasKabošis from './people/VidmantasKabošis.png';
 import VladimirDementyev from './people/VladimirDementyev.png';
+import WiktoriaDalach from './people/WiktoriaDalach.png';
 
 export const programCommittee = [
   {
@@ -29,7 +30,7 @@ export const programCommittee = [
     company: 'Friendly.rb Community',
     desctiption:
       'Adrian is the author of Avo for Rails and organizer of the Friendly.rb conference, and co-host of the Friendly.show podcast.',
-    link: { title: 'More', href: '' }
+    link: { title: 'Twitter', href: 'https://twitter.com/adrianthedev' }
   },
   {
     firstName: 'Andy ',
@@ -66,15 +67,15 @@ export const programCommittee = [
     country: ' in the Czech Republic',
     desctiption:
       'I started with ruby in 2011 during my university time and never stopped loving it.',
-    link: { title: 'More', href: '' }
+    link: { title: 'Twitter', href: 'https://twitter.com/halaszdavid' }
   },
   {
     firstName: 'Erick',
     lastName: 'Sasse',
     img: ErickSasse,
-    company: 'Monde and Cadena',
+    company: 'Monde',
     desctiption:
-      'Software developer for almost three decades. Director of engineering at Monde and Cadena, two rubyist SAAS companies in Brazil.',
+      'Software developer for almost three decades. Rubyist and director of engineering at Monde, a travel tech company in Brazil.',
     link: { title: 'More', href: '' }
   },
   {
@@ -210,7 +211,7 @@ export const programCommittee = [
     company: 'Evil Martians',
     desctiption:
       'Creator of AnyCable and TestProf and author of many yet unknown ukulele melodies.',
-    link: { title: 'More', href: '' }
+    link: { title: 'Twitter', href: 'https://twitter.com/palkan_tula' }
   },
   {
     firstName: 'Kaja',
@@ -220,5 +221,14 @@ export const programCommittee = [
     desctiption:
       'Ruby lover and Software engineer since 2016 Kaja has worked mostly in the backend with some excursions into Infrastructure and DevOps. Speaker at EuRuKo 2019.',
     link: { title: 'More', href: '' }
+  },
+  {
+    firstName: 'Wiktoria',
+    lastName: 'Dalach',
+    img: WiktoriaDalach,
+    company: 'Rails Girls Krakow',
+    desctiption:
+      "Wiktoria Dalach is a Senior Software and Security Engineer, and a youtuber. She's a RailsGirls mentor. Her interests focus on creativity, art and cybersecurity.",
+    link: { title: 'Twitter', href: 'https://twitter.com/wdalach' }
   }
 ];
