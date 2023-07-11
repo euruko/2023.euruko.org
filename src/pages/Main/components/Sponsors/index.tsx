@@ -55,7 +55,7 @@ export const Sponsors = () => {
         maxW="1520px"
         margin="40px auto"
         justifyContent="center"
-        gap="100px"
+        gap={isLargerThan750 ? '20px' : '100px'}
         alignItems="center"
         flexDirection="column"
         wrap="nowrap"

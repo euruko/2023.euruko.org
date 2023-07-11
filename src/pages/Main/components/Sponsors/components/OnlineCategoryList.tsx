@@ -8,31 +8,36 @@ export const OnlineCategoryList = ({
   onlineList: SponsorType[];
 }) => {
   const [isLargerThan750] = useMediaQuery('(max-width: 750px)');
-  const [isLargerThan1650] = useMediaQuery('(max-width: 1650px)');
+  const [isLargerThan1350] = useMediaQuery('(max-width: 1350px)');
 
   return (
     <Flex
       position="relative"
       wrap="wrap"
-      justifyContent="space-around"
-      maxW={isLargerThan1650 ? '80%' : undefined}
-      minW={isLargerThan750 ? '300px' : '365px'}
+      justifyContent="center"
+      maxW={isLargerThan1350 ? '90%' : undefined}
+      minW={isLargerThan750 ? '100px' : '365px'}
       border="1px solid #C88EF4"
-      borderRadius="60px"
+      borderRadius={isLargerThan750 ? '25px' : '60px'}
       backgroundColor="#D9D9D9"
       boxShadow="0px 0px 60px 0px rgba(200, 142, 244, 0.20)"
+      mt="30px"
     >
       <Box
         position="absolute"
-        top="-25px"
+        top={isLargerThan750 ? '-9px' : '-25px'}
         zIndex={99}
-        p="4px 12px 7px 12px"
+        p={
+          isLargerThan750
+            ? '1.493px 9.213px 3.053px 8.96px'
+            : '4px 12px 7px 12px'
+        }
         border="1px solid #C88EF4"
         borderRadius="62px"
         backgroundColor="#D9D9D9"
       >
         <Text
-          fontSize="30px"
+          fontSize={isLargerThan750 ? '11.2px' : '30px'}
           fontWeight={500}
           color="#C88EF4"
           lineHeight="120%"
@@ -43,25 +48,26 @@ export const OnlineCategoryList = ({
       {onlineList.map((item) => (
         <Flex
           key={item.alt}
-          h="380px"
-          p="30px 70px"
+          h={isLargerThan750 ? undefined : '380px'}
+          p={isLargerThan750 ? '20px' : '30px 70px'}
           alignItems="center"
           justifyContent="center"
           flexDirection="column"
-          gap="60px"
+          gap={isLargerThan750 ? '10px' : '60px'}
         >
           <Img
             src={item.logo}
             alt={item.alt}
-            width={isLargerThan750 ? '125px' : undefined}
-            height="140px"
+            mt={isLargerThan750 ? '10px' : undefined}
+            width={isLargerThan750 ? '47.921px' : '125px'}
+            height={isLargerThan750 ? '53.671px' : '140px'}
           />
           <Link
             href={item.link}
             target="_blank"
-            p="10px"
+            p={isLargerThan750 ? '4px' : '10px'}
             background="#C88EF4"
-            fontSize="21px"
+            fontSize={isLargerThan750 ? '12px' : '21px'}
             fontWeight={500}
             color="#000"
             borderRadius="30.75px"

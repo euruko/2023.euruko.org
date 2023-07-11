@@ -19,28 +19,36 @@ export const SilverCategoryList = ({
         <Flex
           key={item.alt}
           position="relative"
-          w={isLargerThan750 ? '320px' : '493px'}
-          h="380px"
-          p="30px"
+          w={isLargerThan750 ? '135px' : '493px'}
+          h={isLargerThan750 ? '145px' : '380px'}
+          p={isLargerThan750 ? '11.5px' : '30px'}
           mt="30px"
-          borderRadius="45px"
-          boxShadow="5px 5px 20px 0px rgba(0, 0, 0, 0.08)"
+          borderRadius={isLargerThan750 ? '30.669px' : '45px'}
+          boxShadow={
+            isLargerThan750
+              ? '1.9168357849121094px 1.9168357849121094px 7.6673431396484375px 0px rgba(0, 0, 0, 0.08)'
+              : '5px 5px 20px 0px rgba(0, 0, 0, 0.08)'
+          }
           alignItems="center"
           justifyContent="center"
           flexDirection="column"
-          gap="60px"
+          gap={isLargerThan750 ? '20px' : '60px'}
         >
           <Box
             position="absolute"
-            top="-25px"
+            top={isLargerThan750 ? '-9px' : '-25px'}
             zIndex={99}
-            p="4px 12px 7px 12px"
+            p={
+              isLargerThan750
+                ? '1.493px 9.213px 3.053px 8.96px'
+                : '4px 12px 7px 12px'
+            }
             border="1px solid #049ADB"
             borderRadius="62px"
             backgroundColor="#D9D9D9"
           >
             <Text
-              fontSize="30px"
+              fontSize={isLargerThan750 ? '11.2px' : '30px'}
               fontWeight={500}
               color="#049ADB"
               lineHeight="120%"
@@ -51,14 +59,15 @@ export const SilverCategoryList = ({
           <Img
             src={item.logo}
             alt={item.alt}
-            width={isLargerThan750 ? '125px' : undefined}
-            height="140px"
+            mt={isLargerThan750 ? '10px' : undefined}
+            width={isLargerThan750 ? '47.921px' : '125px'}
+            height={isLargerThan750 ? '53.671px' : '140px'}
           />
           <Link
             href={item.link}
-            p="10px"
+            p={isLargerThan750 ? '4px' : '10px'}
             background="#049ADB"
-            fontSize="21px"
+            fontSize={isLargerThan750 ? '12px' : '21px'}
             fontWeight={500}
             color="#000"
             borderRadius="30.75px"
