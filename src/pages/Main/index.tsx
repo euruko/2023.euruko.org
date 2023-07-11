@@ -16,6 +16,7 @@ import { ProgramCommittee } from './components/ProgramCommittee';
 import { ReadyToJoin } from './components/ReadyToJoin';
 import { Sponsors } from './components/Sponsors';
 import { StillInDoubt } from './components/StillInDoubt';
+import { Venue } from './components/Venue';
 // import { WelcomeHome } from './components/WelcomeHome';
 
 export const Component = () => (
@@ -33,12 +34,17 @@ export const Component = () => (
     {/* <MakeDifference /> */}
     {/* <CallSpeakers /> */}
     <AnnouncementSpeakers />
-    <CallSponsors />
-    <Sponsors />
+    <Box background="#D9D9D9">
+      <CallSponsors />
+      <Sponsors />
+    </Box>
     <CallCommunities />
-    <ReadyToJoin />
-    <StillInDoubt />
     {/* <WelcomeHome /> */}
+    <Box background="#D9D9D9">
+      <ReadyToJoin />
+      <StillInDoubt />
+      <Venue />
+    </Box>
     <HowWeCelebrating />
     <Footer />
   </Box>

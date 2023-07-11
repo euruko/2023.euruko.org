@@ -11,44 +11,11 @@ import Slider from 'react-slick';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import leftArrow from '~/shared/assets/leftArrow.svg';
+import rightArrow from '~/shared/assets/rightArrow.svg';
+import { ArrowIcon } from '~/shared/components/ArrowIcon';
+
 import { programCommittee } from './assets';
-import leftArrow from './assets/leftArrow.svg';
-import rightArrow from './assets/rightArrow.svg';
-
-const ArrowIcon = ({
-  onClick,
-  icon,
-  side,
-  className,
-  style
-}: {
-  onClick?: React.MouseEventHandler<HTMLImageElement>;
-  icon: string;
-  side: string;
-  className?: string;
-  style?: React.CSSProperties;
-}) => {
-  const [isLargerThan850] = useMediaQuery('(max-width: 800px)');
-
-  const position = isLargerThan850 ? '-10px' : '-30px';
-
-  return (
-    <Img
-      className={className}
-      style={{
-        ...style,
-        height: isLargerThan850 ? '44px' : '84px',
-        width: isLargerThan850 ? '44px' : '84px'
-      }}
-      src={icon}
-      left={side === 'left' ? position : undefined}
-      right={side === 'right' ? position : undefined}
-      zIndex={99}
-      alt="Next image"
-      onClick={onClick}
-    />
-  );
-};
 
 export const ProgramCommittee = () => {
   const [isLargerThan1550] = useMediaQuery('(max-width: 1550px)');
@@ -109,7 +76,7 @@ export const ProgramCommittee = () => {
     }
   })();
 
-  const containerSliderSidth = (() => {
+  const containerSliderWidth = (() => {
     switch (true) {
       case isLargerThan1550 &&
         isLargerThan1200 &&
@@ -165,7 +132,7 @@ export const ProgramCommittee = () => {
         </Flex>
         <div
           style={{
-            width: containerSliderSidth,
+            width: containerSliderWidth,
             margin: '0 auto'
           }}
         >
@@ -180,7 +147,6 @@ export const ProgramCommittee = () => {
                   borderRadius="40px"
                   border="1px solid #000"
                   h={isLargerThan400 ? '460px' : '540px'}
-                  // maxW={isLargerThan400 ? '280px' : '600px'}
                 >
                   <Img
                     w="150px"

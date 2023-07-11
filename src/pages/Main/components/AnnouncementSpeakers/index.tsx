@@ -40,7 +40,7 @@ export const AnnouncementSpeakers = () => {
           >
             <Heading
               variant="regularHeading"
-              fontSize={isLargerThan700 ? '42px' : '84px'}
+              fontSize={isLargerThan700 ? '40px' : '84px'}
               marginBottom={isLargerThan1303 ? '100px' : undefined}
               fontWeight={600}
               maxWidth="750px"
