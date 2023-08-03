@@ -56,13 +56,19 @@ export const BronzeCategoryList = ({
               Bronze
             </Text>
           </Box>
-          <Img
-            src={item.logo}
-            alt={item.alt}
-            mt={isLargerThan750 ? '10px' : undefined}
-            width={isLargerThan750 ? '47.921px' : '125px'}
-            height={isLargerThan750 ? '53.671px' : '140px'}
-          />
+          <Flex
+            minH={isLargerThan750 ? '53.671px' : '140px'}
+            alignItems="center"
+            justifyContent="center"
+          >
+            <Img
+              src={item.logo}
+              alt={item.alt}
+              mt={isLargerThan750 ? '10px' : undefined}
+              width={isLargerThan750 ? '47.921px' : '125px'}
+              height={isLargerThan750 ? '53.671px' : '140px'}
+            />
+          </Flex>
           <Link
             href={item.link}
             p={isLargerThan750 ? '4px' : '10px'}
