@@ -12,6 +12,7 @@ import { Logo } from './components/Logo';
 // import { MakeDifference } from './components/MakeDifference';
 import { Nav } from './components/Nav';
 import { NewExperience } from './components/NewExperience';
+import { OurPartners } from './components/OurPartners';
 import { ProgramCommittee } from './components/ProgramCommittee';
 import { ReadyToJoin } from './components/ReadyToJoin';
 import { Sponsors } from './components/Sponsors';
@@ -37,6 +38,7 @@ export const Component = () => (
     <Box background="#D9D9D9">
       <CallSponsors />
       <Sponsors />
+      <OurPartners />
     </Box>
     <CallCommunities />
     {/* <WelcomeHome /> */}
