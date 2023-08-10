@@ -41,7 +41,7 @@ export const OurPartners = () => {
             justifyContent="center"
             flexWrap="wrap"
             marginBottom="60px"
-            gap="60px"
+            gap={isLargerThan750 ? '60px' : '120px'}
           >
             {partners.map((partner) => (
               <Box
