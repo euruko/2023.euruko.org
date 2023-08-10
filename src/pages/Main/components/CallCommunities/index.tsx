@@ -25,13 +25,13 @@ export const CallCommunities = () => {
         flexWrap="wrap"
         justifyContent="center"
         alignItems="center"
-        gap="157px"
+        gap="60px"
       >
         <Flex
           w={isLargerThan700 ? 'full' : undefined}
           flexDirection="column"
           alignItems="center"
-          gap={isLargerThan1489 ? '30px' : '70px'}
+          gap={isLargerThan1489 ? '30px' : '40px'}
           justifyContent="space-between"
           background="radial-gradient(50% 50% at 50% 50%, #FF74BD 0%, rgba(0, 0, 0, 0) 100%);"
           backgroundPosition="center 0px"
@@ -72,37 +72,38 @@ export const CallCommunities = () => {
           flexDirection="column"
           alignItems="center"
           justifyContent="flex-start"
-          maxWidth="748px"
-          margin={isLargerThan1489 ? '-50px 0' : undefined}
+          maxWidth="600px"
+          margin={isLargerThan1489 ? '70px 0 0 0' : undefined}
           padding={isLargerThan700 ? '0 20px' : undefined}
         >
           <Text
             variant="regularText"
-            fontSize={isLargerThan700 ? '24px' : '35px'}
+            fontSize={isLargerThan700 ? '20px' : '34px'}
             fontWeight={500}
           >
-            Shake off the post-pandemic stasis and {!isLargerThan700 && <br />}
-            ignite your local Ruby community with our
-            {!isLargerThan700 && <br />}
-            unique opportunities.
+            Shake off the post-pandemic stasis {!isLargerThan700 && <br />}
+            and ignite your local Ruby community {!isLargerThan700 && <br />}
+            with our unique opportunities.
           </Text>
           <Flex
             flexDirection="column"
             alignItems="center"
             gap="20px"
-            maxWidth="748px"
-            margin={isLargerThan1489 ? '60px' : '90px auto'}
+            maxWidth="600px"
+            margin={isLargerThan1489 ? '60px' : '60px 10px'}
           >
             <Text
+              color="#D9D9D9"
               variant="regularText"
-              fontSize="21px"
+              fontSize={isLargerThan700 ? '14px' : '19px'}
               fontWeight={500}
             >
               Get your own discord channel with 500+ friends waiting for you.
             </Text>
             <Text
+              color="#D9D9D9"
               variant="regularText"
-              fontSize="21px"
+              fontSize={isLargerThan700 ? '14px' : '19px'}
               fontWeight={500}
             >
               Get your own discord channel with 500+ friends waiting for you.
@@ -110,16 +111,18 @@ export const CallCommunities = () => {
               workshop or AMA-session — the whole stage is yours.
             </Text>
             <Text
+              color="#D9D9D9"
               variant="regularText"
-              fontSize="21px"
+              fontSize={isLargerThan700 ? '14px' : '19px'}
               fontWeight={500}
             >
               Host your own talk on the main stage alongside speakers within
               unconference format.
             </Text>
             <Text
+              color="#D9D9D9"
               variant="regularText"
-              fontSize="21px"
+              fontSize={isLargerThan700 ? '14px' : '19px'}
               fontWeight={500}
             >
               Pitch your city and bring Euruko 2024 into your city.
@@ -127,10 +130,9 @@ export const CallCommunities = () => {
           </Flex>
           <Text
             variant="regularText"
-            fontSize="21px"
+            fontSize={isLargerThan700 ? '14px' : '19px'}
             fontWeight={500}
             color="#FF74BD"
-            marginBottom={isLargerThan1489 ? '50px' : undefined}
           >
             Grab a special price ticket <br />
             and join the biggest European Ruby conference.
