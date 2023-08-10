@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Img, useMediaQuery } from '@chakra-ui/react';
+import { Box, Flex, Heading, Img, Link, useMediaQuery } from '@chakra-ui/react';
 
 import { partners } from './assets';
 
@@ -48,10 +48,15 @@ export const OurPartners = () => {
                 key={partner.alt}
                 width={isLargerThan750 ? '200px' : undefined}
               >
-                <Img
-                  src={partner.url}
-                  alt={partner.alt}
-                />
+                <Link
+                  href={partner.link}
+                  target="_blank"
+                >
+                  <Img
+                    src={partner.imageUrl}
+                    alt={partner.alt}
+                  />
+                </Link>
               </Box>
             ))}
           </Flex>
