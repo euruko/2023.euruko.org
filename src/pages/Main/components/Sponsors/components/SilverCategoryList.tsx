@@ -62,6 +62,7 @@ export const SilverCategoryList = ({
             justifyContent="center"
           >
             <Img
+              maxH={isLargerThan750 ? '53.671px' : '140px'}
               src={item.logo}
               alt={item.alt}
               mt={isLargerThan750 ? '10px' : undefined}
