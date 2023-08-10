@@ -1,18 +1,18 @@
 {
-  "_chunk-NAA7TEES-05a66ae5.js": {
-    "file": "assets/chunk-NAA7TEES-05a66ae5.js",
+  "_chunk-NAA7TEES-0bf36078.js": {
+    "file": "assets/chunk-NAA7TEES-0bf36078.js",
     "imports": [
       "index.html"
     ]
   },
-  "_index-d8f3665e.js": {
+  "_index-5ba37f2c.js": {
     "assets": [
       "assets/logo-fc08516f.svg"
     ],
     "css": [
       "assets/index-8ca8fae1.css"
     ],
-    "file": "assets/index-d8f3665e.js",
+    "file": "assets/index-5ba37f2c.js",
     "imports": [
       "index.html"
     ]
@@ -31,7 +31,7 @@
       "src/pages/PrivacyPolicy/index.tsx",
       "src/pages/NotFound/index.tsx"
     ],
-    "file": "assets/main-2614696a.js",
+    "file": "assets/main-ad3c1330.js",
     "isEntry": true,
     "src": "index.html"
   },
@@ -44,10 +44,10 @@
     "src": "node_modules/slick-carousel/slick/fonts/slick.svg"
   },
   "src/pages/Code/index.tsx": {
-    "file": "assets/index-78ffa23d.js",
+    "file": "assets/index-3f7d5633.js",
     "imports": [
       "index.html",
-      "_index-d8f3665e.js"
+      "_index-5ba37f2c.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Code/index.tsx"
@@ -85,11 +85,11 @@
       "assets/logo5-b6ac3a9c.svg",
       "assets/star_avatar-0abc6e45.svg"
     ],
-    "file": "assets/index-7d273ac4.js",
+    "file": "assets/index-c9f5697b.js",
     "imports": [
       "index.html",
-      "_index-d8f3665e.js",
-      "_chunk-NAA7TEES-05a66ae5.js"
+      "_index-5ba37f2c.js",
+      "_chunk-NAA7TEES-0bf36078.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Community/index.tsx"
@@ -102,11 +102,11 @@
     "assets": [
       "assets/companyLogo-06cf7137.svg"
     ],
-    "file": "assets/index-c5e60c2a.js",
+    "file": "assets/index-0de6390d.js",
     "imports": [
       "index.html",
-      "_index-d8f3665e.js",
-      "_chunk-NAA7TEES-05a66ae5.js"
+      "_index-5ba37f2c.js",
+      "_chunk-NAA7TEES-0bf36078.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/JobBoard/index.tsx"
@@ -319,6 +319,46 @@
     "file": "assets/Courtyard-ee676860.png",
     "src": "src/pages/Main/components/OurPartners/assets/partnersLogos/Courtyard.png"
   },
+  "src/pages/Main/components/Speakers/assets/speakers/30.png": {
+    "file": "assets/30-135c00bd.png",
+    "src": "src/pages/Main/components/Speakers/assets/speakers/30.png"
+  },
+  "src/pages/Main/components/Speakers/assets/speakers/Carla-Urrea-Stabile.png": {
+    "file": "assets/Carla-Urrea-Stabile-7195fa5a.png",
+    "src": "src/pages/Main/components/Speakers/assets/speakers/Carla-Urrea-Stabile.png"
+  },
+  "src/pages/Main/components/Speakers/assets/speakers/Hana-Harencarova.png": {
+    "file": "assets/Hana-Harencarova-ce5e8504.png",
+    "src": "src/pages/Main/components/Speakers/assets/speakers/Hana-Harencarova.png"
+  },
+  "src/pages/Main/components/Speakers/assets/speakers/Hiroshi-Shibata.png": {
+    "file": "assets/Hiroshi-Shibata-5f4ee1b0.png",
+    "src": "src/pages/Main/components/Speakers/assets/speakers/Hiroshi-Shibata.png"
+  },
+  "src/pages/Main/components/Speakers/assets/speakers/Hitoshi-Hasumi.png": {
+    "file": "assets/Hitoshi-Hasumi-37be99bd.png",
+    "src": "src/pages/Main/components/Speakers/assets/speakers/Hitoshi-Hasumi.png"
+  },
+  "src/pages/Main/components/Speakers/assets/speakers/Ivo-Anjo.png": {
+    "file": "assets/Ivo-Anjo-c5c6d4db.png",
+    "src": "src/pages/Main/components/Speakers/assets/speakers/Ivo-Anjo.png"
+  },
+  "src/pages/Main/components/Speakers/assets/speakers/Masafumi-Okura.png": {
+    "file": "assets/Masafumi-Okura-30864229.png",
+    "src": "src/pages/Main/components/Speakers/assets/speakers/Masafumi-Okura.png"
+  },
+  "src/pages/Main/components/Speakers/assets/speakers/Matias-Korhonen.png": {
+    "file": "assets/Matias-Korhonen-f7d2aa12.png",
+    "src": "src/pages/Main/components/Speakers/assets/speakers/Matias-Korhonen.png"
+  },
+  "src/pages/Main/components/Speakers/assets/speakers/Scott-Chacon.png": {
+    "file": "assets/Scott-Chacon-fad886e2.png",
+    "src": "src/pages/Main/components/Speakers/assets/speakers/Scott-Chacon.png"
+  },
+  "src/pages/Main/components/Speakers/assets/speakers/Tom-de-Bruijn.png": {
+    "file": "assets/Tom-de-Bruijn-977f0ae8.png",
+    "src": "src/pages/Main/components/Speakers/assets/speakers/Tom-de-Bruijn.png"
+  },
   "src/pages/Main/components/Sponsors/assets/grab.svg": {
     "file": "assets/grab-5942cf4d.svg",
     "src": "src/pages/Main/components/Sponsors/assets/grab.svg"
@@ -516,6 +556,18 @@
       "assets/speakers-feb037e3.png",
       "assets/traveling-82513435.png",
       "assets/Courtyard-ee676860.png",
+      "assets/blackLeftArrow-5dc9b7fa.svg",
+      "assets/blackRightArrow-daa034f5.svg",
+      "assets/Carla-Urrea-Stabile-7195fa5a.png",
+      "assets/Hana-Harencarova-ce5e8504.png",
+      "assets/Hiroshi-Shibata-5f4ee1b0.png",
+      "assets/Hitoshi-Hasumi-37be99bd.png",
+      "assets/Ivo-Anjo-c5c6d4db.png",
+      "assets/Masafumi-Okura-30864229.png",
+      "assets/Matias-Korhonen-f7d2aa12.png",
+      "assets/Scott-Chacon-fad886e2.png",
+      "assets/Tom-de-Bruijn-977f0ae8.png",
+      "assets/30-135c00bd.png",
       "assets/JetBrains_logo-326b29f3.png",
       "assets/Kisko-logo-08731490.png",
       "assets/Meister-logo-f8c7a270.png",
@@ -559,11 +611,11 @@
     "css": [
       "assets/index-74f0da17.css"
     ],
-    "file": "assets/index-89580142.js",
+    "file": "assets/index-1c7af9da.js",
     "imports": [
       "index.html",
-      "_index-d8f3665e.js",
-      "_chunk-NAA7TEES-05a66ae5.js"
+      "_index-5ba37f2c.js",
+      "_chunk-NAA7TEES-0bf36078.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Main/index.tsx"
@@ -581,20 +633,20 @@
       "assets/bgEllipse-127de39e.svg",
       "assets/ellipse-3b8105a3.svg"
     ],
-    "file": "assets/index-f1fcea61.js",
+    "file": "assets/index-2b47aef3.js",
     "imports": [
       "index.html",
-      "_index-d8f3665e.js",
-      "_chunk-NAA7TEES-05a66ae5.js"
+      "_index-5ba37f2c.js",
+      "_chunk-NAA7TEES-0bf36078.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/NotFound/index.tsx"
   },
   "src/pages/PrivacyPolicy/index.tsx": {
-    "file": "assets/index-3bcdd9a6.js",
+    "file": "assets/index-bba3816b.js",
     "imports": [
       "index.html",
-      "_index-d8f3665e.js"
+      "_index-5ba37f2c.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/PrivacyPolicy/index.tsx"
@@ -617,14 +669,22 @@
       "assets/background2-d258e612.svg",
       "assets/arrow-fbf3a81d.svg"
     ],
-    "file": "assets/index-2e428084.js",
+    "file": "assets/index-587045ec.js",
     "imports": [
       "index.html",
-      "_index-d8f3665e.js",
-      "_chunk-NAA7TEES-05a66ae5.js"
+      "_index-5ba37f2c.js",
+      "_chunk-NAA7TEES-0bf36078.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Speakers/index.tsx"
+  },
+  "src/shared/assets/blackLeftArrow.svg": {
+    "file": "assets/blackLeftArrow-5dc9b7fa.svg",
+    "src": "src/shared/assets/blackLeftArrow.svg"
+  },
+  "src/shared/assets/blackRightArrow.svg": {
+    "file": "assets/blackRightArrow-daa034f5.svg",
+    "src": "src/shared/assets/blackRightArrow.svg"
   },
   "src/shared/assets/leftArrow.svg": {
     "file": "assets/leftArrow-27608328.svg",
