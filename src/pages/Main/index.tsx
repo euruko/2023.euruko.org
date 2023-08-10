@@ -1,6 +1,5 @@
 import { Box } from '@chakra-ui/react';
 
-import { AnnouncementSpeakers } from './components/AnnouncementSpeakers';
 import { CallCommunities } from './components/CallCommunities';
 // import { CallSpeakers } from './components/CallSpeakers';
 import { CallSponsors } from './components/CallSponsors';
@@ -15,6 +14,7 @@ import { NewExperience } from './components/NewExperience';
 import { OurPartners } from './components/OurPartners';
 // import { ProgramCommittee } from './components/ProgramCommittee';
 import { ReadyToJoin } from './components/ReadyToJoin';
+import { Speakers } from './components/Speakers';
 import { Sponsors } from './components/Sponsors';
 import { StillInDoubt } from './components/StillInDoubt';
 import { Venue } from './components/Venue';
@@ -34,7 +34,7 @@ export const Component = () => (
     {/* <ProgramCommittee /> */}
     {/* <MakeDifference /> */}
     {/* <CallSpeakers /> */}
-    <AnnouncementSpeakers />
+    <Speakers />
     <Box background="#D9D9D9">
       <CallSponsors />
       <Sponsors />
