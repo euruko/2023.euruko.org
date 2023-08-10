@@ -1,18 +1,18 @@
 {
-  "_chunk-NAA7TEES-db74a6aa.js": {
-    "file": "assets/chunk-NAA7TEES-db74a6aa.js",
+  "_chunk-NAA7TEES-bbc46e04.js": {
+    "file": "assets/chunk-NAA7TEES-bbc46e04.js",
     "imports": [
       "index.html"
     ]
   },
-  "_index-2b9d1a6d.js": {
+  "_index-0112fa5b.js": {
     "assets": [
       "assets/logo-fc08516f.svg"
     ],
     "css": [
       "assets/index-8ca8fae1.css"
     ],
-    "file": "assets/index-2b9d1a6d.js",
+    "file": "assets/index-0112fa5b.js",
     "imports": [
       "index.html"
     ]
@@ -31,7 +31,7 @@
       "src/pages/PrivacyPolicy/index.tsx",
       "src/pages/NotFound/index.tsx"
     ],
-    "file": "assets/main-97919098.js",
+    "file": "assets/main-0951d60a.js",
     "isEntry": true,
     "src": "index.html"
   },
@@ -44,10 +44,10 @@
     "src": "node_modules/slick-carousel/slick/fonts/slick.svg"
   },
   "src/pages/Code/index.tsx": {
-    "file": "assets/index-f8506e2b.js",
+    "file": "assets/index-ce2e0e23.js",
     "imports": [
       "index.html",
-      "_index-2b9d1a6d.js"
+      "_index-0112fa5b.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Code/index.tsx"
@@ -85,11 +85,11 @@
       "assets/logo5-b6ac3a9c.svg",
       "assets/star_avatar-0abc6e45.svg"
     ],
-    "file": "assets/index-4e70a722.js",
+    "file": "assets/index-856d5fc6.js",
     "imports": [
       "index.html",
-      "_index-2b9d1a6d.js",
-      "_chunk-NAA7TEES-db74a6aa.js"
+      "_index-0112fa5b.js",
+      "_chunk-NAA7TEES-bbc46e04.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Community/index.tsx"
@@ -102,11 +102,11 @@
     "assets": [
       "assets/companyLogo-06cf7137.svg"
     ],
-    "file": "assets/index-bcecbfcf.js",
+    "file": "assets/index-475c8938.js",
     "imports": [
       "index.html",
-      "_index-2b9d1a6d.js",
-      "_chunk-NAA7TEES-db74a6aa.js"
+      "_index-0112fa5b.js",
+      "_chunk-NAA7TEES-bbc46e04.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/JobBoard/index.tsx"
@@ -319,98 +319,6 @@
     "file": "assets/Courtyard-ee676860.png",
     "src": "src/pages/Main/components/OurPartners/assets/partnersLogos/Courtyard.png"
   },
-  "src/pages/Main/components/ProgramCommittee/assets/people/AdrianMarin.png": {
-    "file": "assets/AdrianMarin-75797f54.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/AdrianMarin.png"
-  },
-  "src/pages/Main/components/ProgramCommittee/assets/people/AndyCroll.png": {
-    "file": "assets/AndyCroll-d97360f8.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/AndyCroll.png"
-  },
-  "src/pages/Main/components/ProgramCommittee/assets/people/AuroraNockert.png": {
-    "file": "assets/AuroraNockert-e4f6e7e9.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/AuroraNockert.png"
-  },
-  "src/pages/Main/components/ProgramCommittee/assets/people/DenisMokreckiy.png": {
-    "file": "assets/DenisMokreckiy-414d01bb.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/DenisMokreckiy.png"
-  },
-  "src/pages/Main/components/ProgramCommittee/assets/people/DávidHalász.png": {
-    "file": "assets/DávidHalász-5964ed6e.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/DávidHalász.png"
-  },
-  "src/pages/Main/components/ProgramCommittee/assets/people/ErickSasse.png": {
-    "file": "assets/ErickSasse-d991ef25.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/ErickSasse.png"
-  },
-  "src/pages/Main/components/ProgramCommittee/assets/people/JamesBell.png": {
-    "file": "assets/JamesBell-a527a734.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/JamesBell.png"
-  },
-  "src/pages/Main/components/ProgramCommittee/assets/people/JoniHasanen.png": {
-    "file": "assets/JoniHasanen-71a3d208.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/JoniHasanen.png"
-  },
-  "src/pages/Main/components/ProgramCommittee/assets/people/JulijaAlieckaja.png": {
-    "file": "assets/JulijaAlieckaja-58d1ee73.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/JulijaAlieckaja.png"
-  },
-  "src/pages/Main/components/ProgramCommittee/assets/people/KajaSantro.png": {
-    "file": "assets/KajaSantro-8c25fd84.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/KajaSantro.png"
-  },
-  "src/pages/Main/components/ProgramCommittee/assets/people/LeonorLoureiro.png": {
-    "file": "assets/LeonorLoureiro-a5cee3fc.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/LeonorLoureiro.png"
-  },
-  "src/pages/Main/components/ProgramCommittee/assets/people/MapleOng.png": {
-    "file": "assets/MapleOng-2c853e34.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/MapleOng.png"
-  },
-  "src/pages/Main/components/ProgramCommittee/assets/people/MilesWoodroffe.png": {
-    "file": "assets/MilesWoodroffe-126a6bd0.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/MilesWoodroffe.png"
-  },
-  "src/pages/Main/components/ProgramCommittee/assets/people/NataliaRamirez.png": {
-    "file": "assets/NataliaRamirez-c215e3c7.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/NataliaRamirez.png"
-  },
-  "src/pages/Main/components/ProgramCommittee/assets/people/NoraScheuch.png": {
-    "file": "assets/NoraScheuch-80b30d98.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/NoraScheuch.png"
-  },
-  "src/pages/Main/components/ProgramCommittee/assets/people/PavloZahozhenko.png": {
-    "file": "assets/PavloZahozhenko-9bdf8e9e.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/PavloZahozhenko.png"
-  },
-  "src/pages/Main/components/ProgramCommittee/assets/people/PiotrSzotkowski.png": {
-    "file": "assets/PiotrSzotkowski-52ac2bf9.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/PiotrSzotkowski.png"
-  },
-  "src/pages/Main/components/ProgramCommittee/assets/people/RamónHuidobro.png": {
-    "file": "assets/RamónHuidobro-78572591.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/RamónHuidobro.png"
-  },
-  "src/pages/Main/components/ProgramCommittee/assets/people/SiarheiKisliak.png": {
-    "file": "assets/SiarheiKisliak-55e9f850.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/SiarheiKisliak.png"
-  },
-  "src/pages/Main/components/ProgramCommittee/assets/people/ThijsCadier.png": {
-    "file": "assets/ThijsCadier-230235e4.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/ThijsCadier.png"
-  },
-  "src/pages/Main/components/ProgramCommittee/assets/people/VidmantasKabošis.png": {
-    "file": "assets/VidmantasKabošis-76711ed1.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/VidmantasKabošis.png"
-  },
-  "src/pages/Main/components/ProgramCommittee/assets/people/VladimirDementyev.png": {
-    "file": "assets/VladimirDementyev-e2d00e9b.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/VladimirDementyev.png"
-  },
-  "src/pages/Main/components/ProgramCommittee/assets/people/WiktoriaDalach.png": {
-    "file": "assets/WiktoriaDalach-040b6904.png",
-    "src": "src/pages/Main/components/ProgramCommittee/assets/people/WiktoriaDalach.png"
-  },
   "src/pages/Main/components/Sponsors/assets/grab.svg": {
     "file": "assets/grab-5942cf4d.svg",
     "src": "src/pages/Main/components/Sponsors/assets/grab.svg"
@@ -608,31 +516,6 @@
       "assets/speakers-feb037e3.png",
       "assets/traveling-82513435.png",
       "assets/Courtyard-ee676860.png",
-      "assets/leftArrow-27608328.svg",
-      "assets/rightArrow-182a5b46.svg",
-      "assets/AdrianMarin-75797f54.png",
-      "assets/AndyCroll-d97360f8.png",
-      "assets/AuroraNockert-e4f6e7e9.png",
-      "assets/DenisMokreckiy-414d01bb.png",
-      "assets/DávidHalász-5964ed6e.png",
-      "assets/ErickSasse-d991ef25.png",
-      "assets/JamesBell-a527a734.png",
-      "assets/JoniHasanen-71a3d208.png",
-      "assets/JulijaAlieckaja-58d1ee73.png",
-      "assets/KajaSantro-8c25fd84.png",
-      "assets/LeonorLoureiro-a5cee3fc.png",
-      "assets/MapleOng-2c853e34.png",
-      "assets/MilesWoodroffe-126a6bd0.png",
-      "assets/NataliaRamirez-c215e3c7.png",
-      "assets/NoraScheuch-80b30d98.png",
-      "assets/PavloZahozhenko-9bdf8e9e.png",
-      "assets/PiotrSzotkowski-52ac2bf9.png",
-      "assets/RamónHuidobro-78572591.png",
-      "assets/SiarheiKisliak-55e9f850.png",
-      "assets/ThijsCadier-230235e4.png",
-      "assets/VidmantasKabošis-76711ed1.png",
-      "assets/VladimirDementyev-e2d00e9b.png",
-      "assets/WiktoriaDalach-040b6904.png",
       "assets/JetBrains_logo-326b29f3.png",
       "assets/Kisko-logo-08731490.png",
       "assets/Meister-logo-f8c7a270.png",
@@ -662,6 +545,8 @@
       "assets/22-fe0631c5.png",
       "assets/leftArrow-8956ee4c.svg",
       "assets/rightArrow-17ecdb2c.svg",
+      "assets/leftArrow-27608328.svg",
+      "assets/rightArrow-182a5b46.svg",
       "assets/slide-1-4ea43d23.png",
       "assets/slide-2-53cba782.png",
       "assets/slide-3-5c81d102.png",
@@ -674,11 +559,11 @@
     "css": [
       "assets/index-74f0da17.css"
     ],
-    "file": "assets/index-9b1e1d96.js",
+    "file": "assets/index-6cd81928.js",
     "imports": [
       "index.html",
-      "_index-2b9d1a6d.js",
-      "_chunk-NAA7TEES-db74a6aa.js"
+      "_index-0112fa5b.js",
+      "_chunk-NAA7TEES-bbc46e04.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Main/index.tsx"
@@ -696,20 +581,20 @@
       "assets/bgEllipse-127de39e.svg",
       "assets/ellipse-3b8105a3.svg"
     ],
-    "file": "assets/index-5e4e2636.js",
+    "file": "assets/index-4a2cc3f8.js",
     "imports": [
       "index.html",
-      "_index-2b9d1a6d.js",
-      "_chunk-NAA7TEES-db74a6aa.js"
+      "_index-0112fa5b.js",
+      "_chunk-NAA7TEES-bbc46e04.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/NotFound/index.tsx"
   },
   "src/pages/PrivacyPolicy/index.tsx": {
-    "file": "assets/index-6c436ecf.js",
+    "file": "assets/index-e9b97372.js",
     "imports": [
       "index.html",
-      "_index-2b9d1a6d.js"
+      "_index-0112fa5b.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/PrivacyPolicy/index.tsx"
@@ -732,11 +617,11 @@
       "assets/background2-d258e612.svg",
       "assets/arrow-fbf3a81d.svg"
     ],
-    "file": "assets/index-e86a5d7c.js",
+    "file": "assets/index-297220d2.js",
     "imports": [
       "index.html",
-      "_index-2b9d1a6d.js",
-      "_chunk-NAA7TEES-db74a6aa.js"
+      "_index-0112fa5b.js",
+      "_chunk-NAA7TEES-bbc46e04.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Speakers/index.tsx"
