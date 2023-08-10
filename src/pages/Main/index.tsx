@@ -13,7 +13,7 @@ import { Logo } from './components/Logo';
 import { Nav } from './components/Nav';
 import { NewExperience } from './components/NewExperience';
 import { OurPartners } from './components/OurPartners';
-import { ProgramCommittee } from './components/ProgramCommittee';
+// import { ProgramCommittee } from './components/ProgramCommittee';
 import { ReadyToJoin } from './components/ReadyToJoin';
 import { Sponsors } from './components/Sponsors';
 import { StillInDoubt } from './components/StillInDoubt';
@@ -31,7 +31,7 @@ export const Component = () => (
     <NewExperience />
     <Celebration />
     <GrabTicket />
-    <ProgramCommittee />
+    {/* <ProgramCommittee /> */}
     {/* <MakeDifference /> */}
     {/* <CallSpeakers /> */}
     <AnnouncementSpeakers />
