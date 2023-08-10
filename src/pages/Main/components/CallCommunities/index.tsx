@@ -6,12 +6,12 @@ import {
   Link,
   useMediaQuery
 } from '@chakra-ui/react';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 
 export const CallCommunities = () => {
   const [isLargerThan700] = useMediaQuery('(max-width: 700px)');
   const [isLargerThan1489] = useMediaQuery('(max-width: 1488px)');
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   return (
     <Flex
@@ -57,15 +57,15 @@ export const CallCommunities = () => {
             borderRadius="27px"
             whiteSpace="pre-wrap"
             fontSize={isLargerThan700 ? '18px' : '21px'}
-            onClick={() => {
-              navigate('/community');
-            }}
+            // onClick={() => {
+            //   navigate('/community');
+            // }}
             as={Link}
             href="mailto:organisers@euruko.org"
-            textTransform="uppercase"
+            textTransform="lowercase"
           >
-            Board of communities
-            {/* organisers@euruko.org */}
+            {/* Board of communities */}
+            organisers@euruko.org
           </Button>
         </Flex>
         <Flex
