@@ -1,5 +1,6 @@
 import { Box } from '@chakra-ui/react';
 
+import { Accommodation } from './components/Accommodation';
 import { CallCommunities } from './components/CallCommunities';
 // import { CallSpeakers } from './components/CallSpeakers';
 import { CallSponsors } from './components/CallSponsors';
@@ -46,6 +47,7 @@ export const Component = () => (
       <ReadyToJoin />
       <StillInDoubt />
       <Venue />
+      <Accommodation />
     </Box>
     <HowWeCelebrating />
     <Footer />

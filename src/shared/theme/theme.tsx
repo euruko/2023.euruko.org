@@ -151,5 +151,11 @@ export const theme = extendTheme({
   },
   fonts: {
     body: `'Syne', sans-serif`
+  },
+  breakpoints: {
+    sm: '400px',
+    md: '850px',
+    lg: '1200px',
+    xl: '1550px'
   }
 });
