@@ -18,6 +18,8 @@ export const Accommodation = () => (
     p={{ base: '40px 0 60px 0', md: '0 0 120px 0' }}
   >
     <Flex
+      maxW="1520px"
+      m="0 auto"
       border="1px solid #D9D9D9"
       borderRadius="45px"
       justifyContent="space-evenly"
@@ -121,7 +123,7 @@ export const Accommodation = () => (
               justifyContent="center"
               fontSize={{
                 base: '16px',
-                sm: '26px',
+                sm: '25px',
                 md: '26px',
                 lg: '26px',
                 xl: '30px'
@@ -157,6 +159,7 @@ export const Accommodation = () => (
           color="#000"
           lineHeight="120%"
           fontSize={{ base: '12px', md: '30px' }}
+          fontWeight={500}
           maxW="535px"
           m="0 auto"
         >

@@ -23,6 +23,8 @@ export const Sponsors = () => {
       pb="120px"
     >
       <Flex
+        maxW="1520px"
+        m="0 auto"
         border="1px solid #D9D9D9"
         borderRadius="45px"
         justifyContent="space-evenly"
