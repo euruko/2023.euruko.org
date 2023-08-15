@@ -8,8 +8,20 @@ import MatiasKorhonen from './speakers/Matias-Korhonen.png';
 import ScottChacon from './speakers/Scott-Chacon.png';
 // import StevenRBaker from './speakers/Steven-R-Baker.png';
 import TomDeBruijn from './speakers/Tom-de-Bruijn.png';
+import YukihiroMatzMatsumoto from './speakers/Yukihiro _Matz_ Matsumoto.png';
 
 export const speakers = [
+  {
+    firstName: 'Yukihiro',
+    lastName: 'Matsumoto',
+    aboutSpeaker: 'The Creator of Ruby',
+    img: YukihiroMatzMatsumoto,
+    link: 'https://twitter.com/yukihiro_matz',
+    talk: '30 Years of Ruby',
+    talkDescription: 'History of Ruby and lessons we have learned from it.',
+    type: 'Talk',
+    isBigText: true
+  },
   // {
   //   firstName: 'Steven',
   //   lastName: 'R.Baker',

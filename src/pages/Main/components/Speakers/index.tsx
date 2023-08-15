@@ -112,7 +112,6 @@ export const Speakers = () => {
               />
             ))}
             <EmptyCard />
-            <EmptyCard />
             <PanelDiscussionCard />
           </Slider>
         </div>

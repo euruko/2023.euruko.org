@@ -22,6 +22,7 @@ type PropsType = {
     link: string;
     type: string;
     isSmallText?: boolean;
+    isBigText?: boolean;
   };
 };
 
@@ -35,7 +36,8 @@ export const SpeakerCard = ({ speaker }: PropsType) => {
     talk,
     isSmallText,
     type,
-    link
+    link,
+    isBigText
   } = speaker;
 
   const [isLargerThan850] = useMediaQuery('(max-width: 850px)');
@@ -52,7 +54,7 @@ export const SpeakerCard = ({ speaker }: PropsType) => {
     talkMinHeight,
     talkDescriptionMinHeight,
     buttonHeight
-  } = useResponsiveStylesForCard({ isSmallText });
+  } = useResponsiveStylesForCard({ isSmallText, isBigText });
 
   return (
     <Flex

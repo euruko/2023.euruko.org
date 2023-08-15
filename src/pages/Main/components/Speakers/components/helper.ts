@@ -2,9 +2,13 @@ import { useMediaQuery } from '@chakra-ui/react';
 
 type OptionsType = {
   isSmallText?: boolean;
+  isBigText?: boolean;
 };
 
-export const useResponsiveStylesForCard = ({ isSmallText }: OptionsType) => {
+export const useResponsiveStylesForCard = ({
+  isSmallText,
+  isBigText
+}: OptionsType) => {
   const [isLargerThan1550] = useMediaQuery('(max-width: 1550px)');
   const [isLargerThan1200] = useMediaQuery('(max-width: 1200px)');
   const [isLargerThan850] = useMediaQuery('(max-width: 850px)');
@@ -21,11 +25,11 @@ export const useResponsiveStylesForCard = ({ isSmallText }: OptionsType) => {
       styles: {
         paddingContainer: '20px 10px',
         headerFontSize: '24px',
-        aboutSpeakerFontSize: '12px',
+        aboutSpeakerFontSize: isBigText ? '16px' : '12px',
         imageHeight: '120px',
         imageWidth: '112px',
         talkFontSize: '12px',
-        talkDescriptionFontSize: '12px',
+        talkDescriptionFontSize: isBigText ? '18px' : '12px',
         aboutSpeakerMinHeight: '58px',
         talkMinHeight: '44px',
         talkDescriptionMinHeight: '130px',
@@ -39,9 +43,9 @@ export const useResponsiveStylesForCard = ({ isSmallText }: OptionsType) => {
         imageHeight: '185px',
         imageWidth: '175px',
         headerFontSize: '30px',
-        aboutSpeakerFontSize: '12px',
+        aboutSpeakerFontSize: isBigText ? '18px' : '12px',
         talkFontSize: isSmallText ? '18px' : '21px',
-        talkDescriptionFontSize: '14px',
+        talkDescriptionFontSize: isBigText ? '20px' : '14px',
         aboutSpeakerMinHeight: '44px',
         talkMinHeight: '87px',
         talkDescriptionMinHeight: '135px',
@@ -55,12 +59,12 @@ export const useResponsiveStylesForCard = ({ isSmallText }: OptionsType) => {
         imageHeight: '321px',
         imageWidth: '301px',
         headerFontSize: '60px',
-        aboutSpeakerFontSize: '16px',
+        aboutSpeakerFontSize: isBigText ? '24px' : '16px',
         talkFontSize: isSmallText ? '24px' : '35px',
         talkDescriptionFontSize: '21px',
-        aboutSpeakerMinHeight: undefined,
-        talkMinHeight: undefined,
-        talkDescriptionMinHeight: undefined,
+        aboutSpeakerMinHeight: '58px',
+        talkMinHeight: '86px',
+        talkDescriptionMinHeight: '151px',
         buttonHeight: '40px'
       }
     },
@@ -71,9 +75,9 @@ export const useResponsiveStylesForCard = ({ isSmallText }: OptionsType) => {
         imageHeight: '221px',
         imageWidth: '201px',
         headerFontSize: '50px',
-        aboutSpeakerFontSize: '14px',
+        aboutSpeakerFontSize: isBigText ? '25px' : '14px',
         talkFontSize: isSmallText ? '17px' : '25px',
-        talkDescriptionFontSize: '16px',
+        talkDescriptionFontSize: isBigText ? '26px' : '16px',
         aboutSpeakerMinHeight: '55px',
         talkMinHeight: '60px',
         talkDescriptionMinHeight: '130px',
@@ -87,9 +91,9 @@ export const useResponsiveStylesForCard = ({ isSmallText }: OptionsType) => {
         imageHeight: '321px',
         imageWidth: '301px',
         headerFontSize: '60px',
-        aboutSpeakerFontSize: '16px',
+        aboutSpeakerFontSize: isBigText ? '35px' : '16px',
         talkFontSize: isSmallText ? '24px' : '35px',
-        talkDescriptionFontSize: '21px',
+        talkDescriptionFontSize: isBigText ? '35px' : '21px',
         aboutSpeakerMinHeight: '60px',
         talkMinHeight: '84px',
         talkDescriptionMinHeight: '150px',
