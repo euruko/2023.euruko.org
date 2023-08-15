@@ -1,5 +1,6 @@
 import Courtyard from './partnersLogos/Courtyard.png';
 import FriendlyRB from './partnersLogos/FriendlyRB.png';
+import goVilnius from './partnersLogos/goVilnius.svg';
 
 export const partners = [
   {
@@ -11,5 +12,10 @@ export const partners = [
     imageUrl: FriendlyRB,
     alt: 'Friendly Ruby logo',
     link: 'https://friendlyrb.com/'
+  },
+  {
+    imageUrl: goVilnius,
+    alt: 'Go Vilnius logo',
+    link: 'https://www.govilnius.lt/'
   }
 ];
