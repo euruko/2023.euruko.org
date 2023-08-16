@@ -1,18 +1,18 @@
 {
-  "_chunk-NAA7TEES-7027acc2.js": {
-    "file": "assets/chunk-NAA7TEES-7027acc2.js",
+  "_chunk-NAA7TEES-066c98fb.js": {
+    "file": "assets/chunk-NAA7TEES-066c98fb.js",
     "imports": [
       "index.html"
     ]
   },
-  "_index-00b97cfa.js": {
+  "_index-27dcf7be.js": {
     "assets": [
       "assets/logo-fc08516f.svg"
     ],
     "css": [
       "assets/index-8ca8fae1.css"
     ],
-    "file": "assets/index-00b97cfa.js",
+    "file": "assets/index-27dcf7be.js",
     "imports": [
       "index.html"
     ]
@@ -31,7 +31,7 @@
       "src/pages/PrivacyPolicy/index.tsx",
       "src/pages/NotFound/index.tsx"
     ],
-    "file": "assets/main-ae3be431.js",
+    "file": "assets/main-c9cb1bfc.js",
     "isEntry": true,
     "src": "index.html"
   },
@@ -44,10 +44,10 @@
     "src": "node_modules/slick-carousel/slick/fonts/slick.svg"
   },
   "src/pages/Code/index.tsx": {
-    "file": "assets/index-ccf7d3d1.js",
+    "file": "assets/index-d9ce71b9.js",
     "imports": [
       "index.html",
-      "_index-00b97cfa.js"
+      "_index-27dcf7be.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Code/index.tsx"
@@ -85,11 +85,11 @@
       "assets/logo5-b6ac3a9c.svg",
       "assets/star_avatar-0abc6e45.svg"
     ],
-    "file": "assets/index-18c9d81a.js",
+    "file": "assets/index-b8db024f.js",
     "imports": [
       "index.html",
-      "_index-00b97cfa.js",
-      "_chunk-NAA7TEES-7027acc2.js"
+      "_index-27dcf7be.js",
+      "_chunk-NAA7TEES-066c98fb.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Community/index.tsx"
@@ -102,11 +102,11 @@
     "assets": [
       "assets/companyLogo-06cf7137.svg"
     ],
-    "file": "assets/index-f37e9926.js",
+    "file": "assets/index-8e67aed3.js",
     "imports": [
       "index.html",
-      "_index-00b97cfa.js",
-      "_chunk-NAA7TEES-7027acc2.js"
+      "_index-27dcf7be.js",
+      "_chunk-NAA7TEES-066c98fb.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/JobBoard/index.tsx"
@@ -379,6 +379,10 @@
     "file": "assets/grab-5942cf4d.svg",
     "src": "src/pages/Main/components/Sponsors/assets/grab.svg"
   },
+  "src/pages/Main/components/Sponsors/assets/sponsorLogos/GP-transco-logo.png": {
+    "file": "assets/GP-transco-logo-8907b912.png",
+    "src": "src/pages/Main/components/Sponsors/assets/sponsorLogos/GP-transco-logo.png"
+  },
   "src/pages/Main/components/Sponsors/assets/sponsorLogos/JetBrains_logo.png": {
     "file": "assets/JetBrains_logo-326b29f3.png",
     "src": "src/pages/Main/components/Sponsors/assets/sponsorLogos/JetBrains_logo.png"
@@ -390,6 +394,10 @@
   "src/pages/Main/components/Sponsors/assets/sponsorLogos/Meister-logo.png": {
     "file": "assets/Meister-logo-f8c7a270.png",
     "src": "src/pages/Main/components/Sponsors/assets/sponsorLogos/Meister-logo.png"
+  },
+  "src/pages/Main/components/Sponsors/assets/sponsorLogos/OPenRoad-logo.png": {
+    "file": "assets/OPenRoad-logo-8a27101d.png",
+    "src": "src/pages/Main/components/Sponsors/assets/sponsorLogos/OPenRoad-logo.png"
   },
   "src/pages/Main/components/StillInDoubt/assets/Vilnius/01.png": {
     "file": "assets/01-53888895.png",
@@ -588,9 +596,11 @@
       "assets/Tom-de-Bruijn-977f0ae8.png",
       "assets/Yukihiro _Matz_ Matsumoto-78cffb16.png",
       "assets/30-135c00bd.png",
+      "assets/GP-transco-logo-8907b912.png",
       "assets/JetBrains_logo-326b29f3.png",
       "assets/Kisko-logo-08731490.png",
       "assets/Meister-logo-f8c7a270.png",
+      "assets/OPenRoad-logo-8a27101d.png",
       "assets/grab-5942cf4d.svg",
       "assets/monument-ec3b012b.png",
       "assets/01-53888895.png",
@@ -631,11 +641,11 @@
     "css": [
       "assets/index-74f0da17.css"
     ],
-    "file": "assets/index-4d667996.js",
+    "file": "assets/index-4d9df373.js",
     "imports": [
       "index.html",
-      "_index-00b97cfa.js",
-      "_chunk-NAA7TEES-7027acc2.js"
+      "_index-27dcf7be.js",
+      "_chunk-NAA7TEES-066c98fb.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Main/index.tsx"
@@ -653,20 +663,20 @@
       "assets/bgEllipse-127de39e.svg",
       "assets/ellipse-3b8105a3.svg"
     ],
-    "file": "assets/index-182a31e7.js",
+    "file": "assets/index-8a373bf2.js",
     "imports": [
       "index.html",
-      "_index-00b97cfa.js",
-      "_chunk-NAA7TEES-7027acc2.js"
+      "_index-27dcf7be.js",
+      "_chunk-NAA7TEES-066c98fb.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/NotFound/index.tsx"
   },
   "src/pages/PrivacyPolicy/index.tsx": {
-    "file": "assets/index-d7d980d8.js",
+    "file": "assets/index-b73bfd53.js",
     "imports": [
       "index.html",
-      "_index-00b97cfa.js"
+      "_index-27dcf7be.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/PrivacyPolicy/index.tsx"
@@ -689,11 +699,11 @@
       "assets/background2-d258e612.svg",
       "assets/arrow-fbf3a81d.svg"
     ],
-    "file": "assets/index-60cfb5c1.js",
+    "file": "assets/index-895ddbaa.js",
     "imports": [
       "index.html",
-      "_index-00b97cfa.js",
-      "_chunk-NAA7TEES-7027acc2.js"
+      "_index-27dcf7be.js",
+      "_chunk-NAA7TEES-066c98fb.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Speakers/index.tsx"
