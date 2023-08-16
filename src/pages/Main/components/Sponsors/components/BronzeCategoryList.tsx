@@ -65,8 +65,7 @@ export const BronzeCategoryList = ({
               src={item.logo}
               alt={item.alt}
               mt={isLargerThan750 ? '10px' : undefined}
-              width={isLargerThan750 ? '47.921px' : '125px'}
-              height={isLargerThan750 ? '53.671px' : '140px'}
+              maxH={isLargerThan750 ? '53.671px' : '140px'}
             />
           </Flex>
           <Link

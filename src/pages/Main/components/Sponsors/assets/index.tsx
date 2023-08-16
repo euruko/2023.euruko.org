@@ -1,6 +1,8 @@
+import GPTransco from './sponsorLogos/GP-transco-logo.png';
 import JetBrains from './sponsorLogos/JetBrains_logo.png';
 import Kisko from './sponsorLogos/Kisko-logo.png';
 import Meister from './sponsorLogos/Meister-logo.png';
+import OPenRoad from './sponsorLogos/OPenRoad-logo.png';
 
 export const rubyList = [];
 export const goldList = [];
@@ -13,7 +15,17 @@ export const silverList = [
   }
 ];
 export const bronzeList = [
-  { logo: Kisko, link: 'https://www.kiskolabs.com/fi/', alt: 'Kisko logo' }
+  { logo: Kisko, link: 'https://www.kiskolabs.com/fi/', alt: 'Kisko logo' },
+  {
+    logo: GPTransco,
+    link: 'https://www.gptransco.com/',
+    alt: 'GP Transco logo'
+  },
+  {
+    logo: OPenRoad,
+    link: 'https://www.openroadtms.com/',
+    alt: 'OPenRoad logo'
+  }
 ];
 export const onlineList = [
   { logo: Kisko, link: 'https://www.kiskolabs.com/fi/', alt: 'Kisko logo' }
