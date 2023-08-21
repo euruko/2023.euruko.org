@@ -1,18 +1,18 @@
 {
-  "_chunk-NAA7TEES-066c98fb.js": {
-    "file": "assets/chunk-NAA7TEES-066c98fb.js",
+  "_chunk-NAA7TEES-6b54bf3e.js": {
+    "file": "assets/chunk-NAA7TEES-6b54bf3e.js",
     "imports": [
       "index.html"
     ]
   },
-  "_index-27dcf7be.js": {
+  "_index-7f450720.js": {
     "assets": [
       "assets/logo-fc08516f.svg"
     ],
     "css": [
       "assets/index-8ca8fae1.css"
     ],
-    "file": "assets/index-27dcf7be.js",
+    "file": "assets/index-7f450720.js",
     "imports": [
       "index.html"
     ]
@@ -31,7 +31,7 @@
       "src/pages/PrivacyPolicy/index.tsx",
       "src/pages/NotFound/index.tsx"
     ],
-    "file": "assets/main-c9cb1bfc.js",
+    "file": "assets/main-4a1360eb.js",
     "isEntry": true,
     "src": "index.html"
   },
@@ -44,10 +44,10 @@
     "src": "node_modules/slick-carousel/slick/fonts/slick.svg"
   },
   "src/pages/Code/index.tsx": {
-    "file": "assets/index-d9ce71b9.js",
+    "file": "assets/index-1363eefe.js",
     "imports": [
       "index.html",
-      "_index-27dcf7be.js"
+      "_index-7f450720.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Code/index.tsx"
@@ -85,11 +85,11 @@
       "assets/logo5-b6ac3a9c.svg",
       "assets/star_avatar-0abc6e45.svg"
     ],
-    "file": "assets/index-b8db024f.js",
+    "file": "assets/index-72716b10.js",
     "imports": [
       "index.html",
-      "_index-27dcf7be.js",
-      "_chunk-NAA7TEES-066c98fb.js"
+      "_index-7f450720.js",
+      "_chunk-NAA7TEES-6b54bf3e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Community/index.tsx"
@@ -102,11 +102,11 @@
     "assets": [
       "assets/companyLogo-06cf7137.svg"
     ],
-    "file": "assets/index-8e67aed3.js",
+    "file": "assets/index-a00576d3.js",
     "imports": [
       "index.html",
-      "_index-27dcf7be.js",
-      "_chunk-NAA7TEES-066c98fb.js"
+      "_index-7f450720.js",
+      "_chunk-NAA7TEES-6b54bf3e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/JobBoard/index.tsx"
@@ -331,6 +331,10 @@
     "file": "assets/goVilnius-b6496eeb.svg",
     "src": "src/pages/Main/components/OurPartners/assets/partnersLogos/goVilnius.svg"
   },
+  "src/pages/Main/components/OurPartners/assets/partnersLogos/rubycentral.png": {
+    "file": "assets/rubycentral-7719f75e.png",
+    "src": "src/pages/Main/components/OurPartners/assets/partnersLogos/rubycentral.png"
+  },
   "src/pages/Main/components/Speakers/assets/speakers/30.png": {
     "file": "assets/30-135c00bd.png",
     "src": "src/pages/Main/components/Speakers/assets/speakers/30.png"
@@ -366,6 +370,10 @@
   "src/pages/Main/components/Speakers/assets/speakers/Scott-Chacon.png": {
     "file": "assets/Scott-Chacon-fad886e2.png",
     "src": "src/pages/Main/components/Speakers/assets/speakers/Scott-Chacon.png"
+  },
+  "src/pages/Main/components/Speakers/assets/speakers/Steven-R-Baker.png": {
+    "file": "assets/Steven-R-Baker-91986a19.png",
+    "src": "src/pages/Main/components/Speakers/assets/speakers/Steven-R-Baker.png"
   },
   "src/pages/Main/components/Speakers/assets/speakers/Tom-de-Bruijn.png": {
     "file": "assets/Tom-de-Bruijn-977f0ae8.png",
@@ -583,6 +591,7 @@
       "assets/speakers-feb037e3.png",
       "assets/traveling-82513435.png",
       "assets/goVilnius-b6496eeb.svg",
+      "assets/rubycentral-7719f75e.png",
       "assets/blackLeftArrow-5dc9b7fa.svg",
       "assets/blackRightArrow-daa034f5.svg",
       "assets/Carla-Urrea-Stabile-7195fa5a.png",
@@ -593,6 +602,7 @@
       "assets/Masafumi-Okura-30864229.png",
       "assets/Matias-Korhonen-f7d2aa12.png",
       "assets/Scott-Chacon-fad886e2.png",
+      "assets/Steven-R-Baker-91986a19.png",
       "assets/Tom-de-Bruijn-977f0ae8.png",
       "assets/Yukihiro _Matz_ Matsumoto-78cffb16.png",
       "assets/30-135c00bd.png",
@@ -641,11 +651,11 @@
     "css": [
       "assets/index-74f0da17.css"
     ],
-    "file": "assets/index-4d9df373.js",
+    "file": "assets/index-bbc5eda5.js",
     "imports": [
       "index.html",
-      "_index-27dcf7be.js",
-      "_chunk-NAA7TEES-066c98fb.js"
+      "_index-7f450720.js",
+      "_chunk-NAA7TEES-6b54bf3e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Main/index.tsx"
@@ -663,20 +673,20 @@
       "assets/bgEllipse-127de39e.svg",
       "assets/ellipse-3b8105a3.svg"
     ],
-    "file": "assets/index-8a373bf2.js",
+    "file": "assets/index-737a93e1.js",
     "imports": [
       "index.html",
-      "_index-27dcf7be.js",
-      "_chunk-NAA7TEES-066c98fb.js"
+      "_index-7f450720.js",
+      "_chunk-NAA7TEES-6b54bf3e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/NotFound/index.tsx"
   },
   "src/pages/PrivacyPolicy/index.tsx": {
-    "file": "assets/index-b73bfd53.js",
+    "file": "assets/index-eecfe81e.js",
     "imports": [
       "index.html",
-      "_index-27dcf7be.js"
+      "_index-7f450720.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/PrivacyPolicy/index.tsx"
@@ -699,11 +709,11 @@
       "assets/background2-d258e612.svg",
       "assets/arrow-fbf3a81d.svg"
     ],
-    "file": "assets/index-895ddbaa.js",
+    "file": "assets/index-74913b1c.js",
     "imports": [
       "index.html",
-      "_index-27dcf7be.js",
-      "_chunk-NAA7TEES-066c98fb.js"
+      "_index-7f450720.js",
+      "_chunk-NAA7TEES-6b54bf3e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Speakers/index.tsx"
