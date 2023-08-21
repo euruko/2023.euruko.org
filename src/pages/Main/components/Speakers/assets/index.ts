@@ -6,7 +6,7 @@ import IvoAnjo from './speakers/Ivo-Anjo.png';
 import MasafumiOkura from './speakers/Masafumi-Okura.png';
 import MatiasKorhonen from './speakers/Matias-Korhonen.png';
 import ScottChacon from './speakers/Scott-Chacon.png';
-// import StevenRBaker from './speakers/Steven-R-Baker.png';
+import StevenRBaker from './speakers/Steven-R-Baker.png';
 import TomDeBruijn from './speakers/Tom-de-Bruijn.png';
 import YukihiroMatzMatsumoto from './speakers/Yukihiro _Matz_ Matsumoto.png';
 
@@ -22,17 +22,18 @@ export const speakers = [
     type: 'Talk',
     isBigText: true
   },
-  // {
-  //   firstName: 'Steven',
-  //   lastName: 'R.Baker',
-  //   aboutSpeaker:
-  //     'Steven has been helping individuals, teams, and organisations develop software with an eye towards quality and maintainability for over 25 years.',
-  //   img: StevenRBaker,
-  //   link: 'https://twitter.com/srbaker',
-  //   talk: 'Reflections on a Reluctant Revolution',
-  //   talkDescription: 'TBD!!!',
-  // type:"Talk"
-  // },
+  {
+    firstName: 'Steven',
+    lastName: 'R.Baker',
+    aboutSpeaker:
+      'Steven has been helping individuals, teams, and organisations develop software with an eye towards quality and maintainability for over 25 years.',
+    img: StevenRBaker,
+    link: 'https://twitter.com/srbaker',
+    talk: 'Reflections on a Reluctant Revolution',
+    talkDescription:
+      "A teaching tool escaped the classroom. Software testing in Ruby was changed forever, and it spread to the rest of the industry.  Its creator spent almost two decades completely confused by this and will share what he's learned.",
+    type: 'Talk'
+  },
   {
     firstName: 'Scott',
     lastName: 'Chacon',

@@ -47,6 +47,7 @@ export const OurPartners = () => {
               <Box
                 key={partner.alt}
                 width={isLargerThan750 ? '200px' : undefined}
+                m="auto"
               >
                 <Link
                   href={partner.link}

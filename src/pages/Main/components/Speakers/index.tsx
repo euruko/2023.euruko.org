@@ -9,7 +9,6 @@ import rightArrow from '~/shared/assets/blackRightArrow.svg';
 import { ArrowIcon } from '~/shared/components/ArrowIcon';
 
 import { speakers } from './assets';
-import { EmptyCard } from './components/EmptyCard';
 import { PanelDiscussionCard } from './components/PanelDiscussionCard';
 import { SpeakerCard } from './components/SpeakerCard';
 
@@ -111,7 +110,6 @@ export const Speakers = () => {
                 key={item.lastName}
               />
             ))}
-            <EmptyCard />
             <PanelDiscussionCard />
           </Slider>
         </div>
