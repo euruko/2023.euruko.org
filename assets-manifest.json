@@ -1,18 +1,18 @@
 {
-  "_chunk-NAA7TEES-6b54bf3e.js": {
-    "file": "assets/chunk-NAA7TEES-6b54bf3e.js",
+  "_chunk-NAA7TEES-4c58b5b4.js": {
+    "file": "assets/chunk-NAA7TEES-4c58b5b4.js",
     "imports": [
       "index.html"
     ]
   },
-  "_index-7f450720.js": {
+  "_index-cc445451.js": {
     "assets": [
       "assets/logo-fc08516f.svg"
     ],
     "css": [
       "assets/index-8ca8fae1.css"
     ],
-    "file": "assets/index-7f450720.js",
+    "file": "assets/index-cc445451.js",
     "imports": [
       "index.html"
     ]
@@ -31,7 +31,7 @@
       "src/pages/PrivacyPolicy/index.tsx",
       "src/pages/NotFound/index.tsx"
     ],
-    "file": "assets/main-4a1360eb.js",
+    "file": "assets/main-efa3ec10.js",
     "isEntry": true,
     "src": "index.html"
   },
@@ -44,10 +44,10 @@
     "src": "node_modules/slick-carousel/slick/fonts/slick.svg"
   },
   "src/pages/Code/index.tsx": {
-    "file": "assets/index-1363eefe.js",
+    "file": "assets/index-8cb53200.js",
     "imports": [
       "index.html",
-      "_index-7f450720.js"
+      "_index-cc445451.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Code/index.tsx"
@@ -85,11 +85,11 @@
       "assets/logo5-b6ac3a9c.svg",
       "assets/star_avatar-0abc6e45.svg"
     ],
-    "file": "assets/index-72716b10.js",
+    "file": "assets/index-7c763c1d.js",
     "imports": [
       "index.html",
-      "_index-7f450720.js",
-      "_chunk-NAA7TEES-6b54bf3e.js"
+      "_index-cc445451.js",
+      "_chunk-NAA7TEES-4c58b5b4.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Community/index.tsx"
@@ -102,11 +102,11 @@
     "assets": [
       "assets/companyLogo-06cf7137.svg"
     ],
-    "file": "assets/index-a00576d3.js",
+    "file": "assets/index-3e608ba1.js",
     "imports": [
       "index.html",
-      "_index-7f450720.js",
-      "_chunk-NAA7TEES-6b54bf3e.js"
+      "_index-cc445451.js",
+      "_chunk-NAA7TEES-4c58b5b4.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/JobBoard/index.tsx"
@@ -326,6 +326,10 @@
   "src/pages/Main/components/OurPartners/assets/partnersLogos/Courtyard.png": {
     "file": "assets/Courtyard-ee676860.png",
     "src": "src/pages/Main/components/OurPartners/assets/partnersLogos/Courtyard.png"
+  },
+  "src/pages/Main/components/OurPartners/assets/partnersLogos/VTPilnas.png": {
+    "file": "assets/VTPilnas-b1590667.png",
+    "src": "src/pages/Main/components/OurPartners/assets/partnersLogos/VTPilnas.png"
   },
   "src/pages/Main/components/OurPartners/assets/partnersLogos/goVilnius.svg": {
     "file": "assets/goVilnius-b6496eeb.svg",
@@ -592,6 +596,7 @@
       "assets/traveling-82513435.png",
       "assets/goVilnius-b6496eeb.svg",
       "assets/rubycentral-7719f75e.png",
+      "assets/VTPilnas-b1590667.png",
       "assets/blackLeftArrow-5dc9b7fa.svg",
       "assets/blackRightArrow-daa034f5.svg",
       "assets/Carla-Urrea-Stabile-7195fa5a.png",
@@ -651,11 +656,11 @@
     "css": [
       "assets/index-74f0da17.css"
     ],
-    "file": "assets/index-bbc5eda5.js",
+    "file": "assets/index-9d32ed23.js",
     "imports": [
       "index.html",
-      "_index-7f450720.js",
-      "_chunk-NAA7TEES-6b54bf3e.js"
+      "_index-cc445451.js",
+      "_chunk-NAA7TEES-4c58b5b4.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Main/index.tsx"
@@ -673,20 +678,20 @@
       "assets/bgEllipse-127de39e.svg",
       "assets/ellipse-3b8105a3.svg"
     ],
-    "file": "assets/index-737a93e1.js",
+    "file": "assets/index-5f4ec90d.js",
     "imports": [
       "index.html",
-      "_index-7f450720.js",
-      "_chunk-NAA7TEES-6b54bf3e.js"
+      "_index-cc445451.js",
+      "_chunk-NAA7TEES-4c58b5b4.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/NotFound/index.tsx"
   },
   "src/pages/PrivacyPolicy/index.tsx": {
-    "file": "assets/index-eecfe81e.js",
+    "file": "assets/index-005234fd.js",
     "imports": [
       "index.html",
-      "_index-7f450720.js"
+      "_index-cc445451.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/PrivacyPolicy/index.tsx"
@@ -709,11 +714,11 @@
       "assets/background2-d258e612.svg",
       "assets/arrow-fbf3a81d.svg"
     ],
-    "file": "assets/index-74913b1c.js",
+    "file": "assets/index-8bc8a57e.js",
     "imports": [
       "index.html",
-      "_index-7f450720.js",
-      "_chunk-NAA7TEES-6b54bf3e.js"
+      "_index-cc445451.js",
+      "_chunk-NAA7TEES-4c58b5b4.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Speakers/index.tsx"
