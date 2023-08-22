@@ -19,7 +19,7 @@ export const speakers = [
     link: 'https://twitter.com/yukihiro_matz',
     talk: '30 Years of Ruby',
     talkDescription: 'History of Ruby and lessons we have learned from it.',
-    type: 'Talk',
+    type: 'Keynote',
     isBigText: true
   },
   {
@@ -32,7 +32,19 @@ export const speakers = [
     talk: 'Reflections on a Reluctant Revolution',
     talkDescription:
       "A teaching tool escaped the classroom. Software testing in Ruby was changed forever, and it spread to the rest of the industry.  Its creator spent almost two decades completely confused by this and will share what he's learned.",
-    type: 'Talk'
+    type: 'Keynote'
+  },
+  {
+    firstName: 'Hana',
+    lastName: 'Harencarova',
+    aboutSpeaker:
+      'Hana is a Rubyist by heart and a software engineer at GitHub. She shares her passion by teaching at Ruby Monstas Zürich and Rails Girls.',
+    img: HanaHarencarova,
+    link: 'https://www.linkedin.com/in/hana-harencarova',
+    talk: "Seamless Releases with Feature Flags: Insights from GitHub's Experience",
+    talkDescription:
+      'Feature flags are a powerful technique for controlling the releases of new features. They enable us at GitHub to release safely and to collect feedback early through staff ships and private beta ships.',
+    type: 'Keynote'
   },
   {
     firstName: 'Scott',
@@ -70,18 +82,6 @@ export const speakers = [
     talkDescription:
       "Sure, Ruby 3.2 brought Ruby support to the browser and that's great and all but what else can we do with it? Maybe we can compile it back to C with wasm2c or use it with Deno to create a fully static build of Ruby?",
     type: 'Talk'
-  },
-  {
-    firstName: 'Hana',
-    lastName: 'Harencarova',
-    aboutSpeaker:
-      'Hana is a Rubyist by heart and a software engineer at GitHub. She shares her passion by teaching at Ruby Monstas Zürich and Rails Girls.',
-    img: HanaHarencarova,
-    link: 'https://www.linkedin.com/in/hana-harencarova',
-    talk: "Seamless Releases with Feature Flags: Insights from GitHub's Experience",
-    talkDescription:
-      'Feature flags are a powerful technique for controlling the releases of new features. They enable us at GitHub to release safely and to collect feedback early through staff ships and private beta ships.',
-    type: 'Keynote'
   },
   {
     firstName: 'Hitoshi',

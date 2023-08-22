@@ -54,6 +54,8 @@ export const OurPartners = () => {
                   target="_blank"
                 >
                   <Img
+                    m="auto"
+                    maxH={isLargerThan750 ? '53.671px' : '80px'}
                     src={partner.imageUrl}
                     alt={partner.alt}
                   />
