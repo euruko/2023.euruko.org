@@ -112,14 +112,14 @@ export const agenda: {
       {
         place: 'Main stage',
         time: '16:20 — 16:50',
-        mainHeader: 'Unconference pitches',
+        mainHeader: 'Unconference talk',
         subHeader: '',
         description: ''
       },
       {
         place: 'Main stage',
         time: '17:00 — 17:30',
-        mainHeader: 'Unconference pitches',
+        mainHeader: 'Unconference talk',
         subHeader: '',
         description: ''
       },
@@ -159,7 +159,7 @@ export const agenda: {
     events: [
       {
         place: 'Lobby',
-        time: '09:00 — 17:30',
+        time: '09:00 — 13:00',
         mainHeader: 'Registration',
         subHeader: '',
         description: ''
@@ -225,8 +225,8 @@ export const agenda: {
       },
       {
         place: 'Main stage',
-        time: '15:00 — 15:30',
-        mainHeader: 'Unconference talk',
+        time: '15:00 — 17:30',
+        mainHeader: "Sponsors' talks",
         subHeader: '',
         description: ''
       },
@@ -274,7 +274,7 @@ export const agenda: {
       {
         place: 'Main stage',
         time: '10:00 — 10:40',
-        mainHeader: 'Hana Harencarova',
+        mainHeader: 'Hana Harencarova, keynote',
         subHeader:
           "“Seamless Releases with Feature Flags: Insights from GitHub's Experience”",
         description:

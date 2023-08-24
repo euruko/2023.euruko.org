@@ -93,7 +93,6 @@ export const Nav = () => {
                   as={HashLink}
                   variant="mobileNavLink"
                   to="/agenda"
-                  opacity={0.5}
                 >
                   Agenda
                 </Link>

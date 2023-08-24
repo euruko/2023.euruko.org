@@ -1,8 +1,6 @@
-import { Flex, Heading, useMediaQuery } from '@chakra-ui/react';
+import { Flex, Heading, Link, Text, useMediaQuery } from '@chakra-ui/react';
+import { HashLink } from 'react-router-hash-link';
 import Slider from 'react-slick';
-
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 
 import leftArrow from '~/shared/assets/blackLeftArrow.svg';
 import rightArrow from '~/shared/assets/blackRightArrow.svg';
@@ -11,6 +9,9 @@ import { ArrowIcon } from '~/shared/components/ArrowIcon';
 import { speakers } from './assets';
 import { PanelDiscussionCard } from './components/PanelDiscussionCard';
 import { SpeakerCard } from './components/SpeakerCard';
+
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 export const Speakers = () => {
   const [isLargerThan1550] = useMediaQuery('(max-width: 1550px)');
@@ -113,6 +114,22 @@ export const Speakers = () => {
             <PanelDiscussionCard />
           </Slider>
         </div>
+        <Text fontSize={isLargerThan850 ? '25px' : '35px'}>
+          See the full program in the{' '}
+          <Link
+            as={HashLink}
+            color="#D9D9D9"
+            variant="mobileNavLink"
+            to="/agenda"
+            textDecoration="underline"
+            fontSize={isLargerThan850 ? '25px' : '35px'}
+            lineHeight="120%"
+            letterSpacing="-1.05px"
+          >
+            Agenda
+          </Link>{' '}
+          section.
+        </Text>
       </Flex>
     </Flex>
   );
