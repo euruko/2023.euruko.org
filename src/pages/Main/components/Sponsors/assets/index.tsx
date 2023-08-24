@@ -3,6 +3,7 @@ import JetBrains from './sponsorLogos/JetBrains_logo.png';
 import Kisko from './sponsorLogos/Kisko-logo.png';
 import Meister from './sponsorLogos/Meister-logo.png';
 import OPenRoad from './sponsorLogos/OPenRoad-logo.png';
+import SeQura from './sponsorLogos/SeQura_logo.png';
 
 export const rubyList = [];
 export const goldList = [];
@@ -12,6 +13,11 @@ export const silverList = [
     logo: JetBrains,
     link: 'https://www.jetbrains.com/',
     alt: 'JetBrains logo'
+  },
+  {
+    logo: SeQura,
+    link: 'https://en.sequra.com/',
+    alt: 'SeQura logo'
   }
 ];
 export const bronzeList = [
