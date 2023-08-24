@@ -1,18 +1,18 @@
 {
-  "_chunk-NAA7TEES-4c58b5b4.js": {
-    "file": "assets/chunk-NAA7TEES-4c58b5b4.js",
+  "_chunk-NAA7TEES-2dc39e84.js": {
+    "file": "assets/chunk-NAA7TEES-2dc39e84.js",
     "imports": [
       "index.html"
     ]
   },
-  "_index-cc445451.js": {
+  "_index-21841517.js": {
     "assets": [
       "assets/logo-fc08516f.svg"
     ],
     "css": [
       "assets/index-8ca8fae1.css"
     ],
-    "file": "assets/index-cc445451.js",
+    "file": "assets/index-21841517.js",
     "imports": [
       "index.html"
     ]
@@ -31,7 +31,7 @@
       "src/pages/PrivacyPolicy/index.tsx",
       "src/pages/NotFound/index.tsx"
     ],
-    "file": "assets/main-efa3ec10.js",
+    "file": "assets/main-7e48ab84.js",
     "isEntry": true,
     "src": "index.html"
   },
@@ -44,10 +44,10 @@
     "src": "node_modules/slick-carousel/slick/fonts/slick.svg"
   },
   "src/pages/Code/index.tsx": {
-    "file": "assets/index-8cb53200.js",
+    "file": "assets/index-e3309133.js",
     "imports": [
       "index.html",
-      "_index-cc445451.js"
+      "_index-21841517.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Code/index.tsx"
@@ -85,11 +85,11 @@
       "assets/logo5-b6ac3a9c.svg",
       "assets/star_avatar-0abc6e45.svg"
     ],
-    "file": "assets/index-7c763c1d.js",
+    "file": "assets/index-4d4e2622.js",
     "imports": [
       "index.html",
-      "_index-cc445451.js",
-      "_chunk-NAA7TEES-4c58b5b4.js"
+      "_index-21841517.js",
+      "_chunk-NAA7TEES-2dc39e84.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Community/index.tsx"
@@ -102,11 +102,11 @@
     "assets": [
       "assets/companyLogo-06cf7137.svg"
     ],
-    "file": "assets/index-3e608ba1.js",
+    "file": "assets/index-68328f46.js",
     "imports": [
       "index.html",
-      "_index-cc445451.js",
-      "_chunk-NAA7TEES-4c58b5b4.js"
+      "_index-21841517.js",
+      "_chunk-NAA7TEES-2dc39e84.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/JobBoard/index.tsx"
@@ -411,6 +411,10 @@
     "file": "assets/OPenRoad-logo-8a27101d.png",
     "src": "src/pages/Main/components/Sponsors/assets/sponsorLogos/OPenRoad-logo.png"
   },
+  "src/pages/Main/components/Sponsors/assets/sponsorLogos/SeQura_logo.png": {
+    "file": "assets/SeQura_logo-38f0cda9.png",
+    "src": "src/pages/Main/components/Sponsors/assets/sponsorLogos/SeQura_logo.png"
+  },
   "src/pages/Main/components/StillInDoubt/assets/Vilnius/01.png": {
     "file": "assets/01-53888895.png",
     "src": "src/pages/Main/components/StillInDoubt/assets/Vilnius/01.png"
@@ -616,6 +620,7 @@
       "assets/Kisko-logo-08731490.png",
       "assets/Meister-logo-f8c7a270.png",
       "assets/OPenRoad-logo-8a27101d.png",
+      "assets/SeQura_logo-38f0cda9.png",
       "assets/grab-5942cf4d.svg",
       "assets/monument-ec3b012b.png",
       "assets/01-53888895.png",
@@ -656,11 +661,11 @@
     "css": [
       "assets/index-74f0da17.css"
     ],
-    "file": "assets/index-9d32ed23.js",
+    "file": "assets/index-a6823b6e.js",
     "imports": [
       "index.html",
-      "_index-cc445451.js",
-      "_chunk-NAA7TEES-4c58b5b4.js"
+      "_index-21841517.js",
+      "_chunk-NAA7TEES-2dc39e84.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Main/index.tsx"
@@ -678,20 +683,20 @@
       "assets/bgEllipse-127de39e.svg",
       "assets/ellipse-3b8105a3.svg"
     ],
-    "file": "assets/index-5f4ec90d.js",
+    "file": "assets/index-c8c9a2a1.js",
     "imports": [
       "index.html",
-      "_index-cc445451.js",
-      "_chunk-NAA7TEES-4c58b5b4.js"
+      "_index-21841517.js",
+      "_chunk-NAA7TEES-2dc39e84.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/NotFound/index.tsx"
   },
   "src/pages/PrivacyPolicy/index.tsx": {
-    "file": "assets/index-005234fd.js",
+    "file": "assets/index-0992b5bd.js",
     "imports": [
       "index.html",
-      "_index-cc445451.js"
+      "_index-21841517.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/PrivacyPolicy/index.tsx"
@@ -714,11 +719,11 @@
       "assets/background2-d258e612.svg",
       "assets/arrow-fbf3a81d.svg"
     ],
-    "file": "assets/index-8bc8a57e.js",
+    "file": "assets/index-6adcc0f1.js",
     "imports": [
       "index.html",
-      "_index-cc445451.js",
-      "_chunk-NAA7TEES-4c58b5b4.js"
+      "_index-21841517.js",
+      "_chunk-NAA7TEES-2dc39e84.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Speakers/index.tsx"
