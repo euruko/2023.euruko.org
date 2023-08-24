@@ -92,7 +92,7 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="mobileNavLink"
-                  // to="/#"
+                  to="/agenda"
                   opacity={0.5}
                 >
                   Agenda
@@ -183,9 +183,7 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="navLink"
-                  // to="/#"
-                  opacity={0.5}
-                  cursor="not-allowed"
+                  to="/agenda"
                 >
                   Agenda
                 </Link>
