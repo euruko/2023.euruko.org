@@ -218,15 +218,15 @@ export const agenda: {
       },
       {
         place: 'Expo stage',
-        time: '14:30 — 18:00',
+        time: '15:00 — 17:30',
         mainHeader: "Sponsors' talks",
         subHeader: '',
         description: ''
       },
       {
         place: 'Main stage',
-        time: '15:00 — 17:30',
-        mainHeader: "Sponsors' talks",
+        time: '15:00 — 15:30',
+        mainHeader: 'Unconference talk',
         subHeader: '',
         description: ''
       },
@@ -266,7 +266,7 @@ export const agenda: {
     events: [
       {
         place: 'Expo zone',
-        time: '10:00 — 13:30',
+        time: '10:00 — 14:50',
         mainHeader: 'Sposnors and partners expo',
         subHeader: '',
         description: ''
