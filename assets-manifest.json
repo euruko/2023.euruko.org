@@ -1,27 +1,27 @@
 {
-  "_chunk-NAA7TEES-f514b10b.js": {
-    "file": "assets/chunk-NAA7TEES-f514b10b.js",
+  "_chunk-NAA7TEES-5b204627.js": {
+    "file": "assets/chunk-NAA7TEES-5b204627.js",
     "imports": [
       "index.html"
     ]
   },
-  "_index-3d2925ec.js": {
-    "css": [
-      "assets/index-8ca8fae1.css"
-    ],
-    "file": "assets/index-3d2925ec.js",
-    "imports": [
-      "index.html",
-      "_index-fe373927.js"
-    ]
-  },
-  "_index-fe373927.js": {
+  "_index-1b1f5f0b.js": {
     "assets": [
       "assets/logo-fc08516f.svg"
     ],
-    "file": "assets/index-fe373927.js",
+    "file": "assets/index-1b1f5f0b.js",
     "imports": [
       "index.html"
+    ]
+  },
+  "_index-b2fbc7e8.js": {
+    "css": [
+      "assets/index-8ca8fae1.css"
+    ],
+    "file": "assets/index-b2fbc7e8.js",
+    "imports": [
+      "index.html",
+      "_index-1b1f5f0b.js"
     ]
   },
   "index.css": {
@@ -39,7 +39,7 @@
       "src/pages/PrivacyPolicy/index.tsx",
       "src/pages/NotFound/index.tsx"
     ],
-    "file": "assets/main-2b07501c.js",
+    "file": "assets/main-4cf38f00.js",
     "isEntry": true,
     "src": "index.html"
   },
@@ -59,20 +59,20 @@
     "assets": [
       "assets/grab-8e651d67.svg"
     ],
-    "file": "assets/index-2b8cab6a.js",
+    "file": "assets/index-0a91640d.js",
     "imports": [
       "index.html",
-      "_index-fe373927.js"
+      "_index-1b1f5f0b.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Agenda/index.tsx"
   },
   "src/pages/Code/index.tsx": {
-    "file": "assets/index-a43e60d5.js",
+    "file": "assets/index-dd1cf8b4.js",
     "imports": [
       "index.html",
-      "_index-3d2925ec.js",
-      "_index-fe373927.js"
+      "_index-b2fbc7e8.js",
+      "_index-1b1f5f0b.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Code/index.tsx"
@@ -110,12 +110,12 @@
       "assets/logo5-b6ac3a9c.svg",
       "assets/star_avatar-0abc6e45.svg"
     ],
-    "file": "assets/index-1e361579.js",
+    "file": "assets/index-1fe5158c.js",
     "imports": [
       "index.html",
-      "_index-fe373927.js",
-      "_chunk-NAA7TEES-f514b10b.js",
-      "_index-3d2925ec.js"
+      "_index-1b1f5f0b.js",
+      "_chunk-NAA7TEES-5b204627.js",
+      "_index-b2fbc7e8.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Community/index.tsx"
@@ -128,12 +128,12 @@
     "assets": [
       "assets/companyLogo-06cf7137.svg"
     ],
-    "file": "assets/index-52830532.js",
+    "file": "assets/index-870bc3aa.js",
     "imports": [
       "index.html",
-      "_index-fe373927.js",
-      "_chunk-NAA7TEES-f514b10b.js",
-      "_index-3d2925ec.js"
+      "_index-1b1f5f0b.js",
+      "_chunk-NAA7TEES-5b204627.js",
+      "_index-b2fbc7e8.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/JobBoard/index.tsx"
@@ -363,7 +363,7 @@
     "src": "src/pages/Main/components/OurPartners/assets/partnersLogos/goVilnius.svg"
   },
   "src/pages/Main/components/OurPartners/assets/partnersLogos/rubycentral.png": {
-    "file": "assets/rubycentral-7719f75e.png",
+    "file": "assets/rubycentral-b555bfa2.png",
     "src": "src/pages/Main/components/OurPartners/assets/partnersLogos/rubycentral.png"
   },
   "src/pages/Main/components/Speakers/assets/speakers/30.png": {
@@ -626,7 +626,7 @@
       "assets/speakers-feb037e3.png",
       "assets/traveling-82513435.png",
       "assets/goVilnius-b6496eeb.svg",
-      "assets/rubycentral-7719f75e.png",
+      "assets/rubycentral-b555bfa2.png",
       "assets/VTPilnas-b1590667.png",
       "assets/blackLeftArrow-5dc9b7fa.svg",
       "assets/blackRightArrow-daa034f5.svg",
@@ -688,12 +688,12 @@
     "css": [
       "assets/index-74f0da17.css"
     ],
-    "file": "assets/index-3ebff251.js",
+    "file": "assets/index-353f78a6.js",
     "imports": [
       "index.html",
-      "_index-fe373927.js",
-      "_chunk-NAA7TEES-f514b10b.js",
-      "_index-3d2925ec.js"
+      "_index-1b1f5f0b.js",
+      "_chunk-NAA7TEES-5b204627.js",
+      "_index-b2fbc7e8.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Main/index.tsx"
@@ -711,22 +711,22 @@
       "assets/bgEllipse-127de39e.svg",
       "assets/ellipse-3b8105a3.svg"
     ],
-    "file": "assets/index-9fe4b4ce.js",
+    "file": "assets/index-72e1a256.js",
     "imports": [
       "index.html",
-      "_index-3d2925ec.js",
-      "_index-fe373927.js",
-      "_chunk-NAA7TEES-f514b10b.js"
+      "_index-b2fbc7e8.js",
+      "_index-1b1f5f0b.js",
+      "_chunk-NAA7TEES-5b204627.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/NotFound/index.tsx"
   },
   "src/pages/PrivacyPolicy/index.tsx": {
-    "file": "assets/index-3aaf1ff4.js",
+    "file": "assets/index-71e7884a.js",
     "imports": [
       "index.html",
-      "_index-3d2925ec.js",
-      "_index-fe373927.js"
+      "_index-b2fbc7e8.js",
+      "_index-1b1f5f0b.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/PrivacyPolicy/index.tsx"
@@ -749,12 +749,12 @@
       "assets/background2-d258e612.svg",
       "assets/arrow-fbf3a81d.svg"
     ],
-    "file": "assets/index-bae1e267.js",
+    "file": "assets/index-01b02a9f.js",
     "imports": [
       "index.html",
-      "_index-fe373927.js",
-      "_chunk-NAA7TEES-f514b10b.js",
-      "_index-3d2925ec.js"
+      "_index-1b1f5f0b.js",
+      "_chunk-NAA7TEES-5b204627.js",
+      "_index-b2fbc7e8.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Speakers/index.tsx"
