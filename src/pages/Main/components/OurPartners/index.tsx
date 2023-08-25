@@ -39,6 +39,7 @@ export const OurPartners = () => {
           <Flex
             width="100%"
             justifyContent="center"
+            alignItems="center"
             flexWrap="wrap"
             marginBottom="60px"
             gap={isLargerThan750 ? '60px' : '120px'}
@@ -47,7 +48,7 @@ export const OurPartners = () => {
               <Box
                 key={partner.alt}
                 width={isLargerThan750 ? '200px' : undefined}
-                m="auto"
+                // m="auto"
               >
                 <Link
                   href={partner.link}

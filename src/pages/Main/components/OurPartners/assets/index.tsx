@@ -11,11 +11,6 @@ export const partners = [
     link: 'https://www.marriott.com/en-us/hotels/vnocy-courtyard-vilnius-city-center/overview/'
   },
   {
-    imageUrl: FriendlyRB,
-    alt: 'Friendly Ruby logo',
-    link: 'https://friendlyrb.com/'
-  },
-  {
     imageUrl: goVilnius,
     alt: 'Go Vilnius logo',
     link: 'https://www.govilnius.lt/'
@@ -24,6 +19,11 @@ export const partners = [
     imageUrl: VTPilnas,
     alt: 'Vilnius Tech logo',
     link: 'https://vilniustech.lt/'
+  },
+  {
+    imageUrl: FriendlyRB,
+    alt: 'Friendly Ruby logo',
+    link: 'https://friendlyrb.com/'
   },
   {
     imageUrl: rubycentral,
