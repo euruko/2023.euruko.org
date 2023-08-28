@@ -1,27 +1,27 @@
 {
-  "_chunk-NAA7TEES-6609f3b4.js": {
-    "file": "assets/chunk-NAA7TEES-6609f3b4.js",
+  "_chunk-NAA7TEES-88bd0ee5.js": {
+    "file": "assets/chunk-NAA7TEES-88bd0ee5.js",
     "imports": [
       "index.html"
     ]
   },
-  "_index-7413f0e0.js": {
-    "css": [
-      "assets/index-8ca8fae1.css"
-    ],
-    "file": "assets/index-7413f0e0.js",
-    "imports": [
-      "index.html",
-      "_index-ac53e314.js"
-    ]
-  },
-  "_index-ac53e314.js": {
+  "_index-15a6df16.js": {
     "assets": [
       "assets/logo-fc08516f.svg"
     ],
-    "file": "assets/index-ac53e314.js",
+    "file": "assets/index-15a6df16.js",
     "imports": [
       "index.html"
+    ]
+  },
+  "_index-92474e60.js": {
+    "css": [
+      "assets/index-8ca8fae1.css"
+    ],
+    "file": "assets/index-92474e60.js",
+    "imports": [
+      "index.html",
+      "_index-15a6df16.js"
     ]
   },
   "index.css": {
@@ -39,7 +39,7 @@
       "src/pages/PrivacyPolicy/index.tsx",
       "src/pages/NotFound/index.tsx"
     ],
-    "file": "assets/main-877dd4f7.js",
+    "file": "assets/main-6e359f3c.js",
     "isEntry": true,
     "src": "index.html"
   },
@@ -59,20 +59,20 @@
     "assets": [
       "assets/grab-8e651d67.svg"
     ],
-    "file": "assets/index-e9d58c4c.js",
+    "file": "assets/index-adbf40a8.js",
     "imports": [
       "index.html",
-      "_index-ac53e314.js"
+      "_index-15a6df16.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Agenda/index.tsx"
   },
   "src/pages/Code/index.tsx": {
-    "file": "assets/index-8b878574.js",
+    "file": "assets/index-eb53c2f4.js",
     "imports": [
       "index.html",
-      "_index-7413f0e0.js",
-      "_index-ac53e314.js"
+      "_index-92474e60.js",
+      "_index-15a6df16.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Code/index.tsx"
@@ -110,12 +110,12 @@
       "assets/logo5-b6ac3a9c.svg",
       "assets/star_avatar-0abc6e45.svg"
     ],
-    "file": "assets/index-de60f14d.js",
+    "file": "assets/index-2610c226.js",
     "imports": [
       "index.html",
-      "_index-ac53e314.js",
-      "_chunk-NAA7TEES-6609f3b4.js",
-      "_index-7413f0e0.js"
+      "_index-15a6df16.js",
+      "_chunk-NAA7TEES-88bd0ee5.js",
+      "_index-92474e60.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Community/index.tsx"
@@ -128,12 +128,12 @@
     "assets": [
       "assets/companyLogo-06cf7137.svg"
     ],
-    "file": "assets/index-ceb3a969.js",
+    "file": "assets/index-891eda75.js",
     "imports": [
       "index.html",
-      "_index-ac53e314.js",
-      "_chunk-NAA7TEES-6609f3b4.js",
-      "_index-7413f0e0.js"
+      "_index-15a6df16.js",
+      "_chunk-NAA7TEES-88bd0ee5.js",
+      "_index-92474e60.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/JobBoard/index.tsx"
@@ -358,9 +358,17 @@
     "file": "assets/VTPilnas-b1590667.png",
     "src": "src/pages/Main/components/OurPartners/assets/partnersLogos/VTPilnas.png"
   },
+  "src/pages/Main/components/OurPartners/assets/partnersLogos/VilniusTechFusion-logo.svg": {
+    "file": "assets/VilniusTechFusion-logo-7cb6be16.svg",
+    "src": "src/pages/Main/components/OurPartners/assets/partnersLogos/VilniusTechFusion-logo.svg"
+  },
   "src/pages/Main/components/OurPartners/assets/partnersLogos/goVilnius.svg": {
     "file": "assets/goVilnius-b6496eeb.svg",
     "src": "src/pages/Main/components/OurPartners/assets/partnersLogos/goVilnius.svg"
+  },
+  "src/pages/Main/components/OurPartners/assets/partnersLogos/helvetic_ruby_logo.png": {
+    "file": "assets/helvetic_ruby_logo-3c737f24.png",
+    "src": "src/pages/Main/components/OurPartners/assets/partnersLogos/helvetic_ruby_logo.png"
   },
   "src/pages/Main/components/OurPartners/assets/partnersLogos/rubycentral.png": {
     "file": "assets/rubycentral-b555bfa2.png",
@@ -626,7 +634,9 @@
       "assets/speakers-feb037e3.png",
       "assets/traveling-82513435.png",
       "assets/goVilnius-b6496eeb.svg",
+      "assets/helvetic_ruby_logo-3c737f24.png",
       "assets/rubycentral-b555bfa2.png",
+      "assets/VilniusTechFusion-logo-7cb6be16.svg",
       "assets/VTPilnas-b1590667.png",
       "assets/blackLeftArrow-5dc9b7fa.svg",
       "assets/blackRightArrow-daa034f5.svg",
@@ -688,12 +698,12 @@
     "css": [
       "assets/index-74f0da17.css"
     ],
-    "file": "assets/index-7ab8be18.js",
+    "file": "assets/index-71462e68.js",
     "imports": [
       "index.html",
-      "_index-ac53e314.js",
-      "_chunk-NAA7TEES-6609f3b4.js",
-      "_index-7413f0e0.js"
+      "_index-15a6df16.js",
+      "_chunk-NAA7TEES-88bd0ee5.js",
+      "_index-92474e60.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Main/index.tsx"
@@ -711,22 +721,22 @@
       "assets/bgEllipse-127de39e.svg",
       "assets/ellipse-3b8105a3.svg"
     ],
-    "file": "assets/index-6ad90229.js",
+    "file": "assets/index-e647fa23.js",
     "imports": [
       "index.html",
-      "_index-7413f0e0.js",
-      "_index-ac53e314.js",
-      "_chunk-NAA7TEES-6609f3b4.js"
+      "_index-92474e60.js",
+      "_index-15a6df16.js",
+      "_chunk-NAA7TEES-88bd0ee5.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/NotFound/index.tsx"
   },
   "src/pages/PrivacyPolicy/index.tsx": {
-    "file": "assets/index-be5a76d3.js",
+    "file": "assets/index-af380455.js",
     "imports": [
       "index.html",
-      "_index-7413f0e0.js",
-      "_index-ac53e314.js"
+      "_index-92474e60.js",
+      "_index-15a6df16.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/PrivacyPolicy/index.tsx"
@@ -749,12 +759,12 @@
       "assets/background2-d258e612.svg",
       "assets/arrow-fbf3a81d.svg"
     ],
-    "file": "assets/index-f42f5bf3.js",
+    "file": "assets/index-3ddf04cc.js",
     "imports": [
       "index.html",
-      "_index-ac53e314.js",
-      "_chunk-NAA7TEES-6609f3b4.js",
-      "_index-7413f0e0.js"
+      "_index-15a6df16.js",
+      "_chunk-NAA7TEES-88bd0ee5.js",
+      "_index-92474e60.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Speakers/index.tsx"
