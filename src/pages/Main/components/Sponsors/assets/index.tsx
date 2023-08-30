@@ -4,6 +4,7 @@ import Kisko from './sponsorLogos/Kisko-logo.png';
 import Meister from './sponsorLogos/Meister-logo.png';
 import OPenRoad from './sponsorLogos/OPenRoad-logo.png';
 import SeQura from './sponsorLogos/SeQura_logo.png';
+import softswiss from './sponsorLogos/softswiss-logo.png';
 
 export const rubyList = [];
 export const goldList = [];
@@ -31,6 +32,11 @@ export const bronzeList = [
     logo: OPenRoad,
     link: 'https://www.openroadtms.com/',
     alt: 'OPenRoad logo'
+  },
+  {
+    logo: softswiss,
+    link: 'https://www.softswiss.com/',
+    alt: 'SoftSwiss logo'
   }
 ];
 export const onlineList = [
