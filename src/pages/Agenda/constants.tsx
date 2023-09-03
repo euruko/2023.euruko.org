@@ -174,7 +174,7 @@ export const agenda: {
       {
         place: 'Main stage',
         time: '10:00 — 10:40',
-        mainHeader: 'ukihiro "Matz" Matsumoto, keynote',
+        mainHeader: 'YUKIHIRO "MATZ" MATSUMOTO, KEYNOTE',
         subHeader: '“30 Years of Ruby”',
         description: 'History of Ruby and lessons we have learned from it.'
       },
