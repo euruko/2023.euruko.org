@@ -1,27 +1,34 @@
 {
-  "_chunk-NAA7TEES-3eaf8491.js": {
-    "file": "assets/chunk-NAA7TEES-3eaf8491.js",
+  "_chunk-NAA7TEES-2dc22a6f.js": {
+    "file": "assets/chunk-NAA7TEES-2dc22a6f.js",
     "imports": [
       "index.html"
     ]
   },
-  "_index-181233a6.js": {
-    "assets": [
-      "assets/logo-fc08516f.svg"
-    ],
-    "file": "assets/index-181233a6.js",
+  "_chunk-QBIO4VEB-8c21cae3.js": {
+    "file": "assets/chunk-QBIO4VEB-8c21cae3.js",
     "imports": [
       "index.html"
     ]
   },
-  "_index-62a2e1e3.js": {
+  "_index-5cd99171.js": {
     "css": [
       "assets/index-8ca8fae1.css"
     ],
-    "file": "assets/index-62a2e1e3.js",
+    "file": "assets/index-5cd99171.js",
     "imports": [
       "index.html",
-      "_index-181233a6.js"
+      "_index-d415c32b.js"
+    ]
+  },
+  "_index-d415c32b.js": {
+    "assets": [
+      "assets/logo-fc08516f.svg"
+    ],
+    "file": "assets/index-d415c32b.js",
+    "imports": [
+      "index.html",
+      "_chunk-QBIO4VEB-8c21cae3.js"
     ]
   },
   "index.css": {
@@ -37,9 +44,10 @@
       "src/pages/Community/index.tsx",
       "src/pages/Code/index.tsx",
       "src/pages/PrivacyPolicy/index.tsx",
+      "src/pages/Game/index.tsx",
       "src/pages/NotFound/index.tsx"
     ],
-    "file": "assets/main-5a5b0195.js",
+    "file": "assets/main-e4224b3d.js",
     "isEntry": true,
     "src": "index.html"
   },
@@ -59,20 +67,22 @@
     "assets": [
       "assets/grab-8e651d67.svg"
     ],
-    "file": "assets/index-e9f59967.js",
+    "file": "assets/index-f16c1804.js",
     "imports": [
       "index.html",
-      "_index-181233a6.js"
+      "_index-d415c32b.js",
+      "_chunk-QBIO4VEB-8c21cae3.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Agenda/index.tsx"
   },
   "src/pages/Code/index.tsx": {
-    "file": "assets/index-6c2ffd12.js",
+    "file": "assets/index-7f6df89e.js",
     "imports": [
       "index.html",
-      "_index-62a2e1e3.js",
-      "_index-181233a6.js"
+      "_index-5cd99171.js",
+      "_index-d415c32b.js",
+      "_chunk-QBIO4VEB-8c21cae3.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Code/index.tsx"
@@ -110,15 +120,25 @@
       "assets/logo5-b6ac3a9c.svg",
       "assets/star_avatar-0abc6e45.svg"
     ],
-    "file": "assets/index-1c286c98.js",
+    "file": "assets/index-c30dec58.js",
     "imports": [
       "index.html",
-      "_index-181233a6.js",
-      "_chunk-NAA7TEES-3eaf8491.js",
-      "_index-62a2e1e3.js"
+      "_index-d415c32b.js",
+      "_chunk-NAA7TEES-2dc22a6f.js",
+      "_index-5cd99171.js",
+      "_chunk-QBIO4VEB-8c21cae3.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Community/index.tsx"
+  },
+  "src/pages/Game/index.tsx": {
+    "file": "assets/index-fea414c7.js",
+    "imports": [
+      "index.html",
+      "_chunk-QBIO4VEB-8c21cae3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/pages/Game/index.tsx"
   },
   "src/pages/JobBoard/assets/companyLogo.svg": {
     "file": "assets/companyLogo-06cf7137.svg",
@@ -128,12 +148,13 @@
     "assets": [
       "assets/companyLogo-06cf7137.svg"
     ],
-    "file": "assets/index-82f7997a.js",
+    "file": "assets/index-f6acea55.js",
     "imports": [
       "index.html",
-      "_index-181233a6.js",
-      "_chunk-NAA7TEES-3eaf8491.js",
-      "_index-62a2e1e3.js"
+      "_index-d415c32b.js",
+      "_chunk-NAA7TEES-2dc22a6f.js",
+      "_index-5cd99171.js",
+      "_chunk-QBIO4VEB-8c21cae3.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/JobBoard/index.tsx"
@@ -708,12 +729,13 @@
     "css": [
       "assets/index-74f0da17.css"
     ],
-    "file": "assets/index-0d22963a.js",
+    "file": "assets/index-444a3eb0.js",
     "imports": [
       "index.html",
-      "_index-181233a6.js",
-      "_chunk-NAA7TEES-3eaf8491.js",
-      "_index-62a2e1e3.js"
+      "_index-d415c32b.js",
+      "_chunk-NAA7TEES-2dc22a6f.js",
+      "_index-5cd99171.js",
+      "_chunk-QBIO4VEB-8c21cae3.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Main/index.tsx"
@@ -731,22 +753,24 @@
       "assets/bgEllipse-127de39e.svg",
       "assets/ellipse-3b8105a3.svg"
     ],
-    "file": "assets/index-c6f8bd4b.js",
+    "file": "assets/index-068110f9.js",
     "imports": [
       "index.html",
-      "_index-62a2e1e3.js",
-      "_index-181233a6.js",
-      "_chunk-NAA7TEES-3eaf8491.js"
+      "_index-5cd99171.js",
+      "_index-d415c32b.js",
+      "_chunk-NAA7TEES-2dc22a6f.js",
+      "_chunk-QBIO4VEB-8c21cae3.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/NotFound/index.tsx"
   },
   "src/pages/PrivacyPolicy/index.tsx": {
-    "file": "assets/index-67fbf574.js",
+    "file": "assets/index-46fd8c91.js",
     "imports": [
       "index.html",
-      "_index-62a2e1e3.js",
-      "_index-181233a6.js"
+      "_index-5cd99171.js",
+      "_index-d415c32b.js",
+      "_chunk-QBIO4VEB-8c21cae3.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/PrivacyPolicy/index.tsx"
@@ -769,12 +793,13 @@
       "assets/background2-d258e612.svg",
       "assets/arrow-fbf3a81d.svg"
     ],
-    "file": "assets/index-d7850827.js",
+    "file": "assets/index-05379250.js",
     "imports": [
       "index.html",
-      "_index-181233a6.js",
-      "_chunk-NAA7TEES-3eaf8491.js",
-      "_index-62a2e1e3.js"
+      "_index-d415c32b.js",
+      "_chunk-NAA7TEES-2dc22a6f.js",
+      "_index-5cd99171.js",
+      "_chunk-QBIO4VEB-8c21cae3.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Speakers/index.tsx"
