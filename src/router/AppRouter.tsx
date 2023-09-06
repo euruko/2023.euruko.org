@@ -39,6 +39,11 @@ const router = createBrowserRouter([
     lazy: () => import('~/pages/PrivacyPolicy')
   },
   {
+    path: '/game',
+    ErrorBoundary: RouterErrorBoundary,
+    lazy: () => import('~/pages/Game')
+  },
+  {
     path: '*',
     lazy: () => import('~/pages/NotFound')
   }

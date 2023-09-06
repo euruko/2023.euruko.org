@@ -110,9 +110,9 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="mobileNavLink"
-                  to="/#callCommunities"
+                  to="/game"
                 >
-                  Communities
+                  Free ticket
                 </Link>
               </ListItem>
               <ListItem>
@@ -204,9 +204,29 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="navLink"
-                  to="/#callCommunities"
+                  to="/game"
+                  sx={{
+                    position: 'relative',
+                    _hover: {
+                      color: '#D9D9D9'
+                    }
+                  }}
                 >
-                  Communities
+                  Free ticket
+                  <Text
+                    sx={{
+                      content: '""',
+                      position: 'absolute',
+                      top: '50%',
+                      left: '50%',
+                      transform: 'translate(-50%, -50%)',
+                      width: '150%',
+                      height: '150%',
+                      zIndex: -1,
+                      borderRadius: '50px',
+                      border: '1px solid #D9D9D9'
+                    }}
+                  />
                 </Link>
               </ListItem>
               <ListItem>
