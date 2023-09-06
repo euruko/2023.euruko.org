@@ -1,4 +1,5 @@
 import GPTransco from './sponsorLogos/GP-transco-logo.png';
+import ioki from './sponsorLogos/ioki-logo_claim.png';
 import JetBrains from './sponsorLogos/JetBrains_logo.png';
 import Kisko from './sponsorLogos/Kisko-logo.png';
 import Meister from './sponsorLogos/Meister-logo.png';
@@ -7,7 +8,9 @@ import SeQura from './sponsorLogos/SeQura_logo.png';
 import softswiss from './sponsorLogos/softswiss-logo.png';
 
 export const rubyList = [];
-export const goldList = [];
+export const goldList = [
+  { logo: ioki, link: 'https://ioki.com/', alt: 'Ioki logo' }
+];
 export const silverList = [
   { logo: Meister, link: 'https://www.meisterlabs.com/', alt: 'Meister logo' },
   {

@@ -52,21 +52,28 @@ export const GoldCategoryList = ({ goldList }: { goldList: SponsorType[] }) => {
               Gold
             </Text>
           </Box>
-          <Img
-            src={item.logo}
-            alt={item.alt}
-            width={isLargerThan750 ? '78px' : '125px'}
-            height={isLargerThan750 ? '88px' : '140px'}
-          />
-          <Text
-            w="90%"
-            fontSize={isLargerThan750 ? '12px' : '21px'}
-            fontWeight={500}
-            color="#9A9A9A"
-            lineHeight="120%"
+          <Flex
+            minH={isLargerThan750 ? '78px' : '140px'}
+            alignItems="center"
+            justifyContent="center"
           >
-            {item.description}
-          </Text>
+            <Img
+              src={item.logo}
+              alt={item.alt}
+              maxH={isLargerThan750 ? '78px' : '140px'}
+            />
+          </Flex>
+          {item.description && (
+            <Text
+              w="90%"
+              fontSize={isLargerThan750 ? '12px' : '21px'}
+              fontWeight={500}
+              color="#9A9A9A"
+              lineHeight="120%"
+            >
+              {item.description}
+            </Text>
+          )}
           <Link
             href={item.link}
             p={isLargerThan750 ? '4px' : '10px'}
