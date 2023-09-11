@@ -2,8 +2,10 @@ import Courtyard from './partnersLogos/Courtyard.png';
 import FriendlyRB from './partnersLogos/FriendlyRB.png';
 import goVilnius from './partnersLogos/goVilnius.svg';
 import helveticRuby from './partnersLogos/helvetic_ruby_logo.png';
+import RubyWarsawCommunityConference from './partnersLogos/logoRubyWarsawCommunityConference.svg';
 import rubycentral from './partnersLogos/rubycentral.png';
 import VilniusTechFusion from './partnersLogos/VilniusTechFusion-logo.svg';
+import visualityLogo from './partnersLogos/VisualityLogo.svg';
 import VTPilnas from './partnersLogos/VTPilnas.png';
 
 export const partners = [
@@ -41,5 +43,15 @@ export const partners = [
     imageUrl: helveticRuby,
     alt: 'Helvetic Ruby logo',
     link: 'https://helvetic-ruby.ch/'
+  },
+  {
+    imageUrl: visualityLogo,
+    alt: 'Visuality logo',
+    link: 'https://www.visuality.pl/'
+  },
+  {
+    imageUrl: RubyWarsawCommunityConference,
+    alt: 'Ruby Warsaw Community Conference logo',
+    link: 'https://www.rubycommunityconference.com/'
   }
 ];
