@@ -16,7 +16,7 @@ export const GoldCategoryList = ({ goldList }: { goldList: SponsorType[] }) => {
         <Flex
           key={item.alt}
           position="relative"
-          w={isLargerThan750 ? '280px' : '600px'}
+          w={isLargerThan750 ? '280px' : '750px'}
           p={isLargerThan750 ? '20px 0' : '60px 0'}
           mt="30px"
           borderRadius="45px"
