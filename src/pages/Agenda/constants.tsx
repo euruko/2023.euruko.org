@@ -36,7 +36,7 @@ export const agenda: {
       {
         place: 'Expo zone',
         time: '10:00 — 17:30',
-        mainHeader: 'Sposnors and partners expo',
+        mainHeader: 'SPONSORS and partners expo',
         subHeader: '',
         description: ''
       },
@@ -167,7 +167,7 @@ export const agenda: {
       {
         place: 'Expo zone',
         time: '10:00 — 17:30',
-        mainHeader: 'Sposnors and partners expo',
+        mainHeader: 'SPONSORS and partners expo',
         subHeader: '',
         description: ''
       },
@@ -267,7 +267,7 @@ export const agenda: {
       {
         place: 'Expo zone',
         time: '10:00 — 14:50',
-        mainHeader: 'Sposnors and partners expo',
+        mainHeader: 'SPONSORS and partners expo',
         subHeader: '',
         description: ''
       },

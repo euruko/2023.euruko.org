@@ -13,7 +13,7 @@ const HeadingStyles = {
   textTransform: 'none',
   maxW: '500px',
   m: '30px 0px',
-  noOfLines: 2
+  noOfLines: 3
 };
 
 export const Jobs = () => (
@@ -89,7 +89,7 @@ export const Jobs = () => (
     {JOBS.gold && JOBS.gold.length > 0 && (
       <>
         <Text
-          mt="180px"
+          mt="120px"
           mb="30px"
           variant="jobHeadingText"
         >

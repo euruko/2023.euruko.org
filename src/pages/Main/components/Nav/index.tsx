@@ -119,8 +119,8 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="mobileNavLink"
-                  // to="/jobBoard"
-                  opacity={0.5}
+                  to="/jobBoard"
+                  // opacity={0.5}
                 >
                   Job board
                 </Link>
@@ -233,9 +233,9 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="navLink"
-                  // to="/jobBoard"
-                  opacity={0.5}
-                  cursor="not-allowed"
+                  to="/jobBoard"
+                  // opacity={0.5}
+                  // cursor="not-allowed"
                 >
                   Job board
                 </Link>
