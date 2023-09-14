@@ -1,34 +1,41 @@
 {
-  "_chunk-NAA7TEES-1f4c805f.js": {
-    "file": "assets/chunk-NAA7TEES-1f4c805f.js",
+  "_Meister-logo-b6d3eddc.js": {
+    "assets": [
+      "assets/ioki-logo_claim-80f5315d.png",
+      "assets/Meister-logo-f8c7a270.png"
+    ],
+    "file": "assets/Meister-logo-b6d3eddc.js"
+  },
+  "_chunk-NAA7TEES-b6169c62.js": {
+    "file": "assets/chunk-NAA7TEES-b6169c62.js",
     "imports": [
       "index.html"
     ]
   },
-  "_chunk-QBIO4VEB-4869a17f.js": {
-    "file": "assets/chunk-QBIO4VEB-4869a17f.js",
+  "_chunk-QBIO4VEB-8b725277.js": {
+    "file": "assets/chunk-QBIO4VEB-8b725277.js",
     "imports": [
       "index.html"
     ]
   },
-  "_index-7a8cbee2.js": {
+  "_index-54207e44.js": {
     "css": [
       "assets/index-8ca8fae1.css"
     ],
-    "file": "assets/index-7a8cbee2.js",
+    "file": "assets/index-54207e44.js",
     "imports": [
       "index.html",
-      "_index-926084bd.js"
+      "_index-620d3ea7.js"
     ]
   },
-  "_index-926084bd.js": {
+  "_index-620d3ea7.js": {
     "assets": [
       "assets/logo-fc08516f.svg"
     ],
-    "file": "assets/index-926084bd.js",
+    "file": "assets/index-620d3ea7.js",
     "imports": [
       "index.html",
-      "_chunk-QBIO4VEB-4869a17f.js"
+      "_chunk-QBIO4VEB-8b725277.js"
     ]
   },
   "index.css": {
@@ -47,7 +54,7 @@
       "src/pages/Game/index.tsx",
       "src/pages/NotFound/index.tsx"
     ],
-    "file": "assets/main-66b9cd3c.js",
+    "file": "assets/main-9a0cc864.js",
     "isEntry": true,
     "src": "index.html"
   },
@@ -67,22 +74,22 @@
     "assets": [
       "assets/grab-8e651d67.svg"
     ],
-    "file": "assets/index-7c88ccb2.js",
+    "file": "assets/index-fec852f8.js",
     "imports": [
       "index.html",
-      "_index-926084bd.js",
-      "_chunk-QBIO4VEB-4869a17f.js"
+      "_index-620d3ea7.js",
+      "_chunk-QBIO4VEB-8b725277.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Agenda/index.tsx"
   },
   "src/pages/Code/index.tsx": {
-    "file": "assets/index-1e8b44fb.js",
+    "file": "assets/index-b4504019.js",
     "imports": [
       "index.html",
-      "_index-7a8cbee2.js",
-      "_index-926084bd.js",
-      "_chunk-QBIO4VEB-4869a17f.js"
+      "_index-54207e44.js",
+      "_index-620d3ea7.js",
+      "_chunk-QBIO4VEB-8b725277.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Code/index.tsx"
@@ -120,41 +127,35 @@
       "assets/logo5-b6ac3a9c.svg",
       "assets/star_avatar-0abc6e45.svg"
     ],
-    "file": "assets/index-c2f25381.js",
+    "file": "assets/index-c2370b88.js",
     "imports": [
       "index.html",
-      "_index-926084bd.js",
-      "_chunk-NAA7TEES-1f4c805f.js",
-      "_index-7a8cbee2.js",
-      "_chunk-QBIO4VEB-4869a17f.js"
+      "_index-620d3ea7.js",
+      "_chunk-NAA7TEES-b6169c62.js",
+      "_index-54207e44.js",
+      "_chunk-QBIO4VEB-8b725277.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Community/index.tsx"
   },
   "src/pages/Game/index.tsx": {
-    "file": "assets/index-1054fddc.js",
+    "file": "assets/index-132a8c3d.js",
     "imports": [
       "index.html",
-      "_chunk-QBIO4VEB-4869a17f.js"
+      "_chunk-QBIO4VEB-8b725277.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Game/index.tsx"
   },
-  "src/pages/JobBoard/assets/ioki-logo_claim.png": {
-    "file": "assets/ioki-logo_claim-80f5315d.png",
-    "src": "src/pages/JobBoard/assets/ioki-logo_claim.png"
-  },
   "src/pages/JobBoard/index.tsx": {
-    "assets": [
-      "assets/ioki-logo_claim-80f5315d.png"
-    ],
-    "file": "assets/index-c289ce45.js",
+    "file": "assets/index-ed0ffd02.js",
     "imports": [
       "index.html",
-      "_index-926084bd.js",
-      "_chunk-NAA7TEES-1f4c805f.js",
-      "_index-7a8cbee2.js",
-      "_chunk-QBIO4VEB-4869a17f.js"
+      "_Meister-logo-b6d3eddc.js",
+      "_index-620d3ea7.js",
+      "_chunk-NAA7TEES-b6169c62.js",
+      "_index-54207e44.js",
+      "_chunk-QBIO4VEB-8b725277.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/JobBoard/index.tsx"
@@ -473,7 +474,7 @@
   },
   "src/pages/Main/components/Sponsors/assets/sponsorLogos/ioki-logo_claim.png": {
     "file": "assets/ioki-logo_claim-80f5315d.png",
-    "src": "src/pages/JobBoard/assets/ioki-logo_claim.png"
+    "src": "src/pages/Main/components/Sponsors/assets/sponsorLogos/ioki-logo_claim.png"
   },
   "src/pages/Main/components/Sponsors/assets/sponsorLogos/softswiss-logo.png": {
     "file": "assets/softswiss-logo-a3619fff.png",
@@ -682,10 +683,8 @@
       "assets/Yukihiro _Matz_ Matsumoto-78cffb16.png",
       "assets/30-135c00bd.png",
       "assets/GP-transco-logo-8907b912.png",
-      "assets/ioki-logo_claim-80f5315d.png",
       "assets/JetBrains_logo-326b29f3.png",
       "assets/Kisko-logo-08731490.png",
-      "assets/Meister-logo-f8c7a270.png",
       "assets/OPenRoad-logo-8a27101d.png",
       "assets/SeQura_logo-38f0cda9.png",
       "assets/softswiss-logo-a3619fff.png",
@@ -729,13 +728,14 @@
     "css": [
       "assets/index-74f0da17.css"
     ],
-    "file": "assets/index-f83c4e73.js",
+    "file": "assets/index-84b9546e.js",
     "imports": [
       "index.html",
-      "_index-926084bd.js",
-      "_chunk-NAA7TEES-1f4c805f.js",
-      "_index-7a8cbee2.js",
-      "_chunk-QBIO4VEB-4869a17f.js"
+      "_index-620d3ea7.js",
+      "_chunk-NAA7TEES-b6169c62.js",
+      "_index-54207e44.js",
+      "_Meister-logo-b6d3eddc.js",
+      "_chunk-QBIO4VEB-8b725277.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Main/index.tsx"
@@ -753,24 +753,24 @@
       "assets/bgEllipse-127de39e.svg",
       "assets/ellipse-3b8105a3.svg"
     ],
-    "file": "assets/index-9f06c9ba.js",
+    "file": "assets/index-3362230f.js",
     "imports": [
       "index.html",
-      "_index-7a8cbee2.js",
-      "_index-926084bd.js",
-      "_chunk-NAA7TEES-1f4c805f.js",
-      "_chunk-QBIO4VEB-4869a17f.js"
+      "_index-54207e44.js",
+      "_index-620d3ea7.js",
+      "_chunk-NAA7TEES-b6169c62.js",
+      "_chunk-QBIO4VEB-8b725277.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/NotFound/index.tsx"
   },
   "src/pages/PrivacyPolicy/index.tsx": {
-    "file": "assets/index-c6b9699c.js",
+    "file": "assets/index-8bff2de8.js",
     "imports": [
       "index.html",
-      "_index-7a8cbee2.js",
-      "_index-926084bd.js",
-      "_chunk-QBIO4VEB-4869a17f.js"
+      "_index-54207e44.js",
+      "_index-620d3ea7.js",
+      "_chunk-QBIO4VEB-8b725277.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/PrivacyPolicy/index.tsx"
@@ -793,13 +793,13 @@
       "assets/background2-d258e612.svg",
       "assets/arrow-fbf3a81d.svg"
     ],
-    "file": "assets/index-e4c44c80.js",
+    "file": "assets/index-1fe7d5bf.js",
     "imports": [
       "index.html",
-      "_index-926084bd.js",
-      "_chunk-NAA7TEES-1f4c805f.js",
-      "_index-7a8cbee2.js",
-      "_chunk-QBIO4VEB-4869a17f.js"
+      "_index-620d3ea7.js",
+      "_chunk-NAA7TEES-b6169c62.js",
+      "_index-54207e44.js",
+      "_chunk-QBIO4VEB-8b725277.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Speakers/index.tsx"
