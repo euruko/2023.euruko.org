@@ -49,6 +49,7 @@ export const Jobs = () => (
             >
               <Center maxH="100px">
                 <Img
+                  alt={job.alt}
                   src={job.img}
                   maxH="100px"
                 />
@@ -202,7 +203,7 @@ export const Jobs = () => (
                 letterSpacing="-0.02em"
                 color="#9A9A9A"
                 variant="regularText"
-                noOfLines={4}
+                noOfLines={5}
               >
                 {job.description}
               </Text>
