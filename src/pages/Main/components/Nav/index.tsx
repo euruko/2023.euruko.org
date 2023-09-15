@@ -207,6 +207,7 @@ export const Nav = () => {
                   to="/game"
                   sx={{
                     position: 'relative',
+                    padding: '0 10px',
                     _hover: {
                       color: '#D9D9D9'
                     }
@@ -220,7 +221,7 @@ export const Nav = () => {
                       top: '50%',
                       left: '50%',
                       transform: 'translate(-50%, -50%)',
-                      width: '150%',
+                      width: '115%',
                       height: '150%',
                       zIndex: -1,
                       borderRadius: '50px',
