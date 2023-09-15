@@ -1,3 +1,4 @@
+import appSignal from './sponsorLogos/appSignal_logo.svg';
 import GPTransco from './sponsorLogos/GP-transco-logo.png';
 import ioki from './sponsorLogos/ioki-logo_claim.png';
 import JetBrains from './sponsorLogos/JetBrains_logo.png';
@@ -46,6 +47,11 @@ export const bronzeList = [
     logo: softswiss,
     link: 'https://www.softswiss.com/',
     alt: 'SoftSwiss logo'
+  },
+  {
+    logo: appSignal,
+    link: 'https://www.appsignal.com/',
+    alt: 'AppSignal logo'
   }
 ];
 export const onlineList = [
