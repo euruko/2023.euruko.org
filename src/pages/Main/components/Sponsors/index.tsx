@@ -2,6 +2,7 @@ import { Box, Flex, Heading, Img, useMediaQuery } from '@chakra-ui/react';
 
 import {
   bronzeList,
+  drinkSponsorList,
   goldList,
   onlineList,
   rubyList,
@@ -72,6 +73,12 @@ export const Sponsors = () => {
         )}
         {onlineList.length > 0 && (
           <OnlineCategoryList onlineList={onlineList} />
+        )}
+        {drinkSponsorList.length > 0 && (
+          <BronzeCategoryList
+            bronzeList={drinkSponsorList}
+            isDrinksSponsor
+          />
         )}
       </Flex>
     </Box>

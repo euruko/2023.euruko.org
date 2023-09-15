@@ -58,6 +58,14 @@ export const onlineList = [
   { logo: Kisko, link: 'https://www.kiskolabs.com/fi/', alt: 'Kisko logo' }
 ];
 
+export const drinkSponsorList = [
+  {
+    logo: appSignal,
+    link: 'https://www.appsignal.com/',
+    alt: 'AppSignal logo'
+  }
+];
+
 export type SponsorType = {
   logo: string;
   link: string;
