@@ -48,11 +48,17 @@ export const Jobs = () => (
               boxShadow="0px 0px 25px #FF74BD;"
             >
               <Center maxH="100px">
-                <Img
-                  alt={job.alt}
-                  src={job.img}
-                  maxH="100px"
-                />
+                <Flex
+                  minH="100"
+                  alignItems="center"
+                  justifyContent="center"
+                >
+                  <Img
+                    src={job.img}
+                    alt={job.alt}
+                    maxH="100px"
+                  />
+                </Flex>
               </Center>
               <Heading
                 variant="regularHeading"
@@ -116,10 +122,17 @@ export const Jobs = () => (
               boxShadow="0px 0px 25px #2BBA7E"
             >
               <Center maxH="100px">
-                <Img
-                  src={job.img}
-                  maxH="100px"
-                />
+                <Flex
+                  minH="100px"
+                  alignItems="center"
+                  justifyContent="center"
+                >
+                  <Img
+                    src={job.img}
+                    alt={job.alt}
+                    maxH="100px"
+                  />
+                </Flex>
               </Center>
               <Heading
                 variant="regularHeading"
@@ -184,10 +197,17 @@ export const Jobs = () => (
               boxShadow="0px 0px 25px #049ADB"
             >
               <Center maxH="100px">
-                <Img
-                  src={job.img}
-                  maxH="100px"
-                />
+                <Flex
+                  minH="100px"
+                  alignItems="center"
+                  justifyContent="center"
+                >
+                  <Img
+                    src={job.img}
+                    alt={job.alt}
+                    maxH="100px"
+                  />
+                </Flex>
               </Center>
               <Heading
                 variant="regularHeading"
@@ -252,10 +272,17 @@ export const Jobs = () => (
               boxShadow="0px 0px 25px #9e9e9e"
             >
               <Center maxH="100px">
-                <Img
-                  src={job.img}
-                  maxH="100px"
-                />
+                <Flex
+                  minH="100px"
+                  alignItems="center"
+                  justifyContent="center"
+                >
+                  <Img
+                    src={job.img}
+                    alt={job.alt}
+                    maxH="100px"
+                  />
+                </Flex>
               </Center>
               <Heading
                 variant="regularHeading"
