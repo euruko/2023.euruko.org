@@ -9,7 +9,7 @@ export const OurPartners = () => {
     <Box
       id="callSponsors"
       backgroundColor="#D9D9D9"
-      pb="120px"
+      pb={isLargerThan750 ? '60px' : '120px'}
     >
       <Flex
         maxW="1540px"

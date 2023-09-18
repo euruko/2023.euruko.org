@@ -75,14 +75,14 @@ export const Speakers = () => {
   return (
     <Flex
       id="speakers"
-      pb="90px"
+      pb={isLargerThan850 ? '60px' : '90px'}
       background="radial-gradient(50% 50% at 50% 50%, #2BBA7E 0%, rgba(0, 0, 0, 0) 100%)"
       backgroundPosition="center 0px"
       backgroundRepeat="no-repeat"
     >
       <Flex
         maxW="1520px"
-        margin={isLargerThan1200 ? '0px auto' : '90px auto 0 auto'}
+        margin="0px auto"
         justifyContent="center"
         gap={isLargerThan850 ? '60px' : '90px'}
         alignItems="center"
@@ -92,7 +92,6 @@ export const Speakers = () => {
         <Heading
           variant="regularHeading"
           fontSize={isLargerThan850 ? '40px' : '84px'}
-          margin={isLargerThan1200 ? '40px' : undefined}
           fontWeight={600}
           maxWidth="750px"
         >
@@ -114,7 +113,13 @@ export const Speakers = () => {
             <PanelDiscussionCard />
           </Slider>
         </div>
-        <Text fontSize={isLargerThan850 ? '25px' : '35px'}>
+        <Text
+          fontSize={{
+            base: '15px',
+            md: '25px',
+            lg: '35px'
+          }}
+        >
           See the full program in the{' '}
           <Link
             as={HashLink}
@@ -122,7 +127,11 @@ export const Speakers = () => {
             variant="mobileNavLink"
             to="/agenda"
             textDecoration="underline"
-            fontSize={isLargerThan850 ? '25px' : '35px'}
+            fontSize={{
+              base: '15px',
+              md: '25px',
+              lg: '35px'
+            }}
             lineHeight="120%"
             letterSpacing="-1.05px"
           >

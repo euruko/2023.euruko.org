@@ -2,7 +2,7 @@ import Courtyard from './partnersLogos/Courtyard.png';
 import FriendlyRB from './partnersLogos/FriendlyRB.png';
 import goVilnius from './partnersLogos/goVilnius.svg';
 import helveticRuby from './partnersLogos/helvetic_ruby_logo.png';
-import RubyWarsawCommunityConference from './partnersLogos/logoRubyWarsawCommunityConference.svg';
+import RubyWarsawCommunityConference from './partnersLogos/logoRubyWarsawCommunityConference.png';
 import rubycentral from './partnersLogos/rubycentral.png';
 import VilniusTechFusion from './partnersLogos/VilniusTechFusion-logo.svg';
 import visualityLogo from './partnersLogos/VisualityLogo.svg';

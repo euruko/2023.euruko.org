@@ -22,6 +22,7 @@ export const GrabTicket = () => {
   const [seconds, setSeconds] = useState('00');
   const [isTimerVisible, setTimerVisible] = useState<boolean>(true);
   const [isLargerThan620] = useMediaQuery('(max-width: 620px)');
+  const [isLargerThan750] = useMediaQuery('(max-width: 750px)');
 
   const setTime = () => {
     const diffInMs = END_DATE.getTime() - new Date().getTime();
@@ -96,7 +97,7 @@ export const GrabTicket = () => {
       <Flex
         color="black"
         mt="20px"
-        pb="120px"
+        pb={isLargerThan750 ? '60px' : '120px'}
         flexWrap="wrap"
         gap="20px"
         justifyContent="center"

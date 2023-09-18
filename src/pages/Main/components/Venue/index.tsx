@@ -8,146 +8,119 @@ import {
   Text,
   useMediaQuery
 } from '@chakra-ui/react';
-import Slider from 'react-slick';
 
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-
-import leftArrow from '~/shared/assets/leftArrow.svg';
-import rightArrow from '~/shared/assets/rightArrow.svg';
-import { ArrowIcon } from '~/shared/components/ArrowIcon';
-
-import { slider } from './assets';
-import place from './assets/coolicon.svg';
-import website from './assets/Shape.svg';
+import map from './assets/map.png';
+import map_legend from './assets/map_legend.svg';
+import map_mobile from './assets/map_mobile.png';
 
 export const Venue = () => {
-  const [isLargerThan1615] = useMediaQuery('(max-width: 1615px)');
+  const [isLargerThan1500] = useMediaQuery('(max-width: 1500px)');
   const [isLargerThan1200] = useMediaQuery('(max-width: 1200px)');
   const [isLargerThan850] = useMediaQuery('(max-width: 850px)');
-
-  const settings = {
-    infinite: true,
-    speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 2,
-    responsive: [
-      {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ],
-    nextArrow: (
-      <ArrowIcon
-        icon={rightArrow}
-        side="right"
-      />
-    ),
-    prevArrow: (
-      <ArrowIcon
-        icon={leftArrow}
-        side="left"
-      />
-    )
-  };
-
-  const containerSliderWidth = (() => {
-    switch (true) {
-      case isLargerThan1615 && isLargerThan1200 && isLargerThan850:
-        return '95%';
-      case isLargerThan1615 && isLargerThan1200:
-        return '80%';
-      case isLargerThan1615:
-        return '1200px';
-      default:
-        return '100%';
-    }
-  })();
-
-  const headerFontSize = (() => {
-    switch (true) {
-      case isLargerThan1200 && isLargerThan850:
-        return '90px';
-      case isLargerThan1200:
-        return '180px';
-      default:
-        return '361.09px';
-    }
-  })();
 
   return (
     <Box backgroundColor="#D9D9D9">
       <Flex
         maxW="1520px"
-        margin={isLargerThan1200 ? '0px auto' : '120px auto 0 auto'}
+        margin="0px auto"
         justifyContent="center"
-        gap={isLargerThan850 ? '60px' : '90px'}
+        gap={isLargerThan850 ? '30px' : '60px'}
         alignItems="center"
         flexDirection="column"
         wrap="nowrap"
       >
         <Heading
           variant="regularHeading"
-          fontSize={headerFontSize}
+          fontSize={{
+            base: '90px',
+            md: '180px',
+            lg: '361px'
+          }}
           fontWeight={600}
           color="#000"
           textTransform="none"
         >
           Venue
         </Heading>
-        <Text
-          fontWeight={500}
-          color="#000"
-          fontSize={isLargerThan850 ? '25px' : '35px'}
-          lineHeight="120%"
-          maxW="1120px"
-          margin="0 20px"
+        <Flex
+          flexDirection="column"
+          w="full"
+          m="0 auto"
         >
-          Vilnius Gediminas Technical University is the main Lithuanian
-          university. Its campus is spread across Vilnius, with the main
-          buildings in the wooded Saulėtekis neighborhood of the Antakalnis
-          eldership, not far from the City Center and the Old Town.
-        </Text>
-        <div
-          style={{
-            width: containerSliderWidth,
-            margin: '0 auto'
-          }}
+          <Heading
+            variant="regularHeading"
+            fontSize={{
+              base: '26px',
+              md: '45px',
+              lg: '80px'
+            }}
+            fontWeight={500}
+            m="0 auto"
+            lineHeight="100%"
+            color="#000"
+            textTransform="none"
+          >
+            Location and address
+          </Heading>
+          <Text
+            fontWeight={500}
+            color="#000"
+            fontSize={{
+              base: '15px',
+              md: '35px'
+            }}
+            lineHeight="120%"
+            maxW="1120px"
+            margin={{
+              base: '30px auto 0 auto',
+              md: '60px auto 0 auto'
+            }}
+          >
+            Vilnius Gediminas Technical University,
+            <br /> Saulėtekio al. 11, 10223, Vilnius
+          </Text>
+          <Link
+            mt={{
+              base: '20px',
+              md: '40px'
+            }}
+            href="https://www.google.com/maps/place/Vilnius+Gediminas+Technical+University+(VILNIUS+TECH)/@54.7226447,25.3352698,17z/data=!3m1!4b1!4m6!3m5!1s0x46dd96e86a61f053:0xd4bb20eab67f9bf9!8m2!3d54.7226447!4d25.3378447!16zL20vMDNiMzB3?entry=ttu"
+            target="_blank"
+          >
+            <Button
+              w="231px"
+              padding={isLargerThan850 ? '10px' : '25px'}
+              background="#2BBA7E"
+              variant="whiteButton"
+              borderRadius="45px"
+              fontSize={{
+                base: '18px',
+                md: '21px'
+              }}
+              aria-label="Button for redirecting to the geolocation of Vilnius Gediminas Technical University in google map"
+            >
+              open in maps
+            </Button>
+          </Link>
+        </Flex>
+        <Flex
+          flexDirection="column"
+          justifyContent="center"
+          alignItems="center"
+          m="30px auto"
+          w={isLargerThan1200 ? '90%' : '100%'}
         >
-          <Slider {...settings}>
-            {slider.map((item) => (
-              <div key={item.alt}>
-                <Flex
-                  backgroundColor="#D9D9D9"
-                  margin="0 10px"
-                  flexDirection="column"
-                  borderRadius="60px"
-                >
-                  <Img
-                    src={item.src}
-                    alt={item.alt}
-                  />
-                </Flex>
-              </div>
-            ))}
-          </Slider>
-        </div>
-
-        <Heading
-          variant="regularHeading"
-          fontSize={isLargerThan850 ? '45px' : '80px'}
-          fontWeight={500}
-          lineHeight="100%"
-          color="#000"
-          textTransform="none"
-          w={isLargerThan1615 ? '90%' : '1518px'}
-        >
-          Our event will take place in a modern and roomy hall, capable of
-          accommodating up to 1000 individuals.
-        </Heading>
+          <Img
+            src={isLargerThan850 ? map_mobile : map}
+            w={isLargerThan850 ? '100%' : '95%'}
+          />
+          <Img
+            mt="20px"
+            display={isLargerThan850 ? 'block' : 'none'}
+            src={map_legend}
+            w="full"
+          />
+        </Flex>
         <Box
           w="full"
           backgroundColor="#D9D9D9"
@@ -164,74 +137,69 @@ export const Venue = () => {
             borderRadius="45px"
             flexDirection="column"
           >
-            <Text
-              fontWeight={500}
-              color="#D9D9D9"
-              fontSize={isLargerThan850 ? '25px' : '35px'}
-              lineHeight="120%"
-              maxW="1006px"
-              margin="0 auto 10px auto"
-            >
-              You&apos;ll have multiple transportation options to reach the
-              venue, including public transport, taxis, or arranged transfers.
-              The journey should take approximately 10 to 15 minutes.
-            </Text>
-            <Text
-              fontWeight={500}
-              color="#606060"
-              fontSize={isLargerThan850 ? '14px' : '21px'}
-              lineHeight="120%"
-              maxW="1006px"
-              margin="0 auto"
-            >
-              We will update the venue information as it becomes available.
-            </Text>
             <Flex
               w="100%"
-              mt="60px"
               justifyContent="center"
-              gap="20px"
+              gap={isLargerThan1500 ? '20px' : '150px'}
               flexDirection={isLargerThan1200 ? 'column' : 'row'}
             >
-              <Link
-                href="https://vilniustech.lt"
-                target="_blank"
+              <Flex
+                flexDirection="column"
+                gap={isLargerThan850 ? '20px' : '50px'}
+                maxWidth="619px"
+                m="0 auto"
               >
-                <Button
-                  w={isLargerThan850 ? '100%' : '493px'}
-                  padding={isLargerThan850 ? '30px' : '60px'}
-                  variant="blackButton"
-                  border="1px solid #D9D9D9"
-                  fontSize={isLargerThan850 ? '28px' : undefined}
-                  aria-label="Button for redirecting to the website Vilnius Gediminas Technical University"
+                <Text
+                  fontWeight={500}
+                  color="#D9D9D9"
+                  fontSize={{
+                    base: '14px',
+                    sm: '21px',
+                    md: '30px'
+                  }}
+                  lineHeight="120%"
+                  maxW="1006px"
+                  margin="0 auto 10px auto"
                 >
-                  <Img
-                    src={website}
-                    mr="10px"
-                  />
-                  Website
-                </Button>
-              </Link>
-              <Link
-                href="https://www.google.com/maps/place/Vilnius+Gediminas+Technical+University+(VILNIUS+TECH)/@54.7226447,25.3352698,17z/data=!3m1!4b1!4m6!3m5!1s0x46dd96e86a61f053:0xd4bb20eab67f9bf9!8m2!3d54.7226447!4d25.3378447!16zL20vMDNiMzB3?entry=ttu"
-                target="_blank"
+                  You have several options for reaching the Venue, including
+                  organized transfers, taxi services, or public transportation.
+                </Text>
+                <Text
+                  fontWeight={500}
+                  color="#D9D9D9"
+                  fontSize={{
+                    base: '14px',
+                    sm: '21px',
+                    md: '30px'
+                  }}
+                  lineHeight="120%"
+                  maxW="1006px"
+                  margin="0 auto 10px auto"
+                >
+                  We&apos;ve provided a guide with route descriptions and
+                  additional tips to enhance your comfort during your stay in
+                  Vilnius
+                </Text>
+              </Flex>
+              <Button
+                alignSelf="center"
+                maxWidth="500px"
+                height="120px"
+                width="100%"
+                background="#2BBA7E"
+                variant="whiteButton"
+                mb="10px"
+                fontSize={isLargerThan850 ? '28px' : '32px'}
+                as={Link}
+                // href="#"
+                // target="_blank"
+                aria-label="Button for redirecting to the geolocation of Vilnius Gediminas Technical University in google map"
+                cursor="not-allowed"
+                opacity={0.5}
               >
-                <Button
-                  w={isLargerThan850 ? '100%' : '493px'}
-                  padding={isLargerThan850 ? '30px' : '60px'}
-                  background="#2BBA7E"
-                  variant="whiteButton"
-                  borderRadius="45px"
-                  fontSize={isLargerThan850 ? '28px' : undefined}
-                  aria-label="Button for redirecting to the geolocation of Vilnius Gediminas Technical University in google map"
-                >
-                  <Img
-                    src={place}
-                    mr="10px"
-                  />
-                  Location
-                </Button>
-              </Link>
+                {/* open euruko map */}
+                Map TBA soon
+              </Button>
             </Flex>
           </Flex>
         </Box>

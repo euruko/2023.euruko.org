@@ -74,15 +74,6 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="mobileNavLink"
-                  to="/#tickets"
-                >
-                  Tickets
-                </Link>
-              </ListItem>
-              <ListItem>
-                <Link
-                  as={HashLink}
-                  variant="mobileNavLink"
                   to="/#speakers"
                 >
                   Speakers
@@ -101,26 +92,19 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="mobileNavLink"
-                  to="/#callSponsors"
+                  to="/#"
+                  opacity={0.5}
+                  cursor="not-allowed"
                 >
-                  Sponsors
+                  Euruko map
                 </Link>
               </ListItem>
-              <ListItem>
-                <Link
-                  as={HashLink}
-                  variant="mobileNavLink"
-                  to="/game"
-                >
-                  Free ticket
-                </Link>
-              </ListItem>
+
               <ListItem>
                 <Link
                   as={HashLink}
                   variant="mobileNavLink"
                   to="/jobBoard"
-                  // opacity={0.5}
                 >
                   Job board
                 </Link>
@@ -129,9 +113,9 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="mobileNavLink"
-                  to="/#contacts"
+                  to="/game"
                 >
-                  Contacts
+                  Tetris game
                 </Link>
               </ListItem>
             </List>
@@ -163,16 +147,6 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="navLink"
-                  href="/#tickets"
-                  to="/#tickets"
-                >
-                  Tickets
-                </Link>
-              </ListItem>
-              <ListItem>
-                <Link
-                  as={HashLink}
-                  variant="navLink"
                   to="/#speakers"
                 >
                   Speakers
@@ -191,9 +165,11 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="navLink"
-                  to="/#callSponsors"
+                  to="/#"
+                  opacity={0.5}
+                  cursor="not-allowed"
                 >
-                  Sponsors
+                  Euruko map
                 </Link>
               </ListItem>
               <ListItem
@@ -204,39 +180,7 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="navLink"
-                  to="/game"
-                  sx={{
-                    position: 'relative',
-                    padding: '0 10px',
-                    _hover: {
-                      color: '#D9D9D9'
-                    }
-                  }}
-                >
-                  Free ticket
-                  <Text
-                    sx={{
-                      content: '""',
-                      position: 'absolute',
-                      top: '50%',
-                      left: '50%',
-                      transform: 'translate(-50%, -50%)',
-                      width: '115%',
-                      height: '150%',
-                      zIndex: -1,
-                      borderRadius: '50px',
-                      border: '1px solid #D9D9D9'
-                    }}
-                  />
-                </Link>
-              </ListItem>
-              <ListItem>
-                <Link
-                  as={HashLink}
-                  variant="navLink"
                   to="/jobBoard"
-                  // opacity={0.5}
-                  // cursor="not-allowed"
                 >
                   Job board
                 </Link>
@@ -245,9 +189,9 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="navLink"
-                  to="/#contacts"
+                  to="/game"
                 >
-                  Contacts
+                  Tetris game
                 </Link>
               </ListItem>
             </List>

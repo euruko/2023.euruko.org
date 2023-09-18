@@ -20,6 +20,7 @@ export const GoldCategoryList = ({ goldList }: { goldList: SponsorType[] }) => {
           p={isLargerThan750 ? '20px 0' : '60px 0'}
           mt="30px"
           borderRadius="45px"
+          border="1px solid #2BBA7E"
           boxShadow={
             isLargerThan750
               ? '0px 0px 22.399999618530273px 0px rgba(43, 186, 126, 0.20);'
