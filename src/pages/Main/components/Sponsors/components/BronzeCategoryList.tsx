@@ -45,14 +45,14 @@ export const BronzeCategoryList = ({
                 ? '1.493px 9.213px 3.053px 8.96px'
                 : '4px 12px 7px 12px'
             }
-            border={`1px solid ${isDrinksSponsor ? '#FFBF00' : '#9A9A9A'}`}
+            border={`1px solid ${isDrinksSponsor ? '#DFAF36' : '#9A9A9A'}`}
             borderRadius="62px"
             backgroundColor="#D9D9D9"
           >
             <Text
               fontSize={isLargerThan750 ? '11.2px' : '30px'}
               fontWeight={500}
-              color={isDrinksSponsor ? '#FFBF00' : '#9A9A9A'}
+              color={isDrinksSponsor ? '#DFAF36' : '#9A9A9A'}
               lineHeight="120%"
             >
               {isDrinksSponsor ? 'Drinks sponsor' : 'Bronze'}
@@ -73,7 +73,7 @@ export const BronzeCategoryList = ({
           <Link
             href={item.link}
             p={isLargerThan750 ? '4px' : '10px'}
-            background={isDrinksSponsor ? '#FFBF00' : '#9A9A9A'}
+            background={isDrinksSponsor ? '#DFAF36' : '#9A9A9A'}
             fontSize={isLargerThan750 ? '12px' : '21px'}
             fontWeight={500}
             color="#000"
