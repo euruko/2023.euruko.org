@@ -25,6 +25,22 @@ export const JOBS: {
       description:
         'Join our team working on real life solutions for the future public transport.',
       link: 'https://jobs.ioki.com/o/senior-backend-engineer-ruby-on-rails-fmd'
+    },
+    {
+      img: ioki,
+      alt: 'Ioki logo',
+      title: 'Full Stack Developer - JavaScript/TypeScript',
+      description:
+        'Join our team working on real life solutions for the future public transport.',
+      link: 'https://jobs.ioki.com/o/full-stack-developer-javascripttypescript-fmd'
+    },
+    {
+      img: ioki,
+      alt: 'Ioki logo',
+      title: 'Solution Engineer',
+      description:
+        'Join our team working on real life solutions for the future public transport.',
+      link: 'https://jobs.ioki.com/o/solution-engineer-fmd'
     }
   ],
   silver: [
