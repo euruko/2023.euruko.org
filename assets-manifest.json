@@ -6,36 +6,36 @@
     ],
     "file": "assets/Meister-logo-b6d3eddc.js"
   },
-  "_chunk-NAA7TEES-30c59ad1.js": {
-    "file": "assets/chunk-NAA7TEES-30c59ad1.js",
+  "_chunk-NAA7TEES-f8f99fae.js": {
+    "file": "assets/chunk-NAA7TEES-f8f99fae.js",
     "imports": [
       "index.html"
     ]
   },
-  "_chunk-QBIO4VEB-4e5c4f91.js": {
-    "file": "assets/chunk-QBIO4VEB-4e5c4f91.js",
+  "_chunk-QBIO4VEB-a32c8925.js": {
+    "file": "assets/chunk-QBIO4VEB-a32c8925.js",
     "imports": [
       "index.html"
     ]
   },
-  "_index-0050e80d.js": {
-    "assets": [
-      "assets/logo-fc08516f.svg"
-    ],
-    "file": "assets/index-0050e80d.js",
-    "imports": [
-      "index.html",
-      "_chunk-QBIO4VEB-4e5c4f91.js"
-    ]
-  },
-  "_index-6d87dac9.js": {
+  "_index-7697e0f6.js": {
     "css": [
       "assets/index-8ca8fae1.css"
     ],
-    "file": "assets/index-6d87dac9.js",
+    "file": "assets/index-7697e0f6.js",
     "imports": [
       "index.html",
-      "_index-0050e80d.js"
+      "_index-e93da2bb.js"
+    ]
+  },
+  "_index-e93da2bb.js": {
+    "assets": [
+      "assets/logo-fc08516f.svg"
+    ],
+    "file": "assets/index-e93da2bb.js",
+    "imports": [
+      "index.html",
+      "_chunk-QBIO4VEB-a32c8925.js"
     ]
   },
   "index.css": {
@@ -54,7 +54,7 @@
       "src/pages/Game/index.tsx",
       "src/pages/NotFound/index.tsx"
     ],
-    "file": "assets/main-a381d7ed.js",
+    "file": "assets/main-0d487808.js",
     "isEntry": true,
     "src": "index.html"
   },
@@ -74,22 +74,22 @@
     "assets": [
       "assets/grab-8e651d67.svg"
     ],
-    "file": "assets/index-b0399b1d.js",
+    "file": "assets/index-6b00bcb6.js",
     "imports": [
       "index.html",
-      "_index-0050e80d.js",
-      "_chunk-QBIO4VEB-4e5c4f91.js"
+      "_index-e93da2bb.js",
+      "_chunk-QBIO4VEB-a32c8925.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Agenda/index.tsx"
   },
   "src/pages/Code/index.tsx": {
-    "file": "assets/index-23f9e923.js",
+    "file": "assets/index-95ebe83e.js",
     "imports": [
       "index.html",
-      "_index-6d87dac9.js",
-      "_index-0050e80d.js",
-      "_chunk-QBIO4VEB-4e5c4f91.js"
+      "_index-7697e0f6.js",
+      "_index-e93da2bb.js",
+      "_chunk-QBIO4VEB-a32c8925.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Code/index.tsx"
@@ -127,22 +127,22 @@
       "assets/logo5-b6ac3a9c.svg",
       "assets/star_avatar-0abc6e45.svg"
     ],
-    "file": "assets/index-4886eae9.js",
+    "file": "assets/index-2d9011d2.js",
     "imports": [
       "index.html",
-      "_index-0050e80d.js",
-      "_chunk-NAA7TEES-30c59ad1.js",
-      "_index-6d87dac9.js",
-      "_chunk-QBIO4VEB-4e5c4f91.js"
+      "_index-e93da2bb.js",
+      "_chunk-NAA7TEES-f8f99fae.js",
+      "_index-7697e0f6.js",
+      "_chunk-QBIO4VEB-a32c8925.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Community/index.tsx"
   },
   "src/pages/Game/index.tsx": {
-    "file": "assets/index-162cca22.js",
+    "file": "assets/index-ff633af4.js",
     "imports": [
       "index.html",
-      "_chunk-QBIO4VEB-4e5c4f91.js"
+      "_chunk-QBIO4VEB-a32c8925.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Game/index.tsx"
@@ -155,14 +155,14 @@
     "assets": [
       "assets/SeQura-logo-624168c2.svg"
     ],
-    "file": "assets/index-4c705e55.js",
+    "file": "assets/index-df875fb1.js",
     "imports": [
       "index.html",
       "_Meister-logo-b6d3eddc.js",
-      "_index-0050e80d.js",
-      "_chunk-NAA7TEES-30c59ad1.js",
-      "_index-6d87dac9.js",
-      "_chunk-QBIO4VEB-4e5c4f91.js"
+      "_index-e93da2bb.js",
+      "_chunk-NAA7TEES-f8f99fae.js",
+      "_index-7697e0f6.js",
+      "_chunk-QBIO4VEB-a32c8925.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/JobBoard/index.tsx"
@@ -368,14 +368,14 @@
     "css": [
       "assets/index-74f0da17.css"
     ],
-    "file": "assets/index-20fa6405.js",
+    "file": "assets/index-f4ff3e9b.js",
     "imports": [
       "index.html",
-      "_index-0050e80d.js",
-      "_index-6d87dac9.js",
-      "_chunk-NAA7TEES-30c59ad1.js",
+      "_index-e93da2bb.js",
+      "_index-7697e0f6.js",
+      "_chunk-NAA7TEES-f8f99fae.js",
       "_Meister-logo-b6d3eddc.js",
-      "_chunk-QBIO4VEB-4e5c4f91.js"
+      "_chunk-QBIO4VEB-a32c8925.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Main/index.tsx"
@@ -393,24 +393,24 @@
       "assets/bgEllipse-127de39e.svg",
       "assets/ellipse-3b8105a3.svg"
     ],
-    "file": "assets/index-36336cde.js",
+    "file": "assets/index-8bbf9d83.js",
     "imports": [
       "index.html",
-      "_index-6d87dac9.js",
-      "_index-0050e80d.js",
-      "_chunk-NAA7TEES-30c59ad1.js",
-      "_chunk-QBIO4VEB-4e5c4f91.js"
+      "_index-7697e0f6.js",
+      "_index-e93da2bb.js",
+      "_chunk-NAA7TEES-f8f99fae.js",
+      "_chunk-QBIO4VEB-a32c8925.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/NotFound/index.tsx"
   },
   "src/pages/PrivacyPolicy/index.tsx": {
-    "file": "assets/index-4ea5b462.js",
+    "file": "assets/index-5c57ee4a.js",
     "imports": [
       "index.html",
-      "_index-6d87dac9.js",
-      "_index-0050e80d.js",
-      "_chunk-QBIO4VEB-4e5c4f91.js"
+      "_index-7697e0f6.js",
+      "_index-e93da2bb.js",
+      "_chunk-QBIO4VEB-a32c8925.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/PrivacyPolicy/index.tsx"
@@ -433,13 +433,13 @@
       "assets/background2-d258e612.svg",
       "assets/arrow-fbf3a81d.svg"
     ],
-    "file": "assets/index-ca85bbae.js",
+    "file": "assets/index-963a68a6.js",
     "imports": [
       "index.html",
-      "_index-0050e80d.js",
-      "_chunk-NAA7TEES-30c59ad1.js",
-      "_index-6d87dac9.js",
-      "_chunk-QBIO4VEB-4e5c4f91.js"
+      "_index-e93da2bb.js",
+      "_chunk-NAA7TEES-f8f99fae.js",
+      "_index-7697e0f6.js",
+      "_chunk-QBIO4VEB-a32c8925.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Speakers/index.tsx"
