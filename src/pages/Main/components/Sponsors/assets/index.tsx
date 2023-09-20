@@ -1,4 +1,5 @@
 import appSignal from './sponsorLogos/appSignal_logo.svg';
+import GitButler from './sponsorLogos/GitButler_logo.png';
 import GPTransco from './sponsorLogos/GP-transco-logo.png';
 import ioki from './sponsorLogos/ioki-logo_claim.png';
 import JetBrains from './sponsorLogos/JetBrains_logo.png';
@@ -63,6 +64,11 @@ export const drinkSponsorList = [
     logo: appSignal,
     link: 'https://www.appsignal.com/',
     alt: 'AppSignal logo'
+  },
+  {
+    logo: GitButler,
+    link: 'https://gitbutler.com/',
+    alt: 'GitButler logo'
   }
 ];
 

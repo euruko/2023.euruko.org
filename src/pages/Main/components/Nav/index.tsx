@@ -92,7 +92,7 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="mobileNavLink"
-                  to="/#"
+                  // to="/map"
                   opacity={0.5}
                   cursor="not-allowed"
                 >
@@ -165,7 +165,7 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="navLink"
-                  to="/#"
+                  // to="/map"
                   opacity={0.5}
                   cursor="not-allowed"
                 >

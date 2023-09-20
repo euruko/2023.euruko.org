@@ -191,7 +191,7 @@ export const Venue = () => {
                 mb="10px"
                 fontSize={isLargerThan850 ? '28px' : '32px'}
                 as={Link}
-                // href="#"
+                // href="https://goo.gl/maps/ufWhTVQat7XSGqDp7"
                 // target="_blank"
                 aria-label="Button for redirecting to the geolocation of Vilnius Gediminas Technical University in google map"
                 cursor="not-allowed"
