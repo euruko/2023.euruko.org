@@ -24,6 +24,11 @@ const router = createBrowserRouter([
     lazy: () => import('~/pages/Agenda')
   },
   {
+    path: '/map',
+    ErrorBoundary: RouterErrorBoundary,
+    lazy: () => import('~/pages/Map')
+  },
+  {
     path: '/community',
     ErrorBoundary: RouterErrorBoundary,
     lazy: () => import('~/pages/Community')

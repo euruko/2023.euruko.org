@@ -92,9 +92,7 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="mobileNavLink"
-                  // to="/map"
-                  opacity={0.5}
-                  cursor="not-allowed"
+                  to="/map"
                 >
                   Euruko map
                 </Link>
@@ -165,9 +163,7 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="navLink"
-                  // to="/map"
-                  opacity={0.5}
-                  cursor="not-allowed"
+                  to="/map"
                 >
                   Euruko map
                 </Link>
