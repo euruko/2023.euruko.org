@@ -6,36 +6,36 @@
     ],
     "file": "assets/Meister-logo-b6d3eddc.js"
   },
-  "_chunk-NAA7TEES-f8f99fae.js": {
-    "file": "assets/chunk-NAA7TEES-f8f99fae.js",
+  "_chunk-NAA7TEES-7e051a40.js": {
+    "file": "assets/chunk-NAA7TEES-7e051a40.js",
     "imports": [
       "index.html"
     ]
   },
-  "_chunk-QBIO4VEB-a32c8925.js": {
-    "file": "assets/chunk-QBIO4VEB-a32c8925.js",
+  "_chunk-QBIO4VEB-1c4f4034.js": {
+    "file": "assets/chunk-QBIO4VEB-1c4f4034.js",
     "imports": [
       "index.html"
     ]
   },
-  "_index-7697e0f6.js": {
+  "_index-3e091e56.js": {
     "css": [
       "assets/index-8ca8fae1.css"
     ],
-    "file": "assets/index-7697e0f6.js",
+    "file": "assets/index-3e091e56.js",
     "imports": [
       "index.html",
-      "_index-e93da2bb.js"
+      "_index-fd5d1a49.js"
     ]
   },
-  "_index-e93da2bb.js": {
+  "_index-fd5d1a49.js": {
     "assets": [
       "assets/logo-fc08516f.svg"
     ],
-    "file": "assets/index-e93da2bb.js",
+    "file": "assets/index-fd5d1a49.js",
     "imports": [
       "index.html",
-      "_chunk-QBIO4VEB-a32c8925.js"
+      "_chunk-QBIO4VEB-1c4f4034.js"
     ]
   },
   "index.css": {
@@ -48,13 +48,14 @@
       "src/pages/Speakers/index.tsx",
       "src/pages/JobBoard/index.tsx",
       "src/pages/Agenda/index.tsx",
+      "src/pages/Map/index.tsx",
       "src/pages/Community/index.tsx",
       "src/pages/Code/index.tsx",
       "src/pages/PrivacyPolicy/index.tsx",
       "src/pages/Game/index.tsx",
       "src/pages/NotFound/index.tsx"
     ],
-    "file": "assets/main-0d487808.js",
+    "file": "assets/main-34d11701.js",
     "isEntry": true,
     "src": "index.html"
   },
@@ -74,22 +75,22 @@
     "assets": [
       "assets/grab-8e651d67.svg"
     ],
-    "file": "assets/index-6b00bcb6.js",
+    "file": "assets/index-88451408.js",
     "imports": [
       "index.html",
-      "_index-e93da2bb.js",
-      "_chunk-QBIO4VEB-a32c8925.js"
+      "_index-fd5d1a49.js",
+      "_chunk-QBIO4VEB-1c4f4034.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Agenda/index.tsx"
   },
   "src/pages/Code/index.tsx": {
-    "file": "assets/index-95ebe83e.js",
+    "file": "assets/index-08e96d61.js",
     "imports": [
       "index.html",
-      "_index-7697e0f6.js",
-      "_index-e93da2bb.js",
-      "_chunk-QBIO4VEB-a32c8925.js"
+      "_index-3e091e56.js",
+      "_index-fd5d1a49.js",
+      "_chunk-QBIO4VEB-1c4f4034.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Code/index.tsx"
@@ -127,22 +128,22 @@
       "assets/logo5-b6ac3a9c.svg",
       "assets/star_avatar-0abc6e45.svg"
     ],
-    "file": "assets/index-2d9011d2.js",
+    "file": "assets/index-5f280302.js",
     "imports": [
       "index.html",
-      "_index-e93da2bb.js",
-      "_chunk-NAA7TEES-f8f99fae.js",
-      "_index-7697e0f6.js",
-      "_chunk-QBIO4VEB-a32c8925.js"
+      "_index-fd5d1a49.js",
+      "_chunk-NAA7TEES-7e051a40.js",
+      "_index-3e091e56.js",
+      "_chunk-QBIO4VEB-1c4f4034.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Community/index.tsx"
   },
   "src/pages/Game/index.tsx": {
-    "file": "assets/index-ff633af4.js",
+    "file": "assets/index-9eb29c1b.js",
     "imports": [
       "index.html",
-      "_chunk-QBIO4VEB-a32c8925.js"
+      "_chunk-QBIO4VEB-1c4f4034.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Game/index.tsx"
@@ -155,14 +156,14 @@
     "assets": [
       "assets/SeQura-logo-624168c2.svg"
     ],
-    "file": "assets/index-df875fb1.js",
+    "file": "assets/index-d212275d.js",
     "imports": [
       "index.html",
       "_Meister-logo-b6d3eddc.js",
-      "_index-e93da2bb.js",
-      "_chunk-NAA7TEES-f8f99fae.js",
-      "_index-7697e0f6.js",
-      "_chunk-QBIO4VEB-a32c8925.js"
+      "_index-fd5d1a49.js",
+      "_chunk-NAA7TEES-7e051a40.js",
+      "_index-3e091e56.js",
+      "_chunk-QBIO4VEB-1c4f4034.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/JobBoard/index.tsx"
@@ -275,6 +276,10 @@
     "file": "assets/GP-transco-logo-8907b912.png",
     "src": "src/pages/Main/components/Sponsors/assets/sponsorLogos/GP-transco-logo.png"
   },
+  "src/pages/Main/components/Sponsors/assets/sponsorLogos/GitButler_logo.png": {
+    "file": "assets/GitButler_logo-68d56301.png",
+    "src": "src/pages/Main/components/Sponsors/assets/sponsorLogos/GitButler_logo.png"
+  },
   "src/pages/Main/components/Sponsors/assets/sponsorLogos/JetBrains_logo.png": {
     "file": "assets/JetBrains_logo-326b29f3.png",
     "src": "src/pages/Main/components/Sponsors/assets/sponsorLogos/JetBrains_logo.png"
@@ -352,6 +357,7 @@
       "assets/Yukihiro _Matz_ Matsumoto-78cffb16.png",
       "assets/30-135c00bd.png",
       "assets/appSignal_logo-8df1c0d9.svg",
+      "assets/GitButler_logo-68d56301.png",
       "assets/GP-transco-logo-8907b912.png",
       "assets/JetBrains_logo-326b29f3.png",
       "assets/Kisko-logo-08731490.png",
@@ -368,17 +374,90 @@
     "css": [
       "assets/index-74f0da17.css"
     ],
-    "file": "assets/index-f4ff3e9b.js",
+    "file": "assets/index-fff10b67.js",
     "imports": [
       "index.html",
-      "_index-e93da2bb.js",
-      "_index-7697e0f6.js",
-      "_chunk-NAA7TEES-f8f99fae.js",
+      "_index-fd5d1a49.js",
+      "_index-3e091e56.js",
+      "_chunk-NAA7TEES-7e051a40.js",
       "_Meister-logo-b6d3eddc.js",
-      "_chunk-QBIO4VEB-a32c8925.js"
+      "_chunk-QBIO4VEB-1c4f4034.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Main/index.tsx"
+  },
+  "src/pages/Map/assets/GitButler_Route.svg": {
+    "file": "assets/GitButler_Route-fa839e87.svg",
+    "src": "src/pages/Map/assets/GitButler_Route.svg"
+  },
+  "src/pages/Map/assets/GitButler_Route_mobile.svg": {
+    "file": "assets/GitButler_Route_mobile-a3be0f2f.svg",
+    "src": "src/pages/Map/assets/GitButler_Route_mobile.svg"
+  },
+  "src/pages/Map/assets/Town_Hall_Route.svg": {
+    "file": "assets/Town_Hall_Route-afaafb74.svg",
+    "src": "src/pages/Map/assets/Town_Hall_Route.svg"
+  },
+  "src/pages/Map/assets/Town_Hall_Route_mobile.svg": {
+    "file": "assets/Town_Hall_Route_mobile-ae211e52.svg",
+    "src": "src/pages/Map/assets/Town_Hall_Route_mobile.svg"
+  },
+  "src/pages/Map/assets/apple.svg": {
+    "file": "assets/apple-74482b73.svg",
+    "src": "src/pages/Map/assets/apple.svg"
+  },
+  "src/pages/Map/assets/apple_mobile.svg": {
+    "file": "assets/apple_mobile-c744ab1a.svg",
+    "src": "src/pages/Map/assets/apple_mobile.svg"
+  },
+  "src/pages/Map/assets/google.svg": {
+    "file": "assets/google-cf3a526f.svg",
+    "src": "src/pages/Map/assets/google.svg"
+  },
+  "src/pages/Map/assets/google_mobile.svg": {
+    "file": "assets/google_mobile-77c97b1f.svg",
+    "src": "src/pages/Map/assets/google_mobile.svg"
+  },
+  "src/pages/Map/assets/map_blue_section.svg": {
+    "file": "assets/map_blue_section-aab0a8af.svg",
+    "src": "src/pages/Map/assets/map_blue_section.svg"
+  },
+  "src/pages/Map/assets/map_mobile_blue_section.svg": {
+    "file": "assets/map_mobile_blue_section-d1f69948.svg",
+    "src": "src/pages/Map/assets/map_mobile_blue_section.svg"
+  },
+  "src/pages/Map/assets/map_to_euruko.svg": {
+    "file": "assets/map_to_euruko-9b4c3472.svg",
+    "src": "src/pages/Map/assets/map_to_euruko.svg"
+  },
+  "src/pages/Map/assets/map_to_euruko_mobile.svg": {
+    "file": "assets/map_to_euruko_mobile-1192b1e1.svg",
+    "src": "src/pages/Map/assets/map_to_euruko_mobile.svg"
+  },
+  "src/pages/Map/index.tsx": {
+    "assets": [
+      "assets/map_blue_section-aab0a8af.svg",
+      "assets/map_mobile_blue_section-d1f69948.svg",
+      "assets/apple-74482b73.svg",
+      "assets/apple_mobile-c744ab1a.svg",
+      "assets/google-cf3a526f.svg",
+      "assets/google_mobile-77c97b1f.svg",
+      "assets/map_to_euruko-9b4c3472.svg",
+      "assets/map_to_euruko_mobile-1192b1e1.svg",
+      "assets/GitButler_Route-fa839e87.svg",
+      "assets/GitButler_Route_mobile-a3be0f2f.svg",
+      "assets/Town_Hall_Route-afaafb74.svg",
+      "assets/Town_Hall_Route_mobile-ae211e52.svg"
+    ],
+    "file": "assets/index-22dd2ace.js",
+    "imports": [
+      "index.html",
+      "_index-fd5d1a49.js",
+      "_chunk-NAA7TEES-7e051a40.js",
+      "_chunk-QBIO4VEB-1c4f4034.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/pages/Map/index.tsx"
   },
   "src/pages/NotFound/assets/bgEllipse.svg": {
     "file": "assets/bgEllipse-127de39e.svg",
@@ -393,24 +472,24 @@
       "assets/bgEllipse-127de39e.svg",
       "assets/ellipse-3b8105a3.svg"
     ],
-    "file": "assets/index-8bbf9d83.js",
+    "file": "assets/index-c82deb13.js",
     "imports": [
       "index.html",
-      "_index-7697e0f6.js",
-      "_index-e93da2bb.js",
-      "_chunk-NAA7TEES-f8f99fae.js",
-      "_chunk-QBIO4VEB-a32c8925.js"
+      "_index-3e091e56.js",
+      "_index-fd5d1a49.js",
+      "_chunk-NAA7TEES-7e051a40.js",
+      "_chunk-QBIO4VEB-1c4f4034.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/NotFound/index.tsx"
   },
   "src/pages/PrivacyPolicy/index.tsx": {
-    "file": "assets/index-5c57ee4a.js",
+    "file": "assets/index-0088dcfb.js",
     "imports": [
       "index.html",
-      "_index-7697e0f6.js",
-      "_index-e93da2bb.js",
-      "_chunk-QBIO4VEB-a32c8925.js"
+      "_index-3e091e56.js",
+      "_index-fd5d1a49.js",
+      "_chunk-QBIO4VEB-1c4f4034.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/PrivacyPolicy/index.tsx"
@@ -433,13 +512,13 @@
       "assets/background2-d258e612.svg",
       "assets/arrow-fbf3a81d.svg"
     ],
-    "file": "assets/index-963a68a6.js",
+    "file": "assets/index-eb8a8c97.js",
     "imports": [
       "index.html",
-      "_index-e93da2bb.js",
-      "_chunk-NAA7TEES-f8f99fae.js",
-      "_index-7697e0f6.js",
-      "_chunk-QBIO4VEB-a32c8925.js"
+      "_index-fd5d1a49.js",
+      "_chunk-NAA7TEES-7e051a40.js",
+      "_index-3e091e56.js",
+      "_chunk-QBIO4VEB-1c4f4034.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Speakers/index.tsx"
