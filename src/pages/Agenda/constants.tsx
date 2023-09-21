@@ -98,29 +98,29 @@ export const agenda: {
       {
         place: 'Main stage',
         time: '15:00 — 15:30',
-        mainHeader: 'Unconference talk',
-        subHeader: '',
+        mainHeader: 'Adrian Marin',
+        subHeader: 'BUILD RAILS APPS 10X FASTER',
         description: ''
       },
       {
         place: 'Main stage',
         time: '15:40 — 16:10',
-        mainHeader: 'Unconference talk',
-        subHeader: '',
+        mainHeader: 'Chikahiro Tokoro',
+        subHeader: 'GENERATE ANONYMISED DATABASE WITH MASKING',
         description: ''
       },
       {
         place: 'Main stage',
         time: '16:20 — 16:50',
-        mainHeader: 'Unconference talk',
-        subHeader: '',
+        mainHeader: 'ALEXANDER NICHOLSON',
+        subHeader: 'SINATRA IS ALL YOU NEED!',
         description: ''
       },
       {
         place: 'Main stage',
         time: '17:00 — 17:30',
-        mainHeader: 'Unconference talk',
-        subHeader: '',
+        mainHeader: 'JOHNNY SHIELDS',
+        subHeader: 'RUBY THREADS (AND SO CAN YOU!)',
         description: ''
       },
       {
