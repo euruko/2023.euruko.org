@@ -6,36 +6,36 @@
     ],
     "file": "assets/Meister-logo-b6d3eddc.js"
   },
-  "_chunk-NAA7TEES-7e051a40.js": {
-    "file": "assets/chunk-NAA7TEES-7e051a40.js",
+  "_chunk-NAA7TEES-06a0bf13.js": {
+    "file": "assets/chunk-NAA7TEES-06a0bf13.js",
     "imports": [
       "index.html"
     ]
   },
-  "_chunk-QBIO4VEB-1c4f4034.js": {
-    "file": "assets/chunk-QBIO4VEB-1c4f4034.js",
+  "_chunk-QBIO4VEB-6d34112e.js": {
+    "file": "assets/chunk-QBIO4VEB-6d34112e.js",
     "imports": [
       "index.html"
     ]
   },
-  "_index-3e091e56.js": {
+  "_index-0de9094d.js": {
     "css": [
       "assets/index-8ca8fae1.css"
     ],
-    "file": "assets/index-3e091e56.js",
+    "file": "assets/index-0de9094d.js",
     "imports": [
       "index.html",
-      "_index-fd5d1a49.js"
+      "_index-a84eb984.js"
     ]
   },
-  "_index-fd5d1a49.js": {
+  "_index-a84eb984.js": {
     "assets": [
       "assets/logo-fc08516f.svg"
     ],
-    "file": "assets/index-fd5d1a49.js",
+    "file": "assets/index-a84eb984.js",
     "imports": [
       "index.html",
-      "_chunk-QBIO4VEB-1c4f4034.js"
+      "_chunk-QBIO4VEB-6d34112e.js"
     ]
   },
   "index.css": {
@@ -55,7 +55,7 @@
       "src/pages/Game/index.tsx",
       "src/pages/NotFound/index.tsx"
     ],
-    "file": "assets/main-34d11701.js",
+    "file": "assets/main-3409ad35.js",
     "isEntry": true,
     "src": "index.html"
   },
@@ -75,22 +75,22 @@
     "assets": [
       "assets/grab-8e651d67.svg"
     ],
-    "file": "assets/index-88451408.js",
+    "file": "assets/index-0400acc6.js",
     "imports": [
       "index.html",
-      "_index-fd5d1a49.js",
-      "_chunk-QBIO4VEB-1c4f4034.js"
+      "_index-a84eb984.js",
+      "_chunk-QBIO4VEB-6d34112e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Agenda/index.tsx"
   },
   "src/pages/Code/index.tsx": {
-    "file": "assets/index-08e96d61.js",
+    "file": "assets/index-23940ddd.js",
     "imports": [
       "index.html",
-      "_index-3e091e56.js",
-      "_index-fd5d1a49.js",
-      "_chunk-QBIO4VEB-1c4f4034.js"
+      "_index-0de9094d.js",
+      "_index-a84eb984.js",
+      "_chunk-QBIO4VEB-6d34112e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Code/index.tsx"
@@ -128,22 +128,22 @@
       "assets/logo5-b6ac3a9c.svg",
       "assets/star_avatar-0abc6e45.svg"
     ],
-    "file": "assets/index-5f280302.js",
+    "file": "assets/index-df83b6df.js",
     "imports": [
       "index.html",
-      "_index-fd5d1a49.js",
-      "_chunk-NAA7TEES-7e051a40.js",
-      "_index-3e091e56.js",
-      "_chunk-QBIO4VEB-1c4f4034.js"
+      "_index-a84eb984.js",
+      "_chunk-NAA7TEES-06a0bf13.js",
+      "_index-0de9094d.js",
+      "_chunk-QBIO4VEB-6d34112e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Community/index.tsx"
   },
   "src/pages/Game/index.tsx": {
-    "file": "assets/index-9eb29c1b.js",
+    "file": "assets/index-6fe39b8c.js",
     "imports": [
       "index.html",
-      "_chunk-QBIO4VEB-1c4f4034.js"
+      "_chunk-QBIO4VEB-6d34112e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Game/index.tsx"
@@ -156,14 +156,14 @@
     "assets": [
       "assets/SeQura-logo-624168c2.svg"
     ],
-    "file": "assets/index-d212275d.js",
+    "file": "assets/index-c94e23d9.js",
     "imports": [
       "index.html",
       "_Meister-logo-b6d3eddc.js",
-      "_index-fd5d1a49.js",
-      "_chunk-NAA7TEES-7e051a40.js",
-      "_index-3e091e56.js",
-      "_chunk-QBIO4VEB-1c4f4034.js"
+      "_index-a84eb984.js",
+      "_chunk-NAA7TEES-06a0bf13.js",
+      "_index-0de9094d.js",
+      "_chunk-QBIO4VEB-6d34112e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/JobBoard/index.tsx"
@@ -374,14 +374,14 @@
     "css": [
       "assets/index-74f0da17.css"
     ],
-    "file": "assets/index-fff10b67.js",
+    "file": "assets/index-80bc9d77.js",
     "imports": [
       "index.html",
-      "_index-fd5d1a49.js",
-      "_index-3e091e56.js",
-      "_chunk-NAA7TEES-7e051a40.js",
+      "_index-a84eb984.js",
+      "_index-0de9094d.js",
+      "_chunk-NAA7TEES-06a0bf13.js",
       "_Meister-logo-b6d3eddc.js",
-      "_chunk-QBIO4VEB-1c4f4034.js"
+      "_chunk-QBIO4VEB-6d34112e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Main/index.tsx"
@@ -449,12 +449,12 @@
       "assets/Town_Hall_Route-afaafb74.svg",
       "assets/Town_Hall_Route_mobile-ae211e52.svg"
     ],
-    "file": "assets/index-22dd2ace.js",
+    "file": "assets/index-15d6f68b.js",
     "imports": [
       "index.html",
-      "_index-fd5d1a49.js",
-      "_chunk-NAA7TEES-7e051a40.js",
-      "_chunk-QBIO4VEB-1c4f4034.js"
+      "_index-a84eb984.js",
+      "_chunk-NAA7TEES-06a0bf13.js",
+      "_chunk-QBIO4VEB-6d34112e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Map/index.tsx"
@@ -472,24 +472,24 @@
       "assets/bgEllipse-127de39e.svg",
       "assets/ellipse-3b8105a3.svg"
     ],
-    "file": "assets/index-c82deb13.js",
+    "file": "assets/index-9d2a8d27.js",
     "imports": [
       "index.html",
-      "_index-3e091e56.js",
-      "_index-fd5d1a49.js",
-      "_chunk-NAA7TEES-7e051a40.js",
-      "_chunk-QBIO4VEB-1c4f4034.js"
+      "_index-0de9094d.js",
+      "_index-a84eb984.js",
+      "_chunk-NAA7TEES-06a0bf13.js",
+      "_chunk-QBIO4VEB-6d34112e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/NotFound/index.tsx"
   },
   "src/pages/PrivacyPolicy/index.tsx": {
-    "file": "assets/index-0088dcfb.js",
+    "file": "assets/index-22928289.js",
     "imports": [
       "index.html",
-      "_index-3e091e56.js",
-      "_index-fd5d1a49.js",
-      "_chunk-QBIO4VEB-1c4f4034.js"
+      "_index-0de9094d.js",
+      "_index-a84eb984.js",
+      "_chunk-QBIO4VEB-6d34112e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/PrivacyPolicy/index.tsx"
@@ -512,13 +512,13 @@
       "assets/background2-d258e612.svg",
       "assets/arrow-fbf3a81d.svg"
     ],
-    "file": "assets/index-eb8a8c97.js",
+    "file": "assets/index-3aa72c3e.js",
     "imports": [
       "index.html",
-      "_index-fd5d1a49.js",
-      "_chunk-NAA7TEES-7e051a40.js",
-      "_index-3e091e56.js",
-      "_chunk-QBIO4VEB-1c4f4034.js"
+      "_index-a84eb984.js",
+      "_chunk-NAA7TEES-06a0bf13.js",
+      "_index-0de9094d.js",
+      "_chunk-QBIO4VEB-6d34112e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Speakers/index.tsx"
