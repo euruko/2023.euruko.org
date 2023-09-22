@@ -49,6 +49,11 @@ export const Events = ({ event }: { event: EventType }) => (
     </Text>
     {event.subHeader && (
       <Text
+        m="0 auto"
+        maxW={{
+          base: '320px',
+          md: '760px'
+        }}
         fontSize={{
           base: '20px',
           md: '30px'

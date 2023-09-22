@@ -226,29 +226,31 @@ export const agenda: {
       {
         place: 'Main stage',
         time: '15:00 — 15:30',
-        mainHeader: 'Unconference talk',
-        subHeader: '',
+        mainHeader: 'DANIEL SUSVIELA',
+        subHeader:
+          'STEVEN, JUST LET_IT_BE. A GUIDE TO IMPROVE YOUR RSPEC PERFORMANCE.',
         description: ''
       },
       {
         place: 'Main stage',
         time: '15:40 — 16:10',
-        mainHeader: 'Unconference talk',
-        subHeader: '',
+        mainHeader: 'CRISTIAN PLANAS',
+        subHeader: 'A RAILS PERFORMANCE GUIDEBOOK',
         description: ''
       },
       {
         place: 'Main stage',
         time: '16:20 — 16:50',
-        mainHeader: 'Unconference talk',
-        subHeader: '',
+        mainHeader: 'CHRIS HASINSKI',
+        subHeader: 'FANTASTIC DATABASES AND WHERE TO FIND THEM',
         description: ''
       },
       {
         place: 'Main stage',
         time: '17:00 — 17:30',
-        mainHeader: 'Unconference talk',
-        subHeader: '',
+        mainHeader: 'MIRON MARCZUK',
+        subHeader:
+          'HOW TO SAFELY SPLIT YOUR MULTI-TENANT APPLICATION (BASED ON REAL EXAMPLES!)',
         description: ''
       },
       {
