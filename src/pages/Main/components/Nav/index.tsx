@@ -74,15 +74,6 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="mobileNavLink"
-                  to="/#speakers"
-                >
-                  Speakers
-                </Link>
-              </ListItem>
-              <ListItem>
-                <Link
-                  as={HashLink}
-                  variant="mobileNavLink"
                   to="/agenda"
                 >
                   Agenda
@@ -92,28 +83,27 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="mobileNavLink"
-                  to="/map"
+                  to="/#speakers"
                 >
-                  Euruko map
-                </Link>
-              </ListItem>
-
-              <ListItem>
-                <Link
-                  as={HashLink}
-                  variant="mobileNavLink"
-                  to="/jobBoard"
-                >
-                  Job board
+                  Speakers
                 </Link>
               </ListItem>
               <ListItem>
                 <Link
                   as={HashLink}
                   variant="mobileNavLink"
-                  to="/game"
+                  to="/recordings"
                 >
-                  Tetris game
+                  Recordings
+                </Link>
+              </ListItem>
+              <ListItem>
+                <Link
+                  as={HashLink}
+                  variant="mobileNavLink"
+                  to="/memories"
+                >
+                  Memories
                 </Link>
               </ListItem>
             </List>
@@ -145,15 +135,6 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="navLink"
-                  to="/#speakers"
-                >
-                  Speakers
-                </Link>
-              </ListItem>
-              <ListItem>
-                <Link
-                  as={HashLink}
-                  variant="navLink"
                   to="/agenda"
                 >
                   Agenda
@@ -163,9 +144,9 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="navLink"
-                  to="/map"
+                  to="/#speakers"
                 >
-                  Euruko map
+                  Speakers
                 </Link>
               </ListItem>
               <ListItem
@@ -176,18 +157,18 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="navLink"
-                  to="/jobBoard"
+                  to="/recordings"
                 >
-                  Job board
+                  Recordings
                 </Link>
               </ListItem>
               <ListItem>
                 <Link
                   as={HashLink}
                   variant="navLink"
-                  to="/game"
+                  to="/memories"
                 >
-                  Tetris game
+                  Memories
                 </Link>
               </ListItem>
             </List>
