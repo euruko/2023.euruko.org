@@ -1,4 +1,8 @@
 {
+  "Video.css": {
+    "file": "assets/Video-4f7e649e.css",
+    "src": "Video.css"
+  },
   "_Meister-logo-b6d3eddc.js": {
     "assets": [
       "assets/ioki-logo_claim-80f5315d.png",
@@ -6,36 +10,52 @@
     ],
     "file": "assets/Meister-logo-b6d3eddc.js"
   },
-  "_chunk-NAA7TEES-0e5deb6e.js": {
-    "file": "assets/chunk-NAA7TEES-0e5deb6e.js",
-    "imports": [
-      "index.html"
-    ]
-  },
-  "_chunk-QBIO4VEB-e73aaceb.js": {
-    "file": "assets/chunk-QBIO4VEB-e73aaceb.js",
-    "imports": [
-      "index.html"
-    ]
-  },
-  "_index-2ecafb49.js": {
-    "assets": [
-      "assets/logo-fc08516f.svg"
+  "_Video-f1af923d.js": {
+    "css": [
+      "assets/Video-4f7e649e.css"
     ],
-    "file": "assets/index-2ecafb49.js",
+    "file": "assets/Video-f1af923d.js",
     "imports": [
       "index.html",
-      "_chunk-QBIO4VEB-e73aaceb.js"
+      "_index-98efcbfc.js"
     ]
   },
-  "_index-fd29d718.js": {
+  "_chunk-B2MGPQRJ-8772ae2a.js": {
+    "file": "assets/chunk-B2MGPQRJ-8772ae2a.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_chunk-NAA7TEES-a484f532.js": {
+    "file": "assets/chunk-NAA7TEES-a484f532.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_chunk-QBIO4VEB-8ab767c0.js": {
+    "file": "assets/chunk-QBIO4VEB-8ab767c0.js",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_index-3a05911e.js": {
     "css": [
       "assets/index-8ca8fae1.css"
     ],
-    "file": "assets/index-fd29d718.js",
+    "file": "assets/index-3a05911e.js",
     "imports": [
       "index.html",
-      "_index-2ecafb49.js"
+      "_index-98efcbfc.js"
+    ]
+  },
+  "_index-98efcbfc.js": {
+    "assets": [
+      "assets/logo-fc08516f.svg"
+    ],
+    "file": "assets/index-98efcbfc.js",
+    "imports": [
+      "index.html",
+      "_chunk-QBIO4VEB-8ab767c0.js"
     ]
   },
   "index.css": {
@@ -52,10 +72,12 @@
       "src/pages/Community/index.tsx",
       "src/pages/Code/index.tsx",
       "src/pages/PrivacyPolicy/index.tsx",
+      "src/pages/Memories/index.tsx",
+      "src/pages/Recordings/index.tsx",
       "src/pages/Game/index.tsx",
       "src/pages/NotFound/index.tsx"
     ],
-    "file": "assets/main-9ea4fd35.js",
+    "file": "assets/main-0fb760ec.js",
     "isEntry": true,
     "src": "index.html"
   },
@@ -75,22 +97,24 @@
     "assets": [
       "assets/grab-8e651d67.svg"
     ],
-    "file": "assets/index-1c17e248.js",
+    "file": "assets/index-9f995002.js",
     "imports": [
       "index.html",
-      "_index-2ecafb49.js",
-      "_chunk-QBIO4VEB-e73aaceb.js"
+      "_index-98efcbfc.js",
+      "_chunk-B2MGPQRJ-8772ae2a.js",
+      "_chunk-QBIO4VEB-8ab767c0.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Agenda/index.tsx"
   },
   "src/pages/Code/index.tsx": {
-    "file": "assets/index-d0df60ec.js",
+    "file": "assets/index-bf6521a0.js",
     "imports": [
       "index.html",
-      "_index-fd29d718.js",
-      "_index-2ecafb49.js",
-      "_chunk-QBIO4VEB-e73aaceb.js"
+      "_index-3a05911e.js",
+      "_index-98efcbfc.js",
+      "_chunk-B2MGPQRJ-8772ae2a.js",
+      "_chunk-QBIO4VEB-8ab767c0.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Code/index.tsx"
@@ -128,22 +152,23 @@
       "assets/logo5-b6ac3a9c.svg",
       "assets/star_avatar-0abc6e45.svg"
     ],
-    "file": "assets/index-b93ea754.js",
+    "file": "assets/index-b66e2d54.js",
     "imports": [
       "index.html",
-      "_index-2ecafb49.js",
-      "_chunk-NAA7TEES-0e5deb6e.js",
-      "_index-fd29d718.js",
-      "_chunk-QBIO4VEB-e73aaceb.js"
+      "_index-98efcbfc.js",
+      "_chunk-B2MGPQRJ-8772ae2a.js",
+      "_chunk-NAA7TEES-a484f532.js",
+      "_index-3a05911e.js",
+      "_chunk-QBIO4VEB-8ab767c0.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Community/index.tsx"
   },
   "src/pages/Game/index.tsx": {
-    "file": "assets/index-3a18439d.js",
+    "file": "assets/index-0ccd7c2e.js",
     "imports": [
       "index.html",
-      "_chunk-QBIO4VEB-e73aaceb.js"
+      "_chunk-QBIO4VEB-8ab767c0.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Game/index.tsx"
@@ -156,14 +181,15 @@
     "assets": [
       "assets/SeQura-logo-624168c2.svg"
     ],
-    "file": "assets/index-5a157221.js",
+    "file": "assets/index-61aa2180.js",
     "imports": [
       "index.html",
       "_Meister-logo-b6d3eddc.js",
-      "_index-2ecafb49.js",
-      "_chunk-NAA7TEES-0e5deb6e.js",
-      "_index-fd29d718.js",
-      "_chunk-QBIO4VEB-e73aaceb.js"
+      "_index-98efcbfc.js",
+      "_chunk-B2MGPQRJ-8772ae2a.js",
+      "_chunk-NAA7TEES-a484f532.js",
+      "_index-3a05911e.js",
+      "_chunk-QBIO4VEB-8ab767c0.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/JobBoard/index.tsx"
@@ -171,10 +197,6 @@
   "src/pages/Main/components/Celebration/assets/tower.png": {
     "file": "assets/tower-011484c8.png",
     "src": "src/pages/Main/components/Celebration/assets/tower.png"
-  },
-  "src/pages/Main/components/GrabTicket/assets/grab.svg": {
-    "file": "assets/grab-f0587601.svg",
-    "src": "src/pages/Main/components/GrabTicket/assets/grab.svg"
   },
   "src/pages/Main/components/Logo/assets/euruko_logo_solid.mp4": {
     "file": "assets/euruko_logo_solid-7949aa93.mp4",
@@ -187,6 +209,22 @@
   "src/pages/Main/components/Nav/assets/logo.svg": {
     "file": "assets/logo-fc08516f.svg",
     "src": "src/pages/Main/components/Nav/assets/logo.svg"
+  },
+  "src/pages/Main/components/NewExperience/assets/community.png": {
+    "file": "assets/community-1a0964e3.png",
+    "src": "src/pages/Main/components/NewExperience/assets/community.png"
+  },
+  "src/pages/Main/components/NewExperience/assets/speakers.png": {
+    "file": "assets/speakers-feb037e3.png",
+    "src": "src/pages/Main/components/NewExperience/assets/speakers.png"
+  },
+  "src/pages/Main/components/NewExperience/assets/traveling.png": {
+    "file": "assets/traveling-82513435.png",
+    "src": "src/pages/Main/components/NewExperience/assets/traveling.png"
+  },
+  "src/pages/Main/components/Organiser/cybergizer.svg": {
+    "file": "assets/cybergizer-b3610d7e.svg",
+    "src": "src/pages/Main/components/Organiser/cybergizer.svg"
   },
   "src/pages/Main/components/OurPartners/assets/partnersLogos/Courtyard.png": {
     "file": "assets/Courtyard-ee676860.png",
@@ -312,18 +350,6 @@
     "file": "assets/softswiss-logo-a3619fff.png",
     "src": "src/pages/Main/components/Sponsors/assets/sponsorLogos/softswiss-logo.png"
   },
-  "src/pages/Main/components/Venue/assets/map.png": {
-    "file": "assets/map-0ec146ee.png",
-    "src": "src/pages/Main/components/Venue/assets/map.png"
-  },
-  "src/pages/Main/components/Venue/assets/map_legend.svg": {
-    "file": "assets/map_legend-1de69115.svg",
-    "src": "src/pages/Main/components/Venue/assets/map_legend.svg"
-  },
-  "src/pages/Main/components/Venue/assets/map_mobile.png": {
-    "file": "assets/map_mobile-fe67cf18.png",
-    "src": "src/pages/Main/components/Venue/assets/map_mobile.png"
-  },
   "src/pages/Main/index.css": {
     "file": "assets/index-74f0da17.css",
     "src": "src/pages/Main/index.css"
@@ -331,9 +357,12 @@
   "src/pages/Main/index.tsx": {
     "assets": [
       "assets/tower-011484c8.png",
-      "assets/grab-f0587601.svg",
       "assets/euruko_logo_solid-7949aa93.mp4",
       "assets/poster-4e71d124.png",
+      "assets/community-1a0964e3.png",
+      "assets/speakers-feb037e3.png",
+      "assets/traveling-82513435.png",
+      "assets/cybergizer-b3610d7e.svg",
       "assets/Courtyard-ee676860.png",
       "assets/goVilnius-b6496eeb.svg",
       "assets/helvetic_ruby_logo-3c737f24.png",
@@ -365,23 +394,21 @@
       "assets/SeQura_logo-38f0cda9.png",
       "assets/softswiss-logo-a3619fff.png",
       "assets/grab-5942cf4d.svg",
-      "assets/map-0ec146ee.png",
-      "assets/map_legend-1de69115.svg",
-      "assets/map_mobile-fe67cf18.png",
       "assets/ajax-loader-e7b44c86.gif",
       "assets/slick-12459f22.svg"
     ],
     "css": [
       "assets/index-74f0da17.css"
     ],
-    "file": "assets/index-a72ae323.js",
+    "file": "assets/index-c8f0e3f7.js",
     "imports": [
       "index.html",
-      "_index-2ecafb49.js",
-      "_index-fd29d718.js",
-      "_chunk-NAA7TEES-0e5deb6e.js",
+      "_index-98efcbfc.js",
+      "_chunk-B2MGPQRJ-8772ae2a.js",
+      "_index-3a05911e.js",
+      "_chunk-NAA7TEES-a484f532.js",
       "_Meister-logo-b6d3eddc.js",
-      "_chunk-QBIO4VEB-e73aaceb.js"
+      "_chunk-QBIO4VEB-8ab767c0.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Main/index.tsx"
@@ -449,15 +476,170 @@
       "assets/Town_Hall_Route-afaafb74.svg",
       "assets/Town_Hall_Route_mobile-ae211e52.svg"
     ],
-    "file": "assets/index-b28f0de0.js",
+    "file": "assets/index-a6261058.js",
     "imports": [
       "index.html",
-      "_index-2ecafb49.js",
-      "_chunk-NAA7TEES-0e5deb6e.js",
-      "_chunk-QBIO4VEB-e73aaceb.js"
+      "_index-98efcbfc.js",
+      "_chunk-NAA7TEES-a484f532.js",
+      "_chunk-B2MGPQRJ-8772ae2a.js",
+      "_chunk-QBIO4VEB-8ab767c0.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Map/index.tsx"
+  },
+  "src/pages/Memories/assets/DSC00201.jpg": {
+    "file": "assets/DSC00201-2502655a.jpg",
+    "src": "src/pages/Memories/assets/DSC00201.jpg"
+  },
+  "src/pages/Memories/assets/DSC00583.jpg": {
+    "file": "assets/DSC00583-3b62e3ef.jpg",
+    "src": "src/pages/Memories/assets/DSC00583.jpg"
+  },
+  "src/pages/Memories/assets/DSC00679.jpg": {
+    "file": "assets/DSC00679-70731dea.jpg",
+    "src": "src/pages/Memories/assets/DSC00679.jpg"
+  },
+  "src/pages/Memories/assets/DSC00995.jpg": {
+    "file": "assets/DSC00995-8f592b49.jpg",
+    "src": "src/pages/Memories/assets/DSC00995.jpg"
+  },
+  "src/pages/Memories/assets/DSC01398.jpg": {
+    "file": "assets/DSC01398-3480cd52.jpg",
+    "src": "src/pages/Memories/assets/DSC01398.jpg"
+  },
+  "src/pages/Memories/assets/DSC01472.jpg": {
+    "file": "assets/DSC01472-9ff422c8.jpg",
+    "src": "src/pages/Memories/assets/DSC01472.jpg"
+  },
+  "src/pages/Memories/assets/DSC01535.jpg": {
+    "file": "assets/DSC01535-3ddebd15.jpg",
+    "src": "src/pages/Memories/assets/DSC01535.jpg"
+  },
+  "src/pages/Memories/assets/DSC01634 (1).jpg": {
+    "file": "assets/DSC01634 (1)-19beb078.jpg",
+    "src": "src/pages/Memories/assets/DSC01634 (1).jpg"
+  },
+  "src/pages/Memories/assets/DSC01800-2.jpg": {
+    "file": "assets/DSC01800-2-9691115b.jpg",
+    "src": "src/pages/Memories/assets/DSC01800-2.jpg"
+  },
+  "src/pages/Memories/assets/DSC01833-2.jpg": {
+    "file": "assets/DSC01833-2-286f0b06.jpg",
+    "src": "src/pages/Memories/assets/DSC01833-2.jpg"
+  },
+  "src/pages/Memories/assets/DSC01999.jpg": {
+    "file": "assets/DSC01999-41a693d3.jpg",
+    "src": "src/pages/Memories/assets/DSC01999.jpg"
+  },
+  "src/pages/Memories/assets/DSC02013.jpg": {
+    "file": "assets/DSC02013-1283542f.jpg",
+    "src": "src/pages/Memories/assets/DSC02013.jpg"
+  },
+  "src/pages/Memories/assets/DSC02078-2.jpg": {
+    "file": "assets/DSC02078-2-5f34c1d1.jpg",
+    "src": "src/pages/Memories/assets/DSC02078-2.jpg"
+  },
+  "src/pages/Memories/assets/DSC02181.jpg": {
+    "file": "assets/DSC02181-2efcc6be.jpg",
+    "src": "src/pages/Memories/assets/DSC02181.jpg"
+  },
+  "src/pages/Memories/assets/DSC02379.jpg": {
+    "file": "assets/DSC02379-f71d1df6.jpg",
+    "src": "src/pages/Memories/assets/DSC02379.jpg"
+  },
+  "src/pages/Memories/assets/DSC09077.jpg": {
+    "file": "assets/DSC09077-dcb15944.jpg",
+    "src": "src/pages/Memories/assets/DSC09077.jpg"
+  },
+  "src/pages/Memories/assets/DSC09097.jpg": {
+    "file": "assets/DSC09097-a12413c0.jpg",
+    "src": "src/pages/Memories/assets/DSC09097.jpg"
+  },
+  "src/pages/Memories/assets/DSC09566.jpg": {
+    "file": "assets/DSC09566-61696245.jpg",
+    "src": "src/pages/Memories/assets/DSC09566.jpg"
+  },
+  "src/pages/Memories/assets/DSC09730.jpg": {
+    "file": "assets/DSC09730-cb73193d.jpg",
+    "src": "src/pages/Memories/assets/DSC09730.jpg"
+  },
+  "src/pages/Memories/assets/DSC09928.jpg": {
+    "file": "assets/DSC09928-3f45a724.jpg",
+    "src": "src/pages/Memories/assets/DSC09928.jpg"
+  },
+  "src/pages/Memories/assets/IMG_7381.jpg": {
+    "file": "assets/IMG_7381-0ad4667f.jpg",
+    "src": "src/pages/Memories/assets/IMG_7381.jpg"
+  },
+  "src/pages/Memories/assets/IMG_7411.jpg": {
+    "file": "assets/IMG_7411-6d82cde1.jpg",
+    "src": "src/pages/Memories/assets/IMG_7411.jpg"
+  },
+  "src/pages/Memories/assets/IMG_7700.jpg": {
+    "file": "assets/IMG_7700-3ca4b5f7.jpg",
+    "src": "src/pages/Memories/assets/IMG_7700.jpg"
+  },
+  "src/pages/Memories/assets/IMG_7759.jpg": {
+    "file": "assets/IMG_7759-b1c3be91.jpg",
+    "src": "src/pages/Memories/assets/IMG_7759.jpg"
+  },
+  "src/pages/Memories/assets/IMG_8160.jpg": {
+    "file": "assets/IMG_8160-3541dd97.jpg",
+    "src": "src/pages/Memories/assets/IMG_8160.jpg"
+  },
+  "src/pages/Memories/assets/IMG_8236.jpg": {
+    "file": "assets/IMG_8236-2e45ce6a.jpg",
+    "src": "src/pages/Memories/assets/IMG_8236.jpg"
+  },
+  "src/pages/Memories/assets/IMG_8271.jpg": {
+    "file": "assets/IMG_8271-0fe5d7c5.jpg",
+    "src": "src/pages/Memories/assets/IMG_8271.jpg"
+  },
+  "src/pages/Memories/assets/IMG_8615.jpg": {
+    "file": "assets/IMG_8615-de509462.jpg",
+    "src": "src/pages/Memories/assets/IMG_8615.jpg"
+  },
+  "src/pages/Memories/index.tsx": {
+    "assets": [
+      "assets/DSC00201-2502655a.jpg",
+      "assets/DSC00583-3b62e3ef.jpg",
+      "assets/DSC00679-70731dea.jpg",
+      "assets/DSC00995-8f592b49.jpg",
+      "assets/DSC01398-3480cd52.jpg",
+      "assets/DSC01472-9ff422c8.jpg",
+      "assets/DSC01535-3ddebd15.jpg",
+      "assets/DSC01634 (1)-19beb078.jpg",
+      "assets/DSC01800-2-9691115b.jpg",
+      "assets/DSC01833-2-286f0b06.jpg",
+      "assets/DSC01999-41a693d3.jpg",
+      "assets/DSC02013-1283542f.jpg",
+      "assets/DSC02078-2-5f34c1d1.jpg",
+      "assets/DSC02181-2efcc6be.jpg",
+      "assets/DSC02379-f71d1df6.jpg",
+      "assets/DSC09077-dcb15944.jpg",
+      "assets/DSC09097-a12413c0.jpg",
+      "assets/DSC09566-61696245.jpg",
+      "assets/DSC09730-cb73193d.jpg",
+      "assets/DSC09928-3f45a724.jpg",
+      "assets/IMG_7381-0ad4667f.jpg",
+      "assets/IMG_7411-6d82cde1.jpg",
+      "assets/IMG_7700-3ca4b5f7.jpg",
+      "assets/IMG_7759-b1c3be91.jpg",
+      "assets/IMG_8160-3541dd97.jpg",
+      "assets/IMG_8236-2e45ce6a.jpg",
+      "assets/IMG_8271-0fe5d7c5.jpg",
+      "assets/IMG_8615-de509462.jpg"
+    ],
+    "file": "assets/index-33fe6864.js",
+    "imports": [
+      "index.html",
+      "_Video-f1af923d.js",
+      "_index-3a05911e.js",
+      "_index-98efcbfc.js",
+      "_chunk-QBIO4VEB-8ab767c0.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/pages/Memories/index.tsx"
   },
   "src/pages/NotFound/assets/bgEllipse.svg": {
     "file": "assets/bgEllipse-127de39e.svg",
@@ -472,27 +654,42 @@
       "assets/bgEllipse-127de39e.svg",
       "assets/ellipse-3b8105a3.svg"
     ],
-    "file": "assets/index-fee8c686.js",
+    "file": "assets/index-20cce96e.js",
     "imports": [
       "index.html",
-      "_index-fd29d718.js",
-      "_index-2ecafb49.js",
-      "_chunk-NAA7TEES-0e5deb6e.js",
-      "_chunk-QBIO4VEB-e73aaceb.js"
+      "_index-3a05911e.js",
+      "_index-98efcbfc.js",
+      "_chunk-B2MGPQRJ-8772ae2a.js",
+      "_chunk-NAA7TEES-a484f532.js",
+      "_chunk-QBIO4VEB-8ab767c0.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/NotFound/index.tsx"
   },
   "src/pages/PrivacyPolicy/index.tsx": {
-    "file": "assets/index-5c6bf75a.js",
+    "file": "assets/index-2a6ea046.js",
     "imports": [
       "index.html",
-      "_index-fd29d718.js",
-      "_index-2ecafb49.js",
-      "_chunk-QBIO4VEB-e73aaceb.js"
+      "_index-3a05911e.js",
+      "_index-98efcbfc.js",
+      "_chunk-B2MGPQRJ-8772ae2a.js",
+      "_chunk-QBIO4VEB-8ab767c0.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/PrivacyPolicy/index.tsx"
+  },
+  "src/pages/Recordings/index.tsx": {
+    "file": "assets/index-0fc710b9.js",
+    "imports": [
+      "index.html",
+      "_Video-f1af923d.js",
+      "_index-3a05911e.js",
+      "_index-98efcbfc.js",
+      "_chunk-B2MGPQRJ-8772ae2a.js",
+      "_chunk-QBIO4VEB-8ab767c0.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/pages/Recordings/index.tsx"
   },
   "src/pages/Speakers/components/ListOfInterests/assets/arrow.svg": {
     "file": "assets/arrow-fbf3a81d.svg",
@@ -512,13 +709,14 @@
       "assets/background2-d258e612.svg",
       "assets/arrow-fbf3a81d.svg"
     ],
-    "file": "assets/index-cb3873b0.js",
+    "file": "assets/index-f3962aff.js",
     "imports": [
       "index.html",
-      "_index-2ecafb49.js",
-      "_chunk-NAA7TEES-0e5deb6e.js",
-      "_index-fd29d718.js",
-      "_chunk-QBIO4VEB-e73aaceb.js"
+      "_index-98efcbfc.js",
+      "_chunk-B2MGPQRJ-8772ae2a.js",
+      "_chunk-NAA7TEES-a484f532.js",
+      "_index-3a05911e.js",
+      "_chunk-QBIO4VEB-8ab767c0.js"
     ],
     "isDynamicEntry": true,
     "src": "src/pages/Speakers/index.tsx"
