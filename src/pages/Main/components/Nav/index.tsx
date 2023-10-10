@@ -1,15 +1,15 @@
 import { useState } from 'react';
 
 import {
-  List,
-  ListItem,
-  Link,
+  Center,
+  Collapse,
   Flex,
   Img,
-  Collapse,
-  useMediaQuery,
+  Link,
+  List,
+  ListItem,
   Text,
-  Center
+  useMediaQuery
 } from '@chakra-ui/react';
 import { HashLink } from 'react-router-hash-link';
 
@@ -101,9 +101,9 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="mobileNavLink"
-                  to="/memories"
+                  to="/photos"
                 >
-                  Memories
+                  Photos
                 </Link>
               </ListItem>
             </List>
@@ -166,9 +166,9 @@ export const Nav = () => {
                 <Link
                   as={HashLink}
                   variant="navLink"
-                  to="/memories"
+                  to="/photos"
                 >
-                  Memories
+                  Photos
                 </Link>
               </ListItem>
             </List>

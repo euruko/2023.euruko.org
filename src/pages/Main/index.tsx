@@ -22,9 +22,9 @@ export const Component = () => (
     <Celebration />
     <Speakers />
     <Box background="#D9D9D9">
-      <Organiser />
       <Sponsors />
       <OurPartners />
+      <Organiser />
     </Box>
     <Footer />
   </Box>

@@ -1,4 +1,4 @@
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import { RouterErrorBoundary } from './RouterErrorBoundary/RouterErrorBoundary';
 
@@ -42,6 +42,16 @@ const router = createBrowserRouter([
     path: '/privacy',
     ErrorBoundary: RouterErrorBoundary,
     lazy: () => import('~/pages/PrivacyPolicy')
+  },
+  {
+    path: '/photos',
+    ErrorBoundary: RouterErrorBoundary,
+    lazy: () => import('~/pages/Memories')
+  },
+  {
+    path: '/recordings',
+    ErrorBoundary: RouterErrorBoundary,
+    lazy: () => import('~/pages/Recordings')
   },
   {
     path: '/game',

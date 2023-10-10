@@ -35,6 +35,7 @@
     "@emotion/styled": "11.10.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-lite-youtube-embed": "2.3.52",
     "react-router-dom": "6.11.0",
     "react-router-hash-link": "2.4.3",
     "react-slick": "0.29.0",

@@ -10,7 +10,6 @@ export const Organiser = () => {
       id="organiser"
       backgroundColor="#D9D9D9"
       pb={isLargerThan750 ? '60px' : '120px'}
-      pt={isLargerThan750 ? '60px' : '120px'}
     >
       <Flex
         maxW="1540px"
